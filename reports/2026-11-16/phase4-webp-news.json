@@ -1,0 +1,27 @@
+{
+  "mediaImageStyleCheck": {
+    "imgData": {
+      "src": "https://isoprod.poclain.com/sites/default/files/styles/medium_crop_simple/public/2026-11/test-php84_0.png.webp?itok=xqw1zgcV",
+      "complete": true,
+      "naturalWidth": 120,
+      "naturalHeight": 120
+    },
+    "styleHttpStatus": 200,
+    "styleContentType": "image/webp",
+    "styleBytes": 44
+  },
+  "existingBrokenWebpCheck": {
+    "styleUrl": "https://isoprod.poclain.com/sites/default/files/styles/last_news_image/public/2026-07/Poclain%20Emsiso%20and%20Moteg%20at%20IVT%20Expo.jpg.webp?itok=wcaPBAye",
+    "styleStatus": 404,
+    "originalUrl": "https://isoprod.poclain.com/sites/default/files/2026-07/Poclain%20Emsiso%20and%20Moteg%20at%20IVT%20Expo.jpg",
+    "originalStatus": 404
+  },
+  "newsCrud": {
+    "createdUrl": "https://isoprod.poclain.com/node/add/news",
+    "createdH1": "Create News",
+    "foundInAdminListing": false,
+    "updatedH1": "",
+    "statusAfterDelete": 0
+  },
+  "mediaCleanedUp": true
+}

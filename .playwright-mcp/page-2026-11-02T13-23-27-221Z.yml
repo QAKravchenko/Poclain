@@ -1,0 +1,166 @@
+- generic [ref=f6e1]:
+  - navigation "Skip links" [ref=f6e4]:
+    - list [ref=f6e5]:
+      - listitem [ref=f6e6]:
+        - link "Skip to Content" [ref=f6e7] [cursor=pointer]:
+          - /url: "#main-content"
+      - listitem [ref=f6e8]:
+        - link "Skip to Footer" [ref=f6e9] [cursor=pointer]:
+          - /url: "#footer"
+  - generic [ref=f6e11]:
+    - banner:
+      - generic [ref=f6e12]:
+        - navigation "Header" [ref=f6e13]:
+          - listitem [ref=f6e14]:
+            - button "Open" [ref=f6e15] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f6e16]: 
+          - listitem [ref=f6e17]:
+            - link "Select" [ref=f6e18] [cursor=pointer]:
+              - /url: /en/ipsos-world
+              - generic [aria-hidden] [ref=f6e19]: 
+        - navigation "Quick access links" [ref=f6e20]:
+          - link "Ipsos iSay " [ref=f6e21] [cursor=pointer]:
+            - /url: https://www.ipsosisay.com/join/?campaign_id=TbFXA7CVEW%2BmP6PpaAOO7A%3D%3D
+          - link "Ipsos.Digital " [ref=f6e22] [cursor=pointer]:
+            - /url: https://www.ipsos.digital/
+        - link "Contact us" [ref=f6e23] [cursor=pointer]:
+          - /url: /en/contact
+        - link "Ipsos homepage" [ref=f6e25] [cursor=pointer]:
+          - /url: https://ipsosdev.prod.acquia-sites.com/en
+          - img "Ipsos" [ref=f6e26]
+        - dialog "Main site navigation menu" [ref=f6e27]:
+          - navigation "Main site navigation" [ref=f6e28]:
+            - list [ref=f6e30]:
+              - listitem [ref=f6e31]:
+                - link "Solutions" [ref=f6e32] [cursor=pointer]:
+                  - /url: /en/solutions/overview
+              - listitem [ref=f6e33]:
+                - generic [ref=f6e34]: Insights Hub
+                - text: 
+              - listitem [ref=f6e35]:
+                - link "AI" [ref=f6e36] [cursor=pointer]:
+                  - /url: /en/ai
+              - listitem [ref=f6e37]:
+                - generic [ref=f6e38]: News
+                - text: 
+              - listitem [ref=f6e39]:
+                - link "Careers" [ref=f6e40] [cursor=pointer]:
+                  - /url: /en/careers
+              - listitem [ref=f6e41]:
+                - generic [ref=f6e42]: Investors
+                - text: 
+              - listitem [ref=f6e43]:
+                - generic [ref=f6e44]: About Ipsos
+                - text: 
+    - main [ref=f6e45]:
+      - generic [ref=f6e46]:
+        - generic [ref=f6e49]:
+          - list [ref=f6e54]:
+            - listitem [ref=f6e55]:
+              - link "Ipsos" [ref=f6e56] [cursor=pointer]:
+                - /url: /en
+            - listitem [ref=f6e57]: Log in
+          - heading "Log in" [level=1] [ref=f6e60]
+        - generic [ref=f6e62]:
+          - heading "Primary tabs" [level=2] [ref=f6e63]
+          - list [ref=f6e64]:
+            - listitem [ref=f6e65]:
+              - link "Log in" [ref=f6e66] [cursor=pointer]:
+                - /url: /en/user/login
+            - listitem [ref=f6e67]:
+              - link "Reset your password" [ref=f6e68] [cursor=pointer]:
+                - /url: /en/user/password
+        - generic [ref=f6e70]:
+          - generic [ref=f6e71]:
+            - generic [ref=f6e72] [cursor=pointer]: Username *
+            - textbox "Username *" [active] [ref=f6e73]
+          - generic [ref=f6e74]:
+            - generic [ref=f6e75] [cursor=pointer]: Password *
+            - textbox "Password *" [ref=f6e76]
+          - button "Log in" [ref=f6e79] [cursor=pointer]
+    - contentinfo [ref=f6e80]:
+      - generic [ref=f6e81]:
+        - generic [ref=f6e82]:
+          - generic [ref=f6e83]:
+            - link "Ipsos homepage" [ref=f6e84] [cursor=pointer]:
+              - /url: /en
+              - img "Ipsos" [ref=f6e85]
+            - generic:
+              - paragraph
+          - generic [ref=f6e86]:
+            - list [ref=f6e87]:
+              - listitem [ref=f6e88]:
+                - link "Solutions" [ref=f6e89] [cursor=pointer]:
+                  - /url: /en/solutions/overview
+              - listitem [ref=f6e90]:
+                - link "Insights Hub" [ref=f6e91] [cursor=pointer]:
+                  - /url: /en/insights-hub
+              - listitem [ref=f6e92]:
+                - link "About Ipsos" [ref=f6e93] [cursor=pointer]:
+                  - /url: /en/about-us
+              - listitem [ref=f6e94]:
+                - link "Contact Ipsos" [ref=f6e95] [cursor=pointer]:
+                  - /url: /en/contact
+                  - text: Contact
+            - list [ref=f6e96]:
+              - listitem [ref=f6e97]:
+                - link "Careers at Ipsos" [ref=f6e98] [cursor=pointer]:
+                  - /url: /en/careers
+                  - text: Careers
+              - listitem [ref=f6e99]:
+                - link "Investors" [ref=f6e100] [cursor=pointer]:
+                  - /url: /en/investors-overview
+              - listitem [ref=f6e101]:
+                - link "News" [ref=f6e102] [cursor=pointer]:
+                  - /url: /en/news-events-media-overview
+              - listitem [ref=f6e103]:
+                - link "Access the Ipsos.Digital platform" [ref=f6e104] [cursor=pointer]:
+                  - /url: https://www.ipsos.digital/
+                  - text: Ipsos.Digital 
+          - generic [ref=f6e106]:
+            - heading "Follow us on" [level=2] [ref=f6e107]
+            - list "Follow us on" [ref=f6e108]:
+              - listitem [ref=f6e109]:
+                - link [ref=f6e110] [cursor=pointer]:
+                  - /url: https://twitter.com/ipsos
+                  - generic [aria-hidden] [ref=f6e111]: 
+              - listitem [ref=f6e112]:
+                - link [ref=f6e113] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/ipsos
+                  - generic [aria-hidden] [ref=f6e114]: 
+              - listitem [ref=f6e115]:
+                - link [ref=f6e116] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UCkxEJvIUNWsjZvmB09yxU4A
+                  - generic [aria-hidden] [ref=f6e117]: 
+              - listitem [ref=f6e118]:
+                - link [ref=f6e119] [cursor=pointer]:
+                  - /url: https://bsky.app/profile/ipsosgroup.bsky.social
+                  - generic [aria-hidden] [ref=f6e120]: 
+              - listitem [ref=f6e121]:
+                - link [ref=f6e122] [cursor=pointer]:
+                  - /url: /en/rss.xml
+                  - generic [aria-hidden] [ref=f6e123]: 
+        - generic [ref=f6e124]:
+          - generic [ref=f6e125]: © 2016 - 2025 Ipsos All Rights Reserved
+          - list [ref=f6e126]:
+            - listitem [ref=f6e127]:
+              - link "Legal Mentions" [ref=f6e128] [cursor=pointer]:
+                - /url: /en/legal-mentions
+            - listitem [ref=f6e129]:
+              - link "Privacy & Data Protection" [ref=f6e130] [cursor=pointer]:
+                - /url: /en/privacy-data-protection
+            - listitem [ref=f6e131]:
+              - link "Cookie policy" [ref=f6e132] [cursor=pointer]:
+                - /url: /en/cookie-policy
+            - listitem [ref=f6e133]:
+              - link "Our Alert System" [ref=f6e134] [cursor=pointer]:
+                - /url: /en/our-alert-system
+            - listitem [ref=f6e135]:
+              - link "Accessibility" [ref=f6e136] [cursor=pointer]:
+                - /url: https://www.ipsos.com/en/accessibility-statement
+            - listitem [ref=f6e137]:
+              - link "Preference Center - Manage your communications from Ipsos" [ref=f6e138] [cursor=pointer]:
+                - /url: /en/preference-center
+                - text: Preference Center
+      - button "Scroll to top" [ref=f6e139] [cursor=pointer]: ↑ 
+  - status [ref=f6e140]

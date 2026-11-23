@@ -1,0 +1,20 @@
+{
+  "name": "poclain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test --project=pre-prod --project=prod",
+    "test:preprod": "playwright test --project=pre-prod",
+    "test:prod": "playwright test --project=prod",
+    "test:practice": "playwright test --project=practice",
+    "test:ui": "playwright test --ui",
+    "test:ui:browser": "playwright test --ui-port=0"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4"
+  }
+}

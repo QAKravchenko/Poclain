@@ -1,0 +1,71 @@
+{
+  "extraPublic": [
+    {
+      "path": "/news?page=1",
+      "status": 200,
+      "title": "新闻 | 波克兰液压",
+      "hasFatal": false,
+      "brokenImgs": [],
+      "consoleErrors": [],
+      "failedReqs": []
+    },
+    {
+      "path": "/about-us",
+      "status": 404,
+      "title": "页面未找到 | 波克兰液压",
+      "hasFatal": false,
+      "brokenImgs": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedReqs": [
+        "404 document https://isoprod.poclain-hydraulics.cn/about-us"
+      ]
+    },
+    {
+      "path": "/resources",
+      "status": 200,
+      "title": "样本 | 波克兰液压",
+      "hasFatal": false,
+      "brokenImgs": [],
+      "consoleErrors": [],
+      "failedReqs": []
+    },
+    {
+      "path": "/careers",
+      "status": 404,
+      "title": "页面未找到 | 波克兰液压",
+      "hasFatal": false,
+      "brokenImgs": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedReqs": [
+        "404 document https://isoprod.poclain-hydraulics.cn/careers"
+      ]
+    },
+    {
+      "path": "/legal-notice",
+      "status": 404,
+      "title": "页面未找到 | 波克兰液压",
+      "hasFatal": false,
+      "brokenImgs": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedReqs": [
+        "404 document https://isoprod.poclain-hydraulics.cn/legal-notice"
+      ]
+    }
+  ],
+  "contactNeg": {
+    "url": "https://isoprod.poclain-hydraulics.cn/contact-us",
+    "requiredFieldsCount": 13,
+    "stayedOnForm": true
+  },
+  "enCheck": {
+    "status": 200,
+    "finalUrl": "https://isoprod.poclain-hydraulics.cn/",
+    "title": "波克兰液压"
+  }
+}

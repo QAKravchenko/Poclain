@@ -1,0 +1,144 @@
+- generic [active] [ref=f27e1]:
+  - link "Skip to main content" [ref=f27e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - group "Site administration toolbar" [ref=f27e3]:
+    - navigation "Toolbar items" [ref=f27e4]:
+      - heading "Toolbar items" [level=2] [ref=f27e5]
+      - navigation "Administration menu" [ref=f27e7]:
+        - heading "Administration menu" [level=3] [ref=f27e8]
+        - list [ref=f27e10]:
+          - listitem [ref=f27e11]:
+            - link "Drupal" [ref=f27e12] [cursor=pointer]:
+              - /url: /en
+          - listitem [ref=f27e13]:
+            - link "Content" [ref=f27e14] [cursor=pointer]:
+              - /url: /en/admin/content
+          - listitem [ref=f27e15]:
+            - link "Structure" [ref=f27e16] [cursor=pointer]:
+              - /url: /en/admin/structure
+          - listitem [ref=f27e17]:
+            - link "Appearance" [ref=f27e18] [cursor=pointer]:
+              - /url: /en/admin/appearance
+          - listitem [ref=f27e19]:
+            - link "Extend" [ref=f27e20] [cursor=pointer]:
+              - /url: /en/admin/modules
+          - listitem [ref=f27e21]:
+            - link "Translation" [ref=f27e22] [cursor=pointer]:
+              - /url: /en/admin/tmgmt
+          - listitem [ref=f27e23]:
+            - link "People" [ref=f27e24] [cursor=pointer]:
+              - /url: /en/admin/people
+          - listitem [ref=f27e25]:
+            - link "Reports" [ref=f27e26] [cursor=pointer]:
+              - /url: /en/admin/reports
+          - listitem [ref=f27e27]:
+            - link "Configuration" [ref=f27e28] [cursor=pointer]:
+              - /url: /en/admin/config
+          - listitem [ref=f27e29]:
+            - link "Help" [ref=f27e30] [cursor=pointer]:
+              - /url: /en/admin/help
+  - generic [ref=f27e31]:
+    - generic [ref=f27e32]:
+      - navigation [ref=f27e36]:
+        - heading "Breadcrumb" [level=2] [ref=f27e37]
+        - list [ref=f27e38]:
+          - listitem:
+            - link "Back to site" [ref=f27e39] [cursor=pointer]:
+              - /url: https://ipsosdev.prod.acquia-sites.com/en/admin/reports/dblog
+          - listitem:
+            - link "Administration" [ref=f27e40] [cursor=pointer]:
+              - /url: /en/admin
+      - navigation "Toolbar items" [ref=f27e42]:
+        - heading "Toolbar items" [level=2] [ref=f27e43]
+        - generic:
+          - generic:
+            - navigation
+        - button "Shortcuts" [ref=f27e45] [cursor=pointer]
+        - generic:
+          - generic:
+            - navigation
+        - generic [ref=f27e46]:
+          - button "No tour available for this page." [disabled] [ref=f27e47]
+          - generic:
+            - navigation
+        - button "(21e71adbabceb14e07d20911622496cbd06e9d08-from-scratch) DEV" [ref=f27e49] [cursor=pointer]
+        - generic [ref=f27e50]:
+          - 'link "Shares: 440" [ref=f27e51] [cursor=pointer]':
+            - /url: /en/admin/reports
+          - generic:
+            - navigation
+        - generic [ref=f27e52]:
+          - link "Subscription active" [ref=f27e53] [cursor=pointer]:
+            - /url: https://cloud.acquia.com/app/develop/applications/cc6e9cd4-12e8-41ce-97ac-5a78f2f1a360
+          - generic:
+            - navigation
+        - button "drupal" [ref=f27e55] [cursor=pointer]
+    - banner [ref=f27e56]
+    - heading "Reports" [level=1] [ref=f27e62]
+    - main [ref=f27e64]:
+      - contentinfo [ref=f27e69]:
+        - heading "Error message" [level=2] [ref=f27e71]
+        - generic [ref=f27e72]:
+          - text: The content access permissions need to be rebuilt.
+          - link "Rebuild permissions" [ref=f27e73] [cursor=pointer]:
+            - /url: /en/admin/reports/status/rebuild
+          - text: .
+        - button "Hide" [ref=f27e74] [cursor=pointer]
+      - generic [ref=f27e78]:
+        - generic [ref=f27e79]:
+          - link "IPSOS Marketo Engine Log" [ref=f27e80] [cursor=pointer]:
+            - /url: /en/admin/reports/ipsos-marketo-log
+          - generic [ref=f27e81]: IPSOS Marketo Engine Log
+        - generic [ref=f27e82]:
+          - link "Status report" [ref=f27e83] [cursor=pointer]:
+            - /url: /en/admin/reports/status
+          - generic [ref=f27e84]: Status report
+          - generic [ref=f27e85]: Get a status report about your site's operation.
+        - generic [ref=f27e86]:
+          - link "Available updates" [ref=f27e87] [cursor=pointer]:
+            - /url: /en/admin/reports/updates
+          - generic [ref=f27e88]: Available updates
+          - generic [ref=f27e89]: Get a status report about available updates for your installed modules and themes.
+        - generic [ref=f27e90]:
+          - link "Available translation updates" [ref=f27e91] [cursor=pointer]:
+            - /url: /en/admin/reports/translations
+          - generic [ref=f27e92]: Available translation updates
+          - generic [ref=f27e93]: Get a status report about available interface translations for your installed modules and themes.
+        - generic [ref=f27e94]:
+          - link "Contact Form Submission" [ref=f27e95] [cursor=pointer]:
+            - /url: /en/admin/reports/contact-form
+          - generic [ref=f27e96]: Contact Form Submission
+          - generic [ref=f27e97]: View contact form results
+        - generic [ref=f27e98]:
+          - link "Content links statistics" [ref=f27e99] [cursor=pointer]:
+            - /url: /en/admin/reports/link-report-form
+          - generic [ref=f27e100]: Content links statistics
+          - generic [ref=f27e101]: Content share/download link statistics
+        - generic [ref=f27e102]:
+          - link "Field list" [ref=f27e103] [cursor=pointer]:
+            - /url: /en/admin/reports/fields
+          - generic [ref=f27e104]: Field list
+          - generic [ref=f27e105]: Overview of fields on all entity types.
+        - generic [ref=f27e106]:
+          - link "Metatag plugins" [ref=f27e107] [cursor=pointer]:
+            - /url: /en/admin/reports/metatag-plugins
+          - generic [ref=f27e108]: Metatag plugins
+          - generic [ref=f27e109]: Overview of plugins used in metatag.
+        - generic [ref=f27e110]:
+          - link "Migration messages" [ref=f27e111] [cursor=pointer]:
+            - /url: /en/admin/reports/migration-messages
+          - generic [ref=f27e112]: Migration messages
+          - generic [ref=f27e113]: View the migration messages.
+        - generic [ref=f27e114]:
+          - link "Views plugins" [ref=f27e115] [cursor=pointer]:
+            - /url: /en/admin/reports/views-plugins
+          - generic [ref=f27e116]: Views plugins
+          - generic [ref=f27e117]: Overview of plugins used in all views.
+        - generic [ref=f27e118]:
+          - link "Cookie banner statistics" [ref=f27e119] [cursor=pointer]:
+            - /url: /en/admin/reports/cookie-banner-statistics
+          - generic [ref=f27e120]: Cookie banner statistics
+        - generic [ref=f27e121]:
+          - link "IPSOS Content Deletion Log" [ref=f27e122] [cursor=pointer]:
+            - /url: /en/admin/reports/ipsos-log-content-deletion
+          - generic [ref=f27e123]: IPSOS Content Deletion Log

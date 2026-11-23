@@ -1,0 +1,1314 @@
+- generic [ref=f20e1]:
+  - link "Skip to main content" [ref=f20e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - group "Site administration toolbar" [ref=f20e3]:
+    - navigation "Toolbar items" [ref=f20e4]:
+      - heading "Toolbar items" [level=2] [ref=f20e5]
+      - navigation "Administration menu" [ref=f20e7]:
+        - heading "Administration menu" [level=3] [ref=f20e8]
+        - list [ref=f20e10]:
+          - listitem [ref=f20e11]:
+            - link "Drupal" [ref=f20e12] [cursor=pointer]:
+              - /url: /en
+          - listitem [ref=f20e13]:
+            - link "Content" [ref=f20e14] [cursor=pointer]:
+              - /url: /en/admin/content
+          - listitem [ref=f20e15]:
+            - link "Structure" [ref=f20e16] [cursor=pointer]:
+              - /url: /en/admin/structure
+          - listitem [ref=f20e17]:
+            - link "Appearance" [ref=f20e18] [cursor=pointer]:
+              - /url: /en/admin/appearance
+          - listitem [ref=f20e19]:
+            - link "Extend" [ref=f20e20] [cursor=pointer]:
+              - /url: /en/admin/modules
+          - listitem [ref=f20e21]:
+            - link "Translation" [ref=f20e22] [cursor=pointer]:
+              - /url: /en/admin/tmgmt
+          - listitem [ref=f20e23]:
+            - link "People" [ref=f20e24] [cursor=pointer]:
+              - /url: /en/admin/people
+          - listitem [ref=f20e25]:
+            - link "Reports" [ref=f20e26] [cursor=pointer]:
+              - /url: /en/admin/reports
+          - listitem [ref=f20e27]:
+            - link "Configuration" [ref=f20e28] [cursor=pointer]:
+              - /url: /en/admin/config
+          - listitem [ref=f20e29]:
+            - link "Help" [ref=f20e30] [cursor=pointer]:
+              - /url: /en/admin/help
+  - generic [ref=f20e31]:
+    - generic [ref=f20e32]:
+      - navigation [ref=f20e36]:
+        - heading "Breadcrumb" [level=2] [ref=f20e37]
+        - list [ref=f20e38]:
+          - listitem:
+            - link "Back to site" [ref=f20e39] [cursor=pointer]:
+              - /url: https://ipsosdev.prod.acquia-sites.com/en/user/1?check_logged_in=1
+          - listitem:
+            - link "Administration" [ref=f20e40] [cursor=pointer]:
+              - /url: /en/admin
+          - listitem:
+            - text: /
+            - link "Reports" [ref=f20e41] [cursor=pointer]:
+              - /url: /en/admin/reports
+      - navigation "Toolbar items" [ref=f20e43]:
+        - heading "Toolbar items" [level=2] [ref=f20e44]
+        - generic:
+          - generic:
+            - navigation
+        - button "Shortcuts" [ref=f20e46] [cursor=pointer]
+        - generic:
+          - generic:
+            - navigation
+        - generic [ref=f20e47]:
+          - button "No tour available for this page." [disabled] [ref=f20e48]
+          - generic:
+            - navigation
+        - button "(21e71adbabceb14e07d20911622496cbd06e9d08-from-scratch) DEV" [ref=f20e50] [cursor=pointer]
+        - generic [ref=f20e51]:
+          - 'link "Shares: 440" [ref=f20e52] [cursor=pointer]':
+            - /url: /en/admin/reports/updates
+          - generic:
+            - navigation
+        - generic [ref=f20e53]:
+          - link "Subscription active" [ref=f20e54] [cursor=pointer]:
+            - /url: https://cloud.acquia.com/app/develop/applications/cc6e9cd4-12e8-41ce-97ac-5a78f2f1a360
+          - generic:
+            - navigation
+        - button "drupal" [ref=f20e56] [cursor=pointer]
+    - banner [ref=f20e57]
+    - heading "Available updates" [level=1] [ref=f20e63]
+    - generic [ref=f20e64]:
+      - generic [ref=f20e66]:
+        - heading "Primary tabs" [level=2] [ref=f20e67]
+        - navigation "Primary tabs" [ref=f20e68]:
+          - list [ref=f20e69]:
+            - listitem [ref=f20e70]:
+              - link "List" [ref=f20e71] [cursor=pointer]:
+                - /url: /en/admin/reports/updates
+            - listitem [ref=f20e72]:
+              - link "Settings" [ref=f20e73] [cursor=pointer]:
+                - /url: /en/admin/reports/updates/settings
+      - main [ref=f20e74]:
+        - contentinfo [ref=f20e79]:
+          - heading "Error message" [level=2] [ref=f20e81]
+          - generic [ref=f20e82]:
+            - text: The content access permissions need to be rebuilt.
+            - link "Rebuild permissions" [ref=f20e83] [cursor=pointer]:
+              - /url: /en/admin/reports/status/rebuild
+            - text: .
+          - button "Hide" [ref=f20e84] [cursor=pointer]
+        - complementary [ref=f20e88]:
+          - paragraph [ref=f20e89]: Here you can find information about available updates for your installed modules and themes. Note that each module or theme is part of a "project", which may or may not have the same name, and might include multiple modules or themes within it.
+        - generic [ref=f20e92]:
+          - generic [ref=f20e94]:
+            - generic [ref=f20e95]:
+              - generic [ref=f20e96] [cursor=pointer]: Filter projects
+              - searchbox "Filter projects" [active] [ref=f20e98]
+            - generic [ref=f20e100]:
+              - generic [ref=f20e101]:
+                - radio "All" [checked] [ref=f20e102]
+                - text: All
+              - generic [ref=f20e103]:
+                - radio "Update available" [ref=f20e104]
+                - text: Update available
+              - generic [ref=f20e105]:
+                - radio "Security update" [ref=f20e106]
+                - text: Security update
+              - generic [ref=f20e107]:
+                - radio "Unsupported" [ref=f20e108]
+                - text: Unsupported
+          - paragraph [ref=f20e109]:
+            - text: "Last checked: 0 seconds ago ("
+            - link "Check manually" [ref=f20e110] [cursor=pointer]:
+              - /url: /en/admin/reports/updates/check?destination=/en/admin/reports/updates&token=xSpAQTNk5zKOYOxJ3zrjO1tEdZjjZh4LYa4NUVP3AmE
+            - text: )
+          - heading "Drupal core" [level=3] [ref=f20e111]
+          - table [ref=f20e113]:
+            - rowgroup [ref=f20e114]:
+              - row [ref=f20e115]:
+                - cell [ref=f20e116]:
+                  - generic [ref=f20e117]: No available releases found
+                  - generic [ref=f20e119]: drupal 11.4.11
+                  - generic [ref=f20e120]:
+                    - text: "Includes:"
+                    - list [ref=f20e121]:
+                      - listitem [ref=f20e122]:
+                        - text: "Enabled:"
+                        - emphasis [ref=f20e123]: Automated Cron, Block, Block Content, Breakpoint, CKEditor 5, Configuration Manager, Configuration Translation, Content Translation, Contextual Links, Custom Menu Links, Datetime, Datetime Range, Field, Field UI, File, Filter, Help, Image, Inline Form Errors, Interface Translation, Internal Dynamic Page Cache, Internal Page Cache, Language, Link, Menu UI, Migrate, MySQL, Node, Options, Password Compatibility, Path, Path alias, RESTful Web Services, Responsive Image, Serialization, Shortcut, Syslog, System, Taxonomy, Telephone, Text, Text Editor, Toolbar, Update Status, User, Views, Views UI
+                      - listitem [ref=f20e124]:
+                        - text: "Disabled:"
+                        - emphasis [ref=f20e125]: Announcements, Ban, BigPipe, Comment, Content Moderation, Database Logging, Field Layout, HTTP Basic Authentication, History, JSON:API, Layout Builder, Layout Builder Expose All Field Blocks, Layout Discovery, Media, Media Library, Migrate Drupal, Migrate Drupal UI, Navigation, PostgreSQL, SQLite, Search, Search help, Search node, Settings Tray, Workflows, Workspaces, Workspaces UI
+          - heading "Modules" [level=3] [ref=f20e126]
+          - table [ref=f20e128]:
+            - rowgroup [ref=f20e129]:
+              - row [ref=f20e130]:
+                - 'cell "No available releases found acquia_connector 4.1.2 Includes: Acquia Connector" [ref=f20e131]':
+                  - generic [ref=f20e132]: No available releases found
+                  - generic [ref=f20e134]: acquia_connector 4.1.2
+                  - generic [ref=f20e135]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e136]: Acquia Connector
+              - row [ref=f20e137]:
+                - 'cell "No available releases found acquia_purge 8.x-1.5 Includes: Enabled: Acquia Purge Disabled: Acquia Purge GeoIP" [ref=f20e138]':
+                  - generic [ref=f20e139]: No available releases found
+                  - generic [ref=f20e141]: acquia_purge 8.x-1.5
+                  - generic [ref=f20e142]:
+                    - text: "Includes:"
+                    - list [ref=f20e143]:
+                      - listitem [ref=f20e144]:
+                        - text: "Enabled:"
+                        - emphasis [ref=f20e145]: Acquia Purge
+                      - listitem [ref=f20e146]:
+                        - text: "Disabled:"
+                        - emphasis [ref=f20e147]: Acquia Purge GeoIP
+              - row [ref=f20e148]:
+                - 'cell "No available releases found acquia_search 3.1.15 Includes: Enabled: Acquia Search Disabled: Acquia Search Defaults" [ref=f20e149]':
+                  - generic [ref=f20e150]: No available releases found
+                  - generic [ref=f20e152]: acquia_search 3.1.15
+                  - generic [ref=f20e153]:
+                    - text: "Includes:"
+                    - list [ref=f20e154]:
+                      - listitem [ref=f20e155]:
+                        - text: "Enabled:"
+                        - emphasis [ref=f20e156]: Acquia Search
+                      - listitem [ref=f20e157]:
+                        - text: "Disabled:"
+                        - emphasis [ref=f20e158]: Acquia Search Defaults
+              - row [ref=f20e159]:
+                - 'cell "Up to date Action 0.2.2 Includes: Actions UI" [ref=f20e160]':
+                  - generic [ref=f20e161]: Up to date
+                  - generic [ref=f20e164]:
+                    - link "Action" [ref=f20e165] [cursor=pointer]:
+                      - /url: https://www.drupal.org/project/action
+                    - text: 0.2.2
+                  - generic [ref=f20e166]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e167]: Actions UI
+              - row [ref=f20e168]:
+                - 'cell "No available releases found admin_toolbar 3.6.3 Includes: Enabled: Admin Toolbar, Admin Toolbar Extra Tools Disabled: Admin Toolbar Links Access Filter, Admin Toolbar Search" [ref=f20e169]':
+                  - generic [ref=f20e170]: No available releases found
+                  - generic [ref=f20e172]: admin_toolbar 3.6.3
+                  - generic [ref=f20e173]:
+                    - text: "Includes:"
+                    - list [ref=f20e174]:
+                      - listitem [ref=f20e175]:
+                        - text: "Enabled:"
+                        - emphasis [ref=f20e176]: Admin Toolbar, Admin Toolbar Extra Tools
+                      - listitem [ref=f20e177]:
+                        - text: "Disabled:"
+                        - emphasis [ref=f20e178]: Admin Toolbar Links Access Filter, Admin Toolbar Search
+              - row [ref=f20e179]:
+                - 'cell "No available releases found antibot 2.0.5 Includes: Antibot" [ref=f20e180]':
+                  - generic [ref=f20e181]: No available releases found
+                  - generic [ref=f20e183]: antibot 2.0.5
+                  - generic [ref=f20e184]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e185]: Antibot
+              - row [ref=f20e186]:
+                - 'cell "No available releases found backoffice_file_summary Unknown Includes: IPSOS backoffice file summary" [ref=f20e187]':
+                  - generic [ref=f20e188]: No available releases found
+                  - generic [ref=f20e190]: backoffice_file_summary Unknown
+                  - generic [ref=f20e191]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e192]: IPSOS backoffice file summary
+              - row [ref=f20e193]:
+                - 'cell "No available releases found backoffice_flex_page Unknown Includes: IPSOS backoffice Flex page" [ref=f20e194]':
+                  - generic [ref=f20e195]: No available releases found
+                  - generic [ref=f20e197]: backoffice_flex_page Unknown
+                  - generic [ref=f20e198]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e199]: IPSOS backoffice Flex page
+              - row [ref=f20e200]:
+                - 'cell "No available releases found backoffice_homepage Unknown Includes: IPSOS backoffice homepage" [ref=f20e201]':
+                  - generic [ref=f20e202]: No available releases found
+                  - generic [ref=f20e204]: backoffice_homepage Unknown
+                  - generic [ref=f20e205]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e206]: IPSOS backoffice homepage
+              - row [ref=f20e207]:
+                - 'cell "No available releases found backoffice_news_and_events Unknown Includes: IPSOS backoffice news & events" [ref=f20e208]':
+                  - generic [ref=f20e209]: No available releases found
+                  - generic [ref=f20e211]: backoffice_news_and_events Unknown
+                  - generic [ref=f20e212]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e213]: IPSOS backoffice news & events
+              - row [ref=f20e214]:
+                - 'cell "No available releases found backoffice_newsletter Unknown Includes: IPSOS backoffice newsletter" [ref=f20e215]':
+                  - generic [ref=f20e216]: No available releases found
+                  - generic [ref=f20e218]: backoffice_newsletter Unknown
+                  - generic [ref=f20e219]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e220]: IPSOS backoffice newsletter
+              - row [ref=f20e221]:
+                - 'cell "No available releases found backoffice_products Unknown Includes: IPSOS backoffice products" [ref=f20e222]':
+                  - generic [ref=f20e223]: No available releases found
+                  - generic [ref=f20e225]: backoffice_products Unknown
+                  - generic [ref=f20e226]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e227]: IPSOS backoffice products
+              - row [ref=f20e228]:
+                - 'cell "No available releases found backoffice_publication Unknown Includes: IPSOS backoffice publication" [ref=f20e229]':
+                  - generic [ref=f20e230]: No available releases found
+                  - generic [ref=f20e232]: backoffice_publication Unknown
+                  - generic [ref=f20e233]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e234]: IPSOS backoffice publication
+              - row [ref=f20e235]:
+                - 'cell "No available releases found backoffice_solution Unknown Includes: IPSOS backoffice solution" [ref=f20e236]':
+                  - generic [ref=f20e237]: No available releases found
+                  - generic [ref=f20e239]: backoffice_solution Unknown
+                  - generic [ref=f20e240]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e241]: IPSOS backoffice solution
+              - row [ref=f20e242]:
+                - 'cell "No available releases found backoffice_solution_tup Unknown Includes: IPSOS backoffice solution tup" [ref=f20e243]':
+                  - generic [ref=f20e244]: No available releases found
+                  - generic [ref=f20e246]: backoffice_solution_tup Unknown
+                  - generic [ref=f20e247]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e248]: IPSOS backoffice solution tup
+              - row [ref=f20e249]:
+                - 'cell "No available releases found better_exposed_filters 7.0.5 Includes: Better Exposed Filters" [ref=f20e250]':
+                  - generic [ref=f20e251]: No available releases found
+                  - generic [ref=f20e253]: better_exposed_filters 7.0.5
+                  - generic [ref=f20e254]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e255]: Better Exposed Filters
+              - row [ref=f20e256]:
+                - 'cell "No available releases found better_formats 8.x-1.0-beta3 Includes: Better Formats" [ref=f20e257]':
+                  - generic [ref=f20e258]: No available releases found
+                  - generic [ref=f20e260]: better_formats 8.x-1.0-beta3
+                  - generic [ref=f20e261]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e262]: Better Formats
+              - row [ref=f20e263]:
+                - 'cell "No available releases found captcha 2.0.10 Includes: Enabled: CAPTCHA Disabled: Image CAPTCHA" [ref=f20e264]':
+                  - generic [ref=f20e265]: No available releases found
+                  - generic [ref=f20e267]: captcha 2.0.10
+                  - generic [ref=f20e268]:
+                    - text: "Includes:"
+                    - list [ref=f20e269]:
+                      - listitem [ref=f20e270]:
+                        - text: "Enabled:"
+                        - emphasis [ref=f20e271]: CAPTCHA
+                      - listitem [ref=f20e272]:
+                        - text: "Disabled:"
+                        - emphasis [ref=f20e273]: Image CAPTCHA
+              - row [ref=f20e274]:
+                - 'cell "No available releases found ckeditor5_findandreplace 2.1.4 Includes: CKEditor5 find and replace" [ref=f20e275]':
+                  - generic [ref=f20e276]: No available releases found
+                  - generic [ref=f20e278]: ckeditor5_findandreplace 2.1.4
+                  - generic [ref=f20e279]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e280]: CKEditor5 find and replace
+              - row [ref=f20e281]:
+                - 'cell "No available releases found ckeditor5_plugin_pack 1.5.3 Includes: Enabled: CKEditor 5 Link Attributes, CKEditor 5 Plugin Pack Disabled: CKEditor 5 Auto Image, CKEditor 5 Block Indentation, CKEditor 5 Bookmarks, CKEditor 5 Emoji, CKEditor 5 Empty Block, CKEditor 5 Find And Replace, CKEditor 5 Font Plugins, CKEditor 5 Fullscreen, CKEditor 5 HTML embed, CKEditor 5 Highlight, CKEditor 5 Layout Table, CKEditor 5 Media Embed, CKEditor 5 Page Break, CKEditor 5 Paste from Markdown, CKEditor 5 Restricted Editing, CKEditor 5 Select All, CKEditor 5 Templates, CKEditor 5 Text Transformation, CKEditor 5 To-do List, CKEditor 5 WProofreader, CKEditor 5 Word Count" [ref=f20e282]':
+                  - generic [ref=f20e283]: No available releases found
+                  - generic [ref=f20e285]: ckeditor5_plugin_pack 1.5.3
+                  - generic [ref=f20e286]:
+                    - text: "Includes:"
+                    - list [ref=f20e287]:
+                      - listitem [ref=f20e288]:
+                        - text: "Enabled:"
+                        - emphasis [ref=f20e289]: CKEditor 5 Link Attributes, CKEditor 5 Plugin Pack
+                      - listitem [ref=f20e290]:
+                        - text: "Disabled:"
+                        - emphasis [ref=f20e291]: CKEditor 5 Auto Image, CKEditor 5 Block Indentation, CKEditor 5 Bookmarks, CKEditor 5 Emoji, CKEditor 5 Empty Block, CKEditor 5 Find And Replace, CKEditor 5 Font Plugins, CKEditor 5 Fullscreen, CKEditor 5 HTML embed, CKEditor 5 Highlight, CKEditor 5 Layout Table, CKEditor 5 Media Embed, CKEditor 5 Page Break, CKEditor 5 Paste from Markdown, CKEditor 5 Restricted Editing, CKEditor 5 Select All, CKEditor 5 Templates, CKEditor 5 Text Transformation, CKEditor 5 To-do List, CKEditor 5 WProofreader, CKEditor 5 Word Count
+              - row [ref=f20e292]:
+                - 'cell "No available releases found ckeditor_font 2.0.0-beta6 Includes: CKEditor Font" [ref=f20e293]':
+                  - generic [ref=f20e294]: No available releases found
+                  - generic [ref=f20e296]: ckeditor_font 2.0.0-beta6
+                  - generic [ref=f20e297]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e298]: CKEditor Font
+              - row [ref=f20e299]:
+                - 'cell "No available releases found ckeditor_iframe 3.1.1 Includes: CKEditor iFrame" [ref=f20e300]':
+                  - generic [ref=f20e301]: No available releases found
+                  - generic [ref=f20e303]: ckeditor_iframe 3.1.1
+                  - generic [ref=f20e304]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e305]: CKEditor iFrame
+              - row [ref=f20e306]:
+                - 'cell "No available releases found components 3.2.0 Includes: Components" [ref=f20e307]':
+                  - generic [ref=f20e308]: No available releases found
+                  - generic [ref=f20e310]: components 3.2.0
+                  - generic [ref=f20e311]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e312]: Components
+              - row [ref=f20e313]:
+                - 'cell "No available releases found conditional_fields 4.0.0-alpha6 Includes: Conditional Fields" [ref=f20e314]':
+                  - generic [ref=f20e315]: No available releases found
+                  - generic [ref=f20e317]: conditional_fields 4.0.0-alpha6
+                  - generic [ref=f20e318]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e319]: Conditional Fields
+              - row [ref=f20e320]:
+                - 'cell "No available releases found config_batch_export 2.0.0 Includes: Configuration Batch Export" [ref=f20e321]':
+                  - generic [ref=f20e322]: No available releases found
+                  - generic [ref=f20e324]: config_batch_export 2.0.0
+                  - generic [ref=f20e325]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e326]: Configuration Batch Export
+              - row [ref=f20e327]:
+                - 'cell "No available releases found config_ignore 8.x-3.4 Includes: Config Ignore" [ref=f20e328]':
+                  - generic [ref=f20e329]: No available releases found
+                  - generic [ref=f20e331]: config_ignore 8.x-3.4
+                  - generic [ref=f20e332]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e333]: Config Ignore
+              - row [ref=f20e334]:
+                - 'cell "No available releases found config_split 2.0.2 Includes: Config Split" [ref=f20e335]':
+                  - generic [ref=f20e336]: No available releases found
+                  - generic [ref=f20e338]: config_split 2.0.2
+                  - generic [ref=f20e339]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e340]: Config Split
+              - row [ref=f20e341]:
+                - 'cell "Up to date Contact 1.0.0 Includes: Contact" [ref=f20e342]':
+                  - generic [ref=f20e343]: Up to date
+                  - generic [ref=f20e346]:
+                    - link "Contact" [ref=f20e347] [cursor=pointer]:
+                      - /url: https://www.drupal.org/project/contact
+                    - text: 1.0.0
+                  - generic [ref=f20e348]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e349]: Contact
+              - row [ref=f20e350]:
+                - 'cell "No available releases found contact_storage 8.x-1.5 Includes: Contact storage" [ref=f20e351]':
+                  - generic [ref=f20e352]: No available releases found
+                  - generic [ref=f20e354]: contact_storage 8.x-1.5
+                  - generic [ref=f20e355]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e356]: Contact storage
+              - row [ref=f20e357]:
+                - 'cell "No available releases found country_path 8.x-1.10 Includes: Country Path" [ref=f20e358]':
+                  - generic [ref=f20e359]: No available releases found
+                  - generic [ref=f20e361]: country_path 8.x-1.10
+                  - generic [ref=f20e362]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e363]: Country Path
+              - row [ref=f20e364]:
+                - 'cell "No available releases found crop 8.x-2.6 Includes: Crop API" [ref=f20e365]':
+                  - generic [ref=f20e366]: No available releases found
+                  - generic [ref=f20e368]: crop 8.x-2.6
+                  - generic [ref=f20e369]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e370]: Crop API
+              - row [ref=f20e371]:
+                - 'cell "No available releases found csv_serialization 4.0.1 Includes: Serialization (CSV)" [ref=f20e372]':
+                  - generic [ref=f20e373]: No available releases found
+                  - generic [ref=f20e375]: csv_serialization 4.0.1
+                  - generic [ref=f20e376]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e377]: Serialization (CSV)
+              - row [ref=f20e378]:
+                - 'cell "No available releases found ctools 4.1.0 Includes: Enabled: Chaos Tools Disabled: Chaos Tools Blocks, Chaos Tools Views, Entity Mask" [ref=f20e379]':
+                  - generic [ref=f20e380]: No available releases found
+                  - generic [ref=f20e382]: ctools 4.1.0
+                  - generic [ref=f20e383]:
+                    - text: "Includes:"
+                    - list [ref=f20e384]:
+                      - listitem [ref=f20e385]:
+                        - text: "Enabled:"
+                        - emphasis [ref=f20e386]: Chaos Tools
+                      - listitem [ref=f20e387]:
+                        - text: "Disabled:"
+                        - emphasis [ref=f20e388]: Chaos Tools Blocks, Chaos Tools Views, Entity Mask
+              - row [ref=f20e389]:
+                - 'cell "No available releases found domain 2.0.1 Includes: Enabled: Domain, Domain Access, Domain Alias, Domain Configuration, Domain Content Disabled: Domain Configuration UI, Domain Source" [ref=f20e390]':
+                  - generic [ref=f20e391]: No available releases found
+                  - generic [ref=f20e393]: domain 2.0.1
+                  - generic [ref=f20e394]:
+                    - text: "Includes:"
+                    - list [ref=f20e395]:
+                      - listitem [ref=f20e396]:
+                        - text: "Enabled:"
+                        - emphasis [ref=f20e397]: Domain, Domain Access, Domain Alias, Domain Configuration, Domain Content
+                      - listitem [ref=f20e398]:
+                        - text: "Disabled:"
+                        - emphasis [ref=f20e399]: Domain Configuration UI, Domain Source
+              - row [ref=f20e400]:
+                - 'cell "No available releases found domain_role 3.0.0 Includes: Domain Role" [ref=f20e401]':
+                  - generic [ref=f20e402]: No available releases found
+                  - generic [ref=f20e404]: domain_role 3.0.0
+                  - generic [ref=f20e405]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e406]: Domain Role
+              - row [ref=f20e407]:
+                - 'cell "No available releases found dropzonejs 8.x-2.11 Includes: DropzoneJS entity browser widget, dropzonejs" [ref=f20e408]':
+                  - generic [ref=f20e409]: No available releases found
+                  - generic [ref=f20e411]: dropzonejs 8.x-2.11
+                  - generic [ref=f20e412]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e413]: DropzoneJS entity browser widget, dropzonejs
+              - row [ref=f20e414]:
+                - 'cell "No available releases found Drupal helper Unknown Includes: Enabled: Drupal helper extra, Drupal helper modules Disabled: Drupal helper vardumper twig extension" [ref=f20e415]':
+                  - generic [ref=f20e416]: No available releases found
+                  - generic [ref=f20e418]: Drupal helper Unknown
+                  - generic [ref=f20e419]:
+                    - text: "Includes:"
+                    - list [ref=f20e420]:
+                      - listitem [ref=f20e421]:
+                        - text: "Enabled:"
+                        - emphasis [ref=f20e422]: Drupal helper extra, Drupal helper modules
+                      - listitem [ref=f20e423]:
+                        - text: "Disabled:"
+                        - emphasis [ref=f20e424]: Drupal helper vardumper twig extension
+              - row [ref=f20e425]:
+                - 'cell "No available releases found dynamic_entity_reference 3.2.2 Includes: Dynamic Entity Reference" [ref=f20e426]':
+                  - generic [ref=f20e427]: No available releases found
+                  - generic [ref=f20e429]: dynamic_entity_reference 3.2.2
+                  - generic [ref=f20e430]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e431]: Dynamic Entity Reference
+              - row [ref=f20e432]:
+                - 'cell "No available releases found editor_advanced_link 2.3.4 Includes: Editor Advanced Link" [ref=f20e433]':
+                  - generic [ref=f20e434]: No available releases found
+                  - generic [ref=f20e436]: editor_advanced_link 2.3.4
+                  - generic [ref=f20e437]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e438]: Editor Advanced Link
+              - row [ref=f20e439]:
+                - 'cell "No available releases found embed 8.x-1.10 Includes: Embed" [ref=f20e440]':
+                  - generic [ref=f20e441]: No available releases found
+                  - generic [ref=f20e443]: embed 8.x-1.10
+                  - generic [ref=f20e444]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e445]: Embed
+              - row [ref=f20e446]:
+                - 'cell "No available releases found entity 8.x-1.8 Includes: Entity" [ref=f20e447]':
+                  - generic [ref=f20e448]: No available releases found
+                  - generic [ref=f20e450]: entity 8.x-1.8
+                  - generic [ref=f20e451]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e452]: Entity
+              - row [ref=f20e453]:
+                - 'cell "No available releases found entity_browser 8.x-2.17 Includes: Enabled: Entity Browser Disabled: Entity Browser IEF, Entity Browser example" [ref=f20e454]':
+                  - generic [ref=f20e455]: No available releases found
+                  - generic [ref=f20e457]: entity_browser 8.x-2.17
+                  - generic [ref=f20e458]:
+                    - text: "Includes:"
+                    - list [ref=f20e459]:
+                      - listitem [ref=f20e460]:
+                        - text: "Enabled:"
+                        - emphasis [ref=f20e461]: Entity Browser
+                      - listitem [ref=f20e462]:
+                        - text: "Disabled:"
+                        - emphasis [ref=f20e463]: Entity Browser IEF, Entity Browser example
+              - row [ref=f20e464]:
+                - 'cell "No available releases found entity_embed 8.x-1.7 Includes: Entity Embed" [ref=f20e465]':
+                  - generic [ref=f20e466]: No available releases found
+                  - generic [ref=f20e468]: entity_embed 8.x-1.7
+                  - generic [ref=f20e469]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e470]: Entity Embed
+              - row [ref=f20e471]:
+                - 'cell "No available releases found entity_reference_revisions 8.x-1.14 Includes: Entity Reference Revisions" [ref=f20e472]':
+                  - generic [ref=f20e473]: No available releases found
+                  - generic [ref=f20e475]: entity_reference_revisions 8.x-1.14
+                  - generic [ref=f20e476]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e477]: Entity Reference Revisions
+              - row [ref=f20e478]:
+                - 'cell "No available releases found environment_indicator 4.0.25 Includes: Enabled: Environment Indicator, Environment Indicator UI Disabled: Environment Indicator - Toolbar Integration" [ref=f20e479]':
+                  - generic [ref=f20e480]: No available releases found
+                  - generic [ref=f20e482]: environment_indicator 4.0.25
+                  - generic [ref=f20e483]:
+                    - text: "Includes:"
+                    - list [ref=f20e484]:
+                      - listitem [ref=f20e485]:
+                        - text: "Enabled:"
+                        - emphasis [ref=f20e486]: Environment Indicator, Environment Indicator UI
+                      - listitem [ref=f20e487]:
+                        - text: "Disabled:"
+                        - emphasis [ref=f20e488]: Environment Indicator - Toolbar Integration
+              - row [ref=f20e489]:
+                - 'cell "No available releases found eu_cookie_compliance 8.x-1.29 Includes: Enabled: EU Cookie Compliance Disabled: EUCC to Klaro migrator module" [ref=f20e490]':
+                  - generic [ref=f20e491]: No available releases found
+                  - generic [ref=f20e493]: eu_cookie_compliance 8.x-1.29
+                  - generic [ref=f20e494]:
+                    - text: "Includes:"
+                    - list [ref=f20e495]:
+                      - listitem [ref=f20e496]:
+                        - text: "Enabled:"
+                        - emphasis [ref=f20e497]: EU Cookie Compliance
+                      - listitem [ref=f20e498]:
+                        - text: "Disabled:"
+                        - emphasis [ref=f20e499]: EUCC to Klaro migrator module
+              - row [ref=f20e500]:
+                - 'cell "No available releases found extra_field 3.0.0 Includes: Enabled: Extra Field Disabled: Extra Field Example" [ref=f20e501]':
+                  - generic [ref=f20e502]: No available releases found
+                  - generic [ref=f20e504]: extra_field 3.0.0
+                  - generic [ref=f20e505]:
+                    - text: "Includes:"
+                    - list [ref=f20e506]:
+                      - listitem [ref=f20e507]:
+                        - text: "Enabled:"
+                        - emphasis [ref=f20e508]: Extra Field
+                      - listitem [ref=f20e509]:
+                        - text: "Disabled:"
+                        - emphasis [ref=f20e510]: Extra Field Example
+              - row [ref=f20e511]:
+                - 'cell "No available releases found facets 2.0.10 Includes: Enabled: Facets Disabled: Facets Range Widget, Facets Searchbox Widget, Facets summary (Experimental), Rest Facets" [ref=f20e512]':
+                  - generic [ref=f20e513]: No available releases found
+                  - generic [ref=f20e515]: facets 2.0.10
+                  - generic [ref=f20e516]:
+                    - text: "Includes:"
+                    - list [ref=f20e517]:
+                      - listitem [ref=f20e518]:
+                        - text: "Enabled:"
+                        - emphasis [ref=f20e519]: Facets
+                      - listitem [ref=f20e520]:
+                        - text: "Disabled:"
+                        - emphasis [ref=f20e521]: Facets Range Widget, Facets Searchbox Widget, Facets summary (Experimental), Rest Facets
+              - row [ref=f20e522]:
+                - 'cell "No available releases found fast_404 8.x-3.7 Includes: Fast 404" [ref=f20e523]':
+                  - generic [ref=f20e524]: No available releases found
+                  - generic [ref=f20e526]: fast_404 8.x-3.7
+                  - generic [ref=f20e527]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e528]: Fast 404
+              - row [ref=f20e529]:
+                - 'cell "No available releases found field_group 8.x-3.6 Includes: Enabled: Field Group Disabled: Field Group Migrate, Field Group: Accordion formatter (Deprecated)" [ref=f20e530]':
+                  - generic [ref=f20e531]: No available releases found
+                  - generic [ref=f20e533]: field_group 8.x-3.6
+                  - generic [ref=f20e534]:
+                    - text: "Includes:"
+                    - list [ref=f20e535]:
+                      - listitem [ref=f20e536]:
+                        - text: "Enabled:"
+                        - emphasis [ref=f20e537]: Field Group
+                      - listitem [ref=f20e538]:
+                        - text: "Disabled:"
+                        - emphasis [ref=f20e539]: "Field Group Migrate, Field Group: Accordion formatter (Deprecated)"
+              - row [ref=f20e540]:
+                - 'cell "No available releases found file_compressor_field 2.2.0 Includes: File Compressor field" [ref=f20e541]':
+                  - generic [ref=f20e542]: No available releases found
+                  - generic [ref=f20e544]: file_compressor_field 2.2.0
+                  - generic [ref=f20e545]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e546]: File Compressor field
+              - row [ref=f20e547]:
+                - 'cell "No available releases found file_entity 8.x-2.9 Includes: File entity" [ref=f20e548]':
+                  - generic [ref=f20e549]: No available releases found
+                  - generic [ref=f20e551]: file_entity 8.x-2.9
+                  - generic [ref=f20e552]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e553]: File entity
+              - row [ref=f20e554]:
+                - 'cell "No available releases found filefield_paths 8.x-1.0-rc1 Includes: File (Field) Paths" [ref=f20e555]':
+                  - generic [ref=f20e556]: No available releases found
+                  - generic [ref=f20e558]: filefield_paths 8.x-1.0-rc1
+                  - generic [ref=f20e559]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e560]: File (Field) Paths
+              - row [ref=f20e561]:
+                - 'cell "No available releases found form_options_attributes 2.1.1 Includes: Form Options Attributes" [ref=f20e562]':
+                  - generic [ref=f20e563]: No available releases found
+                  - generic [ref=f20e565]: form_options_attributes 2.1.1
+                  - generic [ref=f20e566]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e567]: Form Options Attributes
+              - row [ref=f20e568]:
+                - 'cell "No available releases found gin_toolbar 3.0.3 Includes: Gin Toolbar" [ref=f20e569]':
+                  - generic [ref=f20e570]: No available releases found
+                  - generic [ref=f20e572]: gin_toolbar 3.0.3
+                  - generic [ref=f20e573]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e574]: Gin Toolbar
+              - row [ref=f20e575]:
+                - 'cell "No available releases found icon_select 3.0.3 Includes: Icon Select" [ref=f20e576]':
+                  - generic [ref=f20e577]: No available releases found
+                  - generic [ref=f20e579]: icon_select 3.0.3
+                  - generic [ref=f20e580]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e581]: Icon Select
+              - row [ref=f20e582]:
+                - 'cell "No available releases found iframe_resizer 2.0.6 Includes: iFrame Resizer" [ref=f20e583]':
+                  - generic [ref=f20e584]: No available releases found
+                  - generic [ref=f20e586]: iframe_resizer 2.0.6
+                  - generic [ref=f20e587]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e588]: iFrame Resizer
+              - row [ref=f20e589]:
+                - 'cell "No available releases found image_widget_crop 3.0.0 Includes: Enabled: ImageWidgetCrop Disabled: ImageWidgetCrop examples" [ref=f20e590]':
+                  - generic [ref=f20e591]: No available releases found
+                  - generic [ref=f20e593]: image_widget_crop 3.0.0
+                  - generic [ref=f20e594]:
+                    - text: "Includes:"
+                    - list [ref=f20e595]:
+                      - listitem [ref=f20e596]:
+                        - text: "Enabled:"
+                        - emphasis [ref=f20e597]: ImageWidgetCrop
+                      - listitem [ref=f20e598]:
+                        - text: "Disabled:"
+                        - emphasis [ref=f20e599]: ImageWidgetCrop examples
+              - row [ref=f20e600]:
+                - 'cell "No available releases found inline_entity_form 3.0.0 Includes: Inline Entity Form" [ref=f20e601]':
+                  - generic [ref=f20e602]: No available releases found
+                  - generic [ref=f20e604]: inline_entity_form 3.0.0
+                  - generic [ref=f20e605]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e606]: Inline Entity Form
+              - row [ref=f20e607]:
+                - 'cell "No available releases found ipsos_backoffice Unknown Includes: IPSOS backoffice" [ref=f20e608]':
+                  - generic [ref=f20e609]: No available releases found
+                  - generic [ref=f20e611]: ipsos_backoffice Unknown
+                  - generic [ref=f20e612]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e613]: IPSOS backoffice
+              - row [ref=f20e614]:
+                - 'cell "No available releases found ipsos_error_page Unknown Includes: IPSOS Error page" [ref=f20e615]':
+                  - generic [ref=f20e616]: No available releases found
+                  - generic [ref=f20e618]: ipsos_error_page Unknown
+                  - generic [ref=f20e619]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e620]: IPSOS Error page
+              - row [ref=f20e621]:
+                - 'cell "No available releases found ipsos_mail Unknown Includes: IPSOS mail" [ref=f20e622]':
+                  - generic [ref=f20e623]: No available releases found
+                  - generic [ref=f20e625]: ipsos_mail Unknown
+                  - generic [ref=f20e626]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e627]: IPSOS mail
+              - row [ref=f20e628]:
+                - 'cell "No available releases found ipsos_modal Unknown Includes: IPSOS modal" [ref=f20e629]':
+                  - generic [ref=f20e630]: No available releases found
+                  - generic [ref=f20e632]: ipsos_modal Unknown
+                  - generic [ref=f20e633]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e634]: IPSOS modal
+              - row [ref=f20e635]:
+                - 'cell "No available releases found ipsos_search Unknown Includes: IPSOS search" [ref=f20e636]':
+                  - generic [ref=f20e637]: No available releases found
+                  - generic [ref=f20e639]: ipsos_search Unknown
+                  - generic [ref=f20e640]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e641]: IPSOS search
+              - row [ref=f20e642]:
+                - 'cell "No available releases found ipsos_site Unknown Includes: IPSOS site" [ref=f20e643]':
+                  - generic [ref=f20e644]: No available releases found
+                  - generic [ref=f20e646]: ipsos_site Unknown
+                  - generic [ref=f20e647]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e648]: IPSOS site
+              - row [ref=f20e649]:
+                - 'cell "Update available jQuery Deprecated Functions 1.0.4 Recommended version: 1.0.5 (2026-Sep-28) Release notes Includes: jQuery Deprecated functions" [ref=f20e650]':
+                  - generic [ref=f20e651]: Update available
+                  - generic [ref=f20e654]:
+                    - link "jQuery Deprecated Functions" [ref=f20e655] [cursor=pointer]:
+                      - /url: https://www.drupal.org/project/jquery_deprecated_functions
+                    - text: 1.0.4
+                  - generic [ref=f20e657]:
+                    - generic [ref=f20e658]: "Recommended version:"
+                    - generic [ref=f20e659]:
+                      - link "1.0.5" [ref=f20e660] [cursor=pointer]:
+                        - /url: https://www.drupal.org/project/jquery_deprecated_functions/releases/1.0.5
+                      - text: (2026-Sep-28)
+                    - list [ref=f20e662]:
+                      - listitem [ref=f20e663]:
+                        - link "Release notes" [ref=f20e664] [cursor=pointer]:
+                          - /url: https://www.drupal.org/project/jquery_deprecated_functions/releases/1.0.5
+                  - generic [ref=f20e665]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e666]: jQuery Deprecated functions
+              - row [ref=f20e667]:
+                - 'cell "No available releases found jquery_ui 8.x-1.8 Includes: jQuery UI" [ref=f20e668]':
+                  - generic [ref=f20e669]: No available releases found
+                  - generic [ref=f20e671]: jquery_ui 8.x-1.8
+                  - generic [ref=f20e672]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e673]: jQuery UI
+              - row [ref=f20e674]:
+                - 'cell "No available releases found jquery_ui_autocomplete 2.1.0 Includes: jQuery UI Autocomplete" [ref=f20e675]':
+                  - generic [ref=f20e676]: No available releases found
+                  - generic [ref=f20e678]: jquery_ui_autocomplete 2.1.0
+                  - generic [ref=f20e679]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e680]: jQuery UI Autocomplete
+              - row [ref=f20e681]:
+                - 'cell "No available releases found jquery_ui_datepicker 2.1.1 Includes: jQuery UI Datepicker" [ref=f20e682]':
+                  - generic [ref=f20e683]: No available releases found
+                  - generic [ref=f20e685]: jquery_ui_datepicker 2.1.1
+                  - generic [ref=f20e686]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e687]: jQuery UI Datepicker
+              - row [ref=f20e688]:
+                - 'cell "No available releases found jquery_ui_menu 2.1.0 Includes: jQuery UI Menu" [ref=f20e689]':
+                  - generic [ref=f20e690]: No available releases found
+                  - generic [ref=f20e692]: jquery_ui_menu 2.1.0
+                  - generic [ref=f20e693]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e694]: jQuery UI Menu
+              - row [ref=f20e695]:
+                - 'cell "No available releases found jquery_ui_slider 2.1.0 Includes: jQuery UI Slider" [ref=f20e696]':
+                  - generic [ref=f20e697]: No available releases found
+                  - generic [ref=f20e699]: jquery_ui_slider 2.1.0
+                  - generic [ref=f20e700]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e701]: jQuery UI Slider
+              - row [ref=f20e702]:
+                - 'cell "No available releases found jquery_ui_touch_punch 1.1.1 Includes: jQuery UI Touch Punch" [ref=f20e703]':
+                  - generic [ref=f20e704]: No available releases found
+                  - generic [ref=f20e706]: jquery_ui_touch_punch 1.1.1
+                  - generic [ref=f20e707]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e708]: jQuery UI Touch Punch
+              - row [ref=f20e709]:
+                - 'cell "No available releases found link_attributes 2.1.3 Includes: Enabled: Link attributes, Link attributes: Menu Link Content integration Disabled: Linkit attributes" [ref=f20e710]':
+                  - generic [ref=f20e711]: No available releases found
+                  - generic [ref=f20e713]: link_attributes 2.1.3
+                  - generic [ref=f20e714]:
+                    - text: "Includes:"
+                    - list [ref=f20e715]:
+                      - listitem [ref=f20e716]:
+                        - text: "Enabled:"
+                        - emphasis [ref=f20e717]: "Link attributes, Link attributes: Menu Link Content integration"
+                      - listitem [ref=f20e718]:
+                        - text: "Disabled:"
+                        - emphasis [ref=f20e719]: Linkit attributes
+              - row [ref=f20e720]:
+                - 'cell "No available releases found linkit 7.0.16 Includes: Linkit" [ref=f20e721]':
+                  - generic [ref=f20e722]: No available releases found
+                  - generic [ref=f20e724]: linkit 7.0.16
+                  - generic [ref=f20e725]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e726]: Linkit
+              - row [ref=f20e727]:
+                - 'cell "No available releases found mailsystem 8.x-4.5 Includes: Mail System" [ref=f20e728]':
+                  - generic [ref=f20e729]: No available releases found
+                  - generic [ref=f20e731]: mailsystem 8.x-4.5
+                  - generic [ref=f20e732]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e733]: Mail System
+              - row [ref=f20e734]:
+                - 'cell "No available releases found markup 2.0.1 Includes: Markup" [ref=f20e735]':
+                  - generic [ref=f20e736]: No available releases found
+                  - generic [ref=f20e738]: markup 2.0.1
+                  - generic [ref=f20e739]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e740]: Markup
+              - row [ref=f20e741]:
+                - 'cell "No available releases found mediaelement 2.0.3 Includes: MediaElement.js" [ref=f20e742]':
+                  - generic [ref=f20e743]: No available releases found
+                  - generic [ref=f20e745]: mediaelement 2.0.3
+                  - generic [ref=f20e746]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e747]: MediaElement.js
+              - row [ref=f20e748]:
+                - 'cell "No available releases found memcache 8.x-2.8 Includes: Enabled: Memcache Disabled: Memcache Admin" [ref=f20e749]':
+                  - generic [ref=f20e750]: No available releases found
+                  - generic [ref=f20e752]: memcache 8.x-2.8
+                  - generic [ref=f20e753]:
+                    - text: "Includes:"
+                    - list [ref=f20e754]:
+                      - listitem [ref=f20e755]:
+                        - text: "Enabled:"
+                        - emphasis [ref=f20e756]: Memcache
+                      - listitem [ref=f20e757]:
+                        - text: "Disabled:"
+                        - emphasis [ref=f20e758]: Memcache Admin
+              - row [ref=f20e759]:
+                - 'cell "No available releases found metatag 2.2.0 Includes: Enabled: Metatag, Metatag: Open Graph, Metatag: Twitter Cards Disabled: Metatag Custom Routes (Paths), Metatag Extended Permissions, Metatag: App Links, Metatag: Custom Tags, Metatag: Dublin Core, Metatag: Dublin Core Advanced, Metatag: Facebook, Metatag: Favicons, Metatag: Google Custom Search Engine (CSE), Metatag: Hreflang, Metatag: Mobile & UI Adjustments, Metatag: Open Graph Products, Metatag: Page Manager, Metatag: Pinterest, Metatag: Verification, Metatag: Views" [ref=f20e760]':
+                  - generic [ref=f20e761]: No available releases found
+                  - generic [ref=f20e763]: metatag 2.2.0
+                  - generic [ref=f20e764]:
+                    - text: "Includes:"
+                    - list [ref=f20e765]:
+                      - listitem [ref=f20e766]:
+                        - text: "Enabled:"
+                        - emphasis [ref=f20e767]: "Metatag, Metatag: Open Graph, Metatag: Twitter Cards"
+                      - listitem [ref=f20e768]:
+                        - text: "Disabled:"
+                        - emphasis [ref=f20e769]: "Metatag Custom Routes (Paths), Metatag Extended Permissions, Metatag: App Links, Metatag: Custom Tags, Metatag: Dublin Core, Metatag: Dublin Core Advanced, Metatag: Facebook, Metatag: Favicons, Metatag: Google Custom Search Engine (CSE), Metatag: Hreflang, Metatag: Mobile & UI Adjustments, Metatag: Open Graph Products, Metatag: Page Manager, Metatag: Pinterest, Metatag: Verification, Metatag: Views"
+              - row [ref=f20e770]:
+                - 'cell "No available releases found migrate_plus 6.0.10 Includes: Enabled: Migrate Plus Disabled: Migrate Example, Migrate Example (Advanced), Migrate JSON Example" [ref=f20e771]':
+                  - generic [ref=f20e772]: No available releases found
+                  - generic [ref=f20e774]: migrate_plus 6.0.10
+                  - generic [ref=f20e775]:
+                    - text: "Includes:"
+                    - list [ref=f20e776]:
+                      - listitem [ref=f20e777]:
+                        - text: "Enabled:"
+                        - emphasis [ref=f20e778]: Migrate Plus
+                      - listitem [ref=f20e779]:
+                        - text: "Disabled:"
+                        - emphasis [ref=f20e780]: Migrate Example, Migrate Example (Advanced), Migrate JSON Example
+              - row [ref=f20e781]:
+                - 'cell "No available releases found migrate_source_csv 8.x-3.8 Includes: Migrate Source CSV" [ref=f20e782]':
+                  - generic [ref=f20e783]: No available releases found
+                  - generic [ref=f20e785]: migrate_source_csv 8.x-3.8
+                  - generic [ref=f20e786]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e787]: Migrate Source CSV
+              - row [ref=f20e788]:
+                - 'cell "No available releases found module_filter 5.0.5 Includes: Module Filter" [ref=f20e789]':
+                  - generic [ref=f20e790]: No available releases found
+                  - generic [ref=f20e792]: module_filter 5.0.5
+                  - generic [ref=f20e793]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e794]: Module Filter
+              - row [ref=f20e795]:
+                - 'cell "No available releases found new_relic_rpm 2.2.0 Includes: New Relic RPM" [ref=f20e796]':
+                  - generic [ref=f20e797]: No available releases found
+                  - generic [ref=f20e799]: new_relic_rpm 2.2.0
+                  - generic [ref=f20e800]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e801]: New Relic RPM
+              - row [ref=f20e802]:
+                - 'cell "No available releases found node_noindex 2.0.1 Includes: Node Noindex" [ref=f20e803]':
+                  - generic [ref=f20e804]: No available releases found
+                  - generic [ref=f20e806]: node_noindex 2.0.1
+                  - generic [ref=f20e807]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e808]: Node Noindex
+              - row [ref=f20e809]:
+                - 'cell "No available releases found paragraphs 8.x-1.21 Includes: Enabled: Paragraphs Disabled: Paragraphs Demo, Paragraphs Library, Paragraphs Type Permissions" [ref=f20e810]':
+                  - generic [ref=f20e811]: No available releases found
+                  - generic [ref=f20e813]: paragraphs 8.x-1.21
+                  - generic [ref=f20e814]:
+                    - text: "Includes:"
+                    - list [ref=f20e815]:
+                      - listitem [ref=f20e816]:
+                        - text: "Enabled:"
+                        - emphasis [ref=f20e817]: Paragraphs
+                      - listitem [ref=f20e818]:
+                        - text: "Disabled:"
+                        - emphasis [ref=f20e819]: Paragraphs Demo, Paragraphs Library, Paragraphs Type Permissions
+              - row [ref=f20e820]:
+                - 'cell "No available releases found pathauto 8.x-1.15 Includes: Pathauto" [ref=f20e821]':
+                  - generic [ref=f20e822]: No available releases found
+                  - generic [ref=f20e824]: pathauto 8.x-1.15
+                  - generic [ref=f20e825]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e826]: Pathauto
+              - row [ref=f20e827]:
+                - 'cell "No available releases found purge 8.x-3.7 Includes: Core tags queuer, Late runtime processor, Purge, Purge Cron Processor, Purge Drush (Deprecated), Purge Tokens, Purge UI" [ref=f20e828]':
+                  - generic [ref=f20e829]: No available releases found
+                  - generic [ref=f20e831]: purge 8.x-3.7
+                  - generic [ref=f20e832]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e833]: Core tags queuer, Late runtime processor, Purge, Purge Cron Processor, Purge Drush (Deprecated), Purge Tokens, Purge UI
+              - row [ref=f20e834]:
+                - 'cell "No available releases found queue_ui 3.2.3 Includes: Queue UI" [ref=f20e835]':
+                  - generic [ref=f20e836]: No available releases found
+                  - generic [ref=f20e838]: queue_ui 3.2.3
+                  - generic [ref=f20e839]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e840]: Queue UI
+              - row [ref=f20e841]:
+                - 'cell "No available releases found recaptcha 8.x-3.5 Includes: reCAPTCHA" [ref=f20e842]':
+                  - generic [ref=f20e843]: No available releases found
+                  - generic [ref=f20e845]: recaptcha 8.x-3.5
+                  - generic [ref=f20e846]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e847]: reCAPTCHA
+              - row [ref=f20e848]:
+                - 'cell "No available releases found recaptcha_v3 2.0.5 Includes: reCAPTCHA v3" [ref=f20e849]':
+                  - generic [ref=f20e850]: No available releases found
+                  - generic [ref=f20e852]: recaptcha_v3 2.0.5
+                  - generic [ref=f20e853]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e854]: reCAPTCHA v3
+              - row [ref=f20e855]:
+                - 'cell "No available releases found redirect 8.x-1.13 Includes: Enabled: Redirect, Redirect 404 Disabled: Redirect Domain" [ref=f20e856]':
+                  - generic [ref=f20e857]: No available releases found
+                  - generic [ref=f20e859]: redirect 8.x-1.13
+                  - generic [ref=f20e860]:
+                    - text: "Includes:"
+                    - list [ref=f20e861]:
+                      - listitem [ref=f20e862]:
+                        - text: "Enabled:"
+                        - emphasis [ref=f20e863]: Redirect, Redirect 404
+                      - listitem [ref=f20e864]:
+                        - text: "Disabled:"
+                        - emphasis [ref=f20e865]: Redirect Domain
+              - row [ref=f20e866]:
+                - 'cell "No available releases found reroute_email 2.3.0-rc2 Includes: Enabled: Reroute Email Disabled: Reroute Email (Symfony Mailer support)" [ref=f20e867]':
+                  - generic [ref=f20e868]: No available releases found
+                  - generic [ref=f20e870]: reroute_email 2.3.0-rc2
+                  - generic [ref=f20e871]:
+                    - text: "Includes:"
+                    - list [ref=f20e872]:
+                      - listitem [ref=f20e873]:
+                        - text: "Enabled:"
+                        - emphasis [ref=f20e874]: Reroute Email
+                      - listitem [ref=f20e875]:
+                        - text: "Disabled:"
+                        - emphasis [ref=f20e876]: Reroute Email (Symfony Mailer support)
+              - row [ref=f20e877]:
+                - 'cell "No available releases found responsive_image_class 1.0.3 Includes: Responsive image class" [ref=f20e878]':
+                  - generic [ref=f20e879]: No available releases found
+                  - generic [ref=f20e881]: responsive_image_class 1.0.3
+                  - generic [ref=f20e882]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e883]: Responsive image class
+              - row [ref=f20e884]:
+                - 'cell "No available releases found scheduler 2.3.0 Includes: Enabled: Scheduler Disabled: Scheduler Rules Integration" [ref=f20e885]':
+                  - generic [ref=f20e886]: No available releases found
+                  - generic [ref=f20e888]: scheduler 2.3.0
+                  - generic [ref=f20e889]:
+                    - text: "Includes:"
+                    - list [ref=f20e890]:
+                      - listitem [ref=f20e891]:
+                        - text: "Enabled:"
+                        - emphasis [ref=f20e892]: Scheduler
+                      - listitem [ref=f20e893]:
+                        - text: "Disabled:"
+                        - emphasis [ref=f20e894]: Scheduler Rules Integration
+              - row [ref=f20e895]:
+                - 'cell "No available releases found scheduler_field 1.0.1 Includes: Scheduler field" [ref=f20e896]':
+                  - generic [ref=f20e897]: No available releases found
+                  - generic [ref=f20e899]: scheduler_field 1.0.1
+                  - generic [ref=f20e900]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e901]: Scheduler field
+              - row [ref=f20e902]:
+                - 'cell "No available releases found search_api 8.x-1.41 Includes: Enabled: Database Search, Search API Disabled: Database Search Defaults" [ref=f20e903]':
+                  - generic [ref=f20e904]: No available releases found
+                  - generic [ref=f20e906]: search_api 8.x-1.41
+                  - generic [ref=f20e907]:
+                    - text: "Includes:"
+                    - list [ref=f20e908]:
+                      - listitem [ref=f20e909]:
+                        - text: "Enabled:"
+                        - emphasis [ref=f20e910]: Database Search, Search API
+                      - listitem [ref=f20e911]:
+                        - text: "Disabled:"
+                        - emphasis [ref=f20e912]: Database Search Defaults
+              - row [ref=f20e913]:
+                - 'cell "No available releases found search_api_exclude 2.0.3 Includes: Search API Exclude" [ref=f20e914]':
+                  - generic [ref=f20e915]: No available releases found
+                  - generic [ref=f20e917]: search_api_exclude 2.0.3
+                  - generic [ref=f20e918]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e919]: Search API Exclude
+              - row [ref=f20e920]:
+                - 'cell "No available releases found search_api_solr 4.3.10 Includes: Enabled: Search API Solr, Search API Solr Admin Disabled: Search API Solr Autocomplete, Search API Solr Devel, Search API Solr Legacy, Search API Solr Log" [ref=f20e921]':
+                  - generic [ref=f20e922]: No available releases found
+                  - generic [ref=f20e924]: search_api_solr 4.3.10
+                  - generic [ref=f20e925]:
+                    - text: "Includes:"
+                    - list [ref=f20e926]:
+                      - listitem [ref=f20e927]:
+                        - text: "Enabled:"
+                        - emphasis [ref=f20e928]: Search API Solr, Search API Solr Admin
+                      - listitem [ref=f20e929]:
+                        - text: "Disabled:"
+                        - emphasis [ref=f20e930]: Search API Solr Autocomplete, Search API Solr Devel, Search API Solr Legacy, Search API Solr Log
+              - row [ref=f20e931]:
+                - 'cell "No available releases found search_api_sorts 8.x-1.2 Includes: Search API Sorts" [ref=f20e932]':
+                  - generic [ref=f20e933]: No available releases found
+                  - generic [ref=f20e935]: search_api_sorts 8.x-1.2
+                  - generic [ref=f20e936]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e937]: Search API Sorts
+              - row [ref=f20e938]:
+                - 'cell "Update available SearchStax Studio – Site Search 1.12.0 Recommended version: 1.14.0 (2026-Oct-15) Release notes Includes: Enabled: SearchStax Disabled: Solr to SearchStax Site Search Migration" [ref=f20e939]':
+                  - generic [ref=f20e940]: Update available
+                  - generic [ref=f20e943]:
+                    - link "SearchStax Studio – Site Search" [ref=f20e944] [cursor=pointer]:
+                      - /url: https://www.drupal.org/project/searchstax
+                    - text: 1.12.0
+                  - generic [ref=f20e946]:
+                    - generic [ref=f20e947]: "Recommended version:"
+                    - generic [ref=f20e948]:
+                      - link "1.14.0" [ref=f20e949] [cursor=pointer]:
+                        - /url: https://www.drupal.org/project/searchstax/releases/1.14.0
+                      - text: (2026-Oct-15)
+                    - list [ref=f20e951]:
+                      - listitem [ref=f20e952]:
+                        - link "Release notes" [ref=f20e953] [cursor=pointer]:
+                          - /url: https://www.drupal.org/project/searchstax/releases/1.14.0
+                  - generic [ref=f20e954]:
+                    - text: "Includes:"
+                    - list [ref=f20e955]:
+                      - listitem [ref=f20e956]:
+                        - text: "Enabled:"
+                        - emphasis [ref=f20e957]: SearchStax
+                      - listitem [ref=f20e958]:
+                        - text: "Disabled:"
+                        - emphasis [ref=f20e959]: Solr to SearchStax Site Search Migration
+              - row [ref=f20e960]:
+                - 'cell "Up to date Security Kit 2.0.3 Includes: Security Kit" [ref=f20e961]':
+                  - generic [ref=f20e962]: Up to date
+                  - generic [ref=f20e965]:
+                    - link "Security Kit" [ref=f20e966] [cursor=pointer]:
+                      - /url: https://www.drupal.org/project/seckit
+                    - text: 2.0.3
+                  - generic [ref=f20e967]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e968]: Security Kit
+              - row [ref=f20e969]:
+                - 'cell "No available releases found simple_mail 2.0.2 Includes: Simple Mail" [ref=f20e970]':
+                  - generic [ref=f20e971]: No available releases found
+                  - generic [ref=f20e973]: simple_mail 2.0.2
+                  - generic [ref=f20e974]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e975]: Simple Mail
+              - row [ref=f20e976]:
+                - 'cell "No available releases found stage_file_proxy 3.1.6 Includes: Stage File Proxy" [ref=f20e977]':
+                  - generic [ref=f20e978]: No available releases found
+                  - generic [ref=f20e980]: stage_file_proxy 3.1.6
+                  - generic [ref=f20e981]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e982]: Stage File Proxy
+              - row [ref=f20e983]:
+                - 'cell "No available releases found symfony_mailer 1.6.2 Includes: Enabled: Drupal Symfony Mailer, Mailer Transport Disabled: Drupal Symfony Mailer Override" [ref=f20e984]':
+                  - generic [ref=f20e985]: No available releases found
+                  - generic [ref=f20e987]: symfony_mailer 1.6.2
+                  - generic [ref=f20e988]:
+                    - text: "Includes:"
+                    - list [ref=f20e989]:
+                      - listitem [ref=f20e990]:
+                        - text: "Enabled:"
+                        - emphasis [ref=f20e991]: Drupal Symfony Mailer, Mailer Transport
+                      - listitem [ref=f20e992]:
+                        - text: "Disabled:"
+                        - emphasis [ref=f20e993]: Drupal Symfony Mailer Override
+              - row [ref=f20e994]:
+                - 'cell "No available releases found taxonomy_access_fix 4.0.2 Includes: Taxonomy Access Fix" [ref=f20e995]':
+                  - generic [ref=f20e996]: No available releases found
+                  - generic [ref=f20e998]: taxonomy_access_fix 4.0.2
+                  - generic [ref=f20e999]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e1000]: Taxonomy Access Fix
+              - row [ref=f20e1001]:
+                - 'cell "No available releases found tmgmt 8.x-1.18 Includes: Enabled: Config Entity Source, Content Entity Source, Locales Source, Translation Management Core Disabled: Drupal user, Export / Import File, Translation Language abilities, Translation Management Demo" [ref=f20e1002]':
+                  - generic [ref=f20e1003]: No available releases found
+                  - generic [ref=f20e1005]: tmgmt 8.x-1.18
+                  - generic [ref=f20e1006]:
+                    - text: "Includes:"
+                    - list [ref=f20e1007]:
+                      - listitem [ref=f20e1008]:
+                        - text: "Enabled:"
+                        - emphasis [ref=f20e1009]: Config Entity Source, Content Entity Source, Locales Source, Translation Management Core
+                      - listitem [ref=f20e1010]:
+                        - text: "Disabled:"
+                        - emphasis [ref=f20e1011]: Drupal user, Export / Import File, Translation Language abilities, Translation Management Demo
+              - row [ref=f20e1012]:
+                - 'cell "No available releases found tmgmt_google 8.x-1.2 Includes: Google Translator" [ref=f20e1013]':
+                  - generic [ref=f20e1014]: No available releases found
+                  - generic [ref=f20e1016]: tmgmt_google 8.x-1.2
+                  - generic [ref=f20e1017]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e1018]: Google Translator
+              - row [ref=f20e1019]:
+                - 'cell "No available releases found token 8.x-1.17 Includes: Token" [ref=f20e1020]':
+                  - generic [ref=f20e1021]: No available releases found
+                  - generic [ref=f20e1023]: token 8.x-1.17
+                  - generic [ref=f20e1024]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e1025]: Token
+              - row [ref=f20e1026]:
+                - 'cell "Up to date Tour 2.0.17 Also available: 3.0.0 (2026-Jun-30) Release notes Includes: Enabled: Tour Disabled: Tourauto" [ref=f20e1027]':
+                  - generic [ref=f20e1028]: Up to date
+                  - generic [ref=f20e1031]:
+                    - link "Tour" [ref=f20e1032] [cursor=pointer]:
+                      - /url: https://www.drupal.org/project/tour
+                    - text: 2.0.17
+                  - generic [ref=f20e1034]:
+                    - generic [ref=f20e1035]: "Also available:"
+                    - generic [ref=f20e1036]:
+                      - link "3.0.0" [ref=f20e1037] [cursor=pointer]:
+                        - /url: https://www.drupal.org/project/tour/releases/3.0.0
+                      - text: (2026-Jun-30)
+                    - list [ref=f20e1039]:
+                      - listitem [ref=f20e1040]:
+                        - link "Release notes" [ref=f20e1041] [cursor=pointer]:
+                          - /url: https://www.drupal.org/project/tour/releases/3.0.0
+                  - generic [ref=f20e1042]:
+                    - text: "Includes:"
+                    - list [ref=f20e1043]:
+                      - listitem [ref=f20e1044]:
+                        - text: "Enabled:"
+                        - emphasis [ref=f20e1045]: Tour
+                      - listitem [ref=f20e1046]:
+                        - text: "Disabled:"
+                        - emphasis [ref=f20e1047]: Tourauto
+              - row [ref=f20e1048]:
+                - 'cell "No available releases found twig_tweak 3.4.2 Includes: Twig Tweak" [ref=f20e1049]':
+                  - generic [ref=f20e1050]: No available releases found
+                  - generic [ref=f20e1052]: twig_tweak 3.4.2
+                  - generic [ref=f20e1053]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e1054]: Twig Tweak
+              - row [ref=f20e1055]:
+                - 'cell "No available releases found twitter_block 4.0.0 Includes: Twitter Block" [ref=f20e1056]':
+                  - generic [ref=f20e1057]: No available releases found
+                  - generic [ref=f20e1059]: twitter_block 4.0.0
+                  - generic [ref=f20e1060]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e1061]: Twitter Block
+              - row [ref=f20e1062]:
+                - 'cell "No available releases found ultimate_cron 8.x-2.0-beta1 Includes: Ultimate Cron" [ref=f20e1063]':
+                  - generic [ref=f20e1064]: No available releases found
+                  - generic [ref=f20e1066]: ultimate_cron 8.x-2.0-beta1
+                  - generic [ref=f20e1067]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e1068]: Ultimate Cron
+              - row [ref=f20e1069]:
+                - 'cell "No available releases found video_embed_field 3.1.0 Includes: Enabled: Video Embed Field Disabled: Video Embed Media, Video Embed Media - Migrate to core oEmbed, Video Embed WYSIWYG" [ref=f20e1070]':
+                  - generic [ref=f20e1071]: No available releases found
+                  - generic [ref=f20e1073]: video_embed_field 3.1.0
+                  - generic [ref=f20e1074]:
+                    - text: "Includes:"
+                    - list [ref=f20e1075]:
+                      - listitem [ref=f20e1076]:
+                        - text: "Enabled:"
+                        - emphasis [ref=f20e1077]: Video Embed Field
+                      - listitem [ref=f20e1078]:
+                        - text: "Disabled:"
+                        - emphasis [ref=f20e1079]: Video Embed Media, Video Embed Media - Migrate to core oEmbed, Video Embed WYSIWYG
+              - row [ref=f20e1080]:
+                - 'cell "No available releases found view_unpublished 8.x-1.5 Includes: View Unpublished" [ref=f20e1081]':
+                  - generic [ref=f20e1082]: No available releases found
+                  - generic [ref=f20e1084]: view_unpublished 8.x-1.5
+                  - generic [ref=f20e1085]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e1086]: View Unpublished
+              - row [ref=f20e1087]:
+                - 'cell "No available releases found viewfield 8.x-3.0-beta11 Includes: Viewfield" [ref=f20e1088]':
+                  - generic [ref=f20e1089]: No available releases found
+                  - generic [ref=f20e1091]: viewfield 8.x-3.0-beta11
+                  - generic [ref=f20e1092]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e1093]: Viewfield
+              - row [ref=f20e1094]:
+                - 'cell "No available releases found views_autocomplete_filters 2.0.3 Includes: Views Autocomplete Filters" [ref=f20e1095]':
+                  - generic [ref=f20e1096]: No available releases found
+                  - generic [ref=f20e1098]: views_autocomplete_filters 2.0.3
+                  - generic [ref=f20e1099]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e1100]: Views Autocomplete Filters
+              - row [ref=f20e1101]:
+                - 'cell "No available releases found views_data_export 8.x-1.10 Includes: Views Data Export" [ref=f20e1102]':
+                  - generic [ref=f20e1103]: No available releases found
+                  - generic [ref=f20e1105]: views_data_export 8.x-1.10
+                  - generic [ref=f20e1106]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e1107]: Views Data Export
+              - row [ref=f20e1108]:
+                - 'cell "No available releases found weight 8.x-3.6 Includes: Weight" [ref=f20e1109]':
+                  - generic [ref=f20e1110]: No available releases found
+                  - generic [ref=f20e1112]: weight 8.x-3.6
+                  - generic [ref=f20e1113]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e1114]: Weight
+              - row [ref=f20e1115]:
+                - 'cell "No available releases found xls_serialization 2.1.1 Includes: Enabled: Serialization (Excel) Disabled: Serialization (Excel using OpenSpout library)" [ref=f20e1116]':
+                  - generic [ref=f20e1117]: No available releases found
+                  - generic [ref=f20e1119]: xls_serialization 2.1.1
+                  - generic [ref=f20e1120]:
+                    - text: "Includes:"
+                    - list [ref=f20e1121]:
+                      - listitem [ref=f20e1122]:
+                        - text: "Enabled:"
+                        - emphasis [ref=f20e1123]: Serialization (Excel)
+                      - listitem [ref=f20e1124]:
+                        - text: "Disabled:"
+                        - emphasis [ref=f20e1125]: Serialization (Excel using OpenSpout library)
+              - row [ref=f20e1126]:
+                - 'cell "No available releases found xmlsitemap 2.0.0 Includes: Enabled: XML Sitemap, XML Sitemap Custom Disabled: XML Sitemap Engines" [ref=f20e1127]':
+                  - generic [ref=f20e1128]: No available releases found
+                  - generic [ref=f20e1130]: xmlsitemap 2.0.0
+                  - generic [ref=f20e1131]:
+                    - text: "Includes:"
+                    - list [ref=f20e1132]:
+                      - listitem [ref=f20e1133]:
+                        - text: "Enabled:"
+                        - emphasis [ref=f20e1134]: XML Sitemap, XML Sitemap Custom
+                      - listitem [ref=f20e1135]:
+                        - text: "Disabled:"
+                        - emphasis [ref=f20e1136]: XML Sitemap Engines
+          - heading "Themes" [level=3] [ref=f20e1137]
+          - table [ref=f20e1139]:
+            - rowgroup [ref=f20e1140]:
+              - row [ref=f20e1141]:
+                - 'cell "No available releases found gin 5.0.16 Includes: Gin" [ref=f20e1142]':
+                  - generic [ref=f20e1143]: No available releases found
+                  - generic [ref=f20e1145]: gin 5.0.16
+                  - generic [ref=f20e1146]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e1147]: Gin
+          - heading "Uninstalled modules" [level=3] [ref=f20e1148]
+          - table [ref=f20e1150]:
+            - rowgroup [ref=f20e1151]:
+              - row [ref=f20e1152]:
+                - 'cell "No available releases found advagg 6.0.0-alpha1 Includes: AdvAgg Bundler, AdvAgg CSS/JS Validator, AdvAgg External Minification, AdvAgg Minify CSS, AdvAgg Minify JavaScript, AdvAgg Modifier, Advanced CSS/JS Aggregation" [ref=f20e1153]':
+                  - generic [ref=f20e1154]: No available releases found
+                  - generic [ref=f20e1156]: advagg 6.0.0-alpha1
+                  - generic [ref=f20e1157]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e1158]: AdvAgg Bundler, AdvAgg CSS/JS Validator, AdvAgg External Minification, AdvAgg Minify CSS, AdvAgg Minify JavaScript, AdvAgg Modifier, Advanced CSS/JS Aggregation
+              - row [ref=f20e1159]:
+                - cell [ref=f20e1160]:
+                  - generic [ref=f20e1161]: No available releases found
+                  - generic [ref=f20e1163]: ckeditor5_premium_features 1.8.2
+                  - generic [ref=f20e1164]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e1165]: CKEditor 5 Full-screen Mode (legacy), CKEditor 5 Premium Features, CKEditor 5 Premium Features AI Assistant, CKEditor 5 Premium Features CKEditor AI, CKEditor 5 Premium Features Cloud Services, CKEditor 5 Premium Features Email Editing, CKEditor 5 Premium Features Export to PDF, CKEditor 5 Premium Features Export to Word, CKEditor 5 Premium Features Footnotes, CKEditor 5 Premium Features Import from Word, CKEditor 5 Premium Features Line Height, CKEditor 5 Premium Features Mentions, CKEditor 5 Premium Features Merge Fields, CKEditor 5 Premium Features Multi-level Lists, CKEditor 5 Premium Features Non-realtime Collaboration, CKEditor 5 Premium Features Notifications, CKEditor 5 Premium Features Productivity Pack, CKEditor 5 Premium Features Real-time Collaboration, CKEditor 5 Premium Features Source Editing Enhanced, CKEditor 5 Premium Features WProofreader, CKEditor 5 Version Override (Advanced)
+              - row [ref=f20e1166]:
+                - 'cell "No available releases found devel 5.5.0 Includes: Devel, Devel Generate" [ref=f20e1167]':
+                  - generic [ref=f20e1168]: No available releases found
+                  - generic [ref=f20e1170]: devel 5.5.0
+                  - generic [ref=f20e1171]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e1172]: Devel, Devel Generate
+              - row [ref=f20e1173]:
+                - 'cell "No available releases found devel_entity_updates 5.0.0 Includes: Devel Entity Updates" [ref=f20e1174]':
+                  - generic [ref=f20e1175]: No available releases found
+                  - generic [ref=f20e1177]: devel_entity_updates 5.0.0
+                  - generic [ref=f20e1178]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e1179]: Devel Entity Updates
+              - row [ref=f20e1180]:
+                - 'cell "Up to date Node Access Rebuild Progressive 2.1.0 Includes: Node Access Rebuild Progressive" [ref=f20e1181]':
+                  - generic [ref=f20e1182]: Up to date
+                  - generic [ref=f20e1185]:
+                    - link "Node Access Rebuild Progressive" [ref=f20e1186] [cursor=pointer]:
+                      - /url: https://www.drupal.org/project/node_access_rebuild_progressive
+                    - text: 2.1.0
+                  - generic [ref=f20e1187]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e1188]: Node Access Rebuild Progressive
+              - row [ref=f20e1189]:
+                - 'cell "No available releases found twig_xdebug 8.x-1.4 Includes: Twig Xdebug" [ref=f20e1190]':
+                  - generic [ref=f20e1191]: No available releases found
+                  - generic [ref=f20e1193]: twig_xdebug 8.x-1.4
+                  - generic [ref=f20e1194]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e1195]: Twig Xdebug
+              - row [ref=f20e1196]:
+                - 'cell "Up to date Upgrade Status 4.3.10 Also available: 5.0.0-alpha3 (2026-Jul-02) Release notes Includes: Upgrade Status" [ref=f20e1197]':
+                  - generic [ref=f20e1198]: Up to date
+                  - generic [ref=f20e1201]:
+                    - link "Upgrade Status" [ref=f20e1202] [cursor=pointer]:
+                      - /url: https://www.drupal.org/project/upgrade_status
+                    - text: 4.3.10
+                  - generic [ref=f20e1204]:
+                    - generic [ref=f20e1205]: "Also available:"
+                    - generic [ref=f20e1206]:
+                      - link "5.0.0-alpha3" [ref=f20e1207] [cursor=pointer]:
+                        - /url: https://www.drupal.org/project/upgrade_status/releases/5.0.0-alpha3
+                      - text: (2026-Jul-02)
+                    - list [ref=f20e1209]:
+                      - listitem [ref=f20e1210]:
+                        - link "Release notes" [ref=f20e1211] [cursor=pointer]:
+                          - /url: https://www.drupal.org/project/upgrade_status/releases/5.0.0-alpha3
+                  - generic [ref=f20e1212]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e1213]: Upgrade Status
+          - heading "Uninstalled themes" [level=3] [ref=f20e1214]
+          - table [ref=f20e1216]:
+            - rowgroup [ref=f20e1217]:
+              - row [ref=f20e1218]:
+                - 'cell "No available releases found adminimal_theme 8.x-1.6 Includes: Adminimal" [ref=f20e1219]':
+                  - generic [ref=f20e1220]: No available releases found
+                  - generic [ref=f20e1222]: adminimal_theme 8.x-1.6
+                  - generic [ref=f20e1223]:
+                    - text: "Includes:"
+                    - emphasis [ref=f20e1224]: Adminimal
+  - status [ref=f20e1226]

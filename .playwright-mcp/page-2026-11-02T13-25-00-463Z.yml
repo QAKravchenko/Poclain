@@ -1,0 +1,3273 @@
+- generic [ref=f19e1]:
+  - link "Skip to main content" [ref=f19e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - group "Site administration toolbar" [ref=f19e3]:
+    - navigation "Toolbar items" [ref=f19e4]:
+      - heading "Toolbar items" [level=2] [ref=f19e5]
+      - navigation "Administration menu" [ref=f19e7]:
+        - heading "Administration menu" [level=3] [ref=f19e8]
+        - list [ref=f19e10]:
+          - listitem [ref=f19e11]:
+            - link "Drupal" [ref=f19e12] [cursor=pointer]:
+              - /url: /en
+          - listitem [ref=f19e13]:
+            - link "Content" [ref=f19e14] [cursor=pointer]:
+              - /url: /en/admin/content
+          - listitem [ref=f19e15]:
+            - link "Structure" [ref=f19e16] [cursor=pointer]:
+              - /url: /en/admin/structure
+          - listitem [ref=f19e17]:
+            - link "Appearance" [ref=f19e18] [cursor=pointer]:
+              - /url: /en/admin/appearance
+          - listitem [ref=f19e19]:
+            - link "Extend" [ref=f19e20] [cursor=pointer]:
+              - /url: /en/admin/modules
+          - listitem [ref=f19e21]:
+            - link "Translation" [ref=f19e22] [cursor=pointer]:
+              - /url: /en/admin/tmgmt
+          - listitem [ref=f19e23]:
+            - link "People" [ref=f19e24] [cursor=pointer]:
+              - /url: /en/admin/people
+          - listitem [ref=f19e25]:
+            - link "Reports" [ref=f19e26] [cursor=pointer]:
+              - /url: /en/admin/reports
+          - listitem [ref=f19e27]:
+            - link "Configuration" [ref=f19e28] [cursor=pointer]:
+              - /url: /en/admin/config
+          - listitem [ref=f19e29]:
+            - link "Help" [ref=f19e30] [cursor=pointer]:
+              - /url: /en/admin/help
+  - generic [ref=f19e31]:
+    - generic [ref=f19e32]:
+      - navigation [ref=f19e36]:
+        - heading "Breadcrumb" [level=2] [ref=f19e37]
+        - list [ref=f19e38]:
+          - listitem:
+            - link "Back to site" [ref=f19e39] [cursor=pointer]:
+              - /url: https://ipsosdev.prod.acquia-sites.com/en/user/1?check_logged_in=1
+          - listitem:
+            - link "Administration" [ref=f19e40] [cursor=pointer]:
+              - /url: /en/admin
+      - navigation "Toolbar items" [ref=f19e42]:
+        - heading "Toolbar items" [level=2] [ref=f19e43]
+        - generic:
+          - generic:
+            - navigation
+        - button "Shortcuts" [ref=f19e45] [cursor=pointer]
+        - generic:
+          - generic:
+            - navigation
+        - generic [ref=f19e46]:
+          - button "No tour available for this page." [disabled] [ref=f19e47]
+          - generic:
+            - navigation
+        - button "(21e71adbabceb14e07d20911622496cbd06e9d08-from-scratch) DEV" [ref=f19e49] [cursor=pointer]
+        - generic [ref=f19e50]:
+          - 'link "Shares: 440" [ref=f19e51] [cursor=pointer]':
+            - /url: /en/admin/modules
+          - generic:
+            - navigation
+        - generic [ref=f19e52]:
+          - link "Subscription active" [ref=f19e53] [cursor=pointer]:
+            - /url: https://cloud.acquia.com/app/develop/applications/cc6e9cd4-12e8-41ce-97ac-5a78f2f1a360
+          - generic:
+            - navigation
+        - button "drupal" [ref=f19e55] [cursor=pointer]
+    - banner [ref=f19e56]
+    - heading "Extend" [level=1] [ref=f19e62]
+    - generic [ref=f19e63]:
+      - generic [ref=f19e65]:
+        - heading "Primary tabs" [level=2] [ref=f19e66]
+        - navigation "Primary tabs" [ref=f19e67]:
+          - list [ref=f19e68]:
+            - listitem [ref=f19e69]:
+              - link "List" [ref=f19e70] [cursor=pointer]:
+                - /url: /en/admin/modules
+            - listitem [ref=f19e71]:
+              - link "Uninstall" [ref=f19e72] [cursor=pointer]:
+                - /url: /en/admin/modules/uninstall
+      - main [ref=f19e73]:
+        - generic [ref=f19e77]:
+          - contentinfo [ref=f19e78]:
+            - heading "Warning message" [level=2] [ref=f19e80]
+            - list [ref=f19e82]:
+              - listitem [ref=f19e83]:
+                - text: There are errors with some installed modules. Visit the
+                - link "status report page" [ref=f19e84] [cursor=pointer]:
+                  - /url: /en/admin/reports/status
+                - text: for more information.
+              - listitem [ref=f19e85]:
+                - text: No update information available.
+                - link "Run cron" [ref=f19e86] [cursor=pointer]:
+                  - /url: /en/admin/reports/status/run-cron?destination=/en/admin/modules&token=QJoWTyS5Bcf8KP_gvhmjUwm-s1rlrvSqL3XHgVsxEKQ
+                - text: or
+                - link "check manually" [ref=f19e87] [cursor=pointer]:
+                  - /url: /en/admin/reports/updates/check?destination=/en/admin/modules&token=CBZRlulFTH8gW_6DOzzFPvANhv3hgZZGZgPlEhP9noY
+                - text: .
+            - button "Hide" [ref=f19e88] [cursor=pointer]
+          - contentinfo [ref=f19e90]:
+            - heading "Error message" [level=2] [ref=f19e92]
+            - generic [ref=f19e93]:
+              - text: The content access permissions need to be rebuilt.
+              - link "Rebuild permissions" [ref=f19e94] [cursor=pointer]:
+                - /url: /en/admin/reports/status/rebuild
+              - text: .
+            - button "Hide" [ref=f19e95] [cursor=pointer]
+        - complementary [ref=f19e99]:
+          - paragraph [ref=f19e100]:
+            - text: Add
+            - link "contributed modules" [ref=f19e101] [cursor=pointer]:
+              - /url: https://www.drupal.org/project/project_module
+            - text: to extend your site's functionality.
+          - paragraph [ref=f19e102]:
+            - text: Regularly review
+            - link "available updates" [ref=f19e103] [cursor=pointer]:
+              - /url: /en/admin/reports/updates
+            - text: and update as required to maintain a secure and current site. Always run the
+            - link "update script" [ref=f19e104] [cursor=pointer]:
+              - /url: /update.php
+            - text: each time you update software.
+        - generic [ref=f19e107]:
+          - list [ref=f19e108]:
+            - listitem [ref=f19e109]:
+              - link "All modules 213 of 367" [ref=f19e110] [cursor=pointer]:
+                - /url: "#all"
+                - strong [ref=f19e111]: All modules
+                - generic [ref=f19e112]: 213 of 367
+            - listitem [ref=f19e113]:
+              - link "Recently enabled No modules installed or uninstalled within the last week.":
+                - /url: "#recent"
+                - strong: Recently enabled
+                - generic: No modules installed or uninstalled within the last week.
+            - listitem [ref=f19e114]:
+              - link [ref=f19e115] [cursor=pointer]:
+                - /url: "#new"
+                - strong [ref=f19e116]: Newly available
+            - listitem [ref=f19e117]:
+              - link [ref=f19e118] [cursor=pointer]:
+                - /url: "#edit-modules-core"
+                - strong [ref=f19e119]: Core
+            - listitem [ref=f19e120]:
+              - link [ref=f19e121] [cursor=pointer]:
+                - /url: "#edit-modules-acquia"
+                - strong [ref=f19e122]: Acquia
+            - listitem [ref=f19e123]:
+              - link [ref=f19e124] [cursor=pointer]:
+                - /url: "#edit-modules-administration"
+                - strong [ref=f19e125]: Administration
+            - listitem [ref=f19e126]:
+              - link [ref=f19e127] [cursor=pointer]:
+                - /url: "#edit-modules-advanced-cssjs-aggregation"
+                - strong [ref=f19e128]: Advanced CSS/JS Aggregation
+            - listitem [ref=f19e129]:
+              - link [ref=f19e130] [cursor=pointer]:
+                - /url: "#edit-modules-chaos-tool-suite"
+                - strong [ref=f19e131]: Chaos tool suite
+            - listitem [ref=f19e132]:
+              - link [ref=f19e133] [cursor=pointer]:
+                - /url: "#edit-modules-chaos-tool-suite-experimental"
+                - strong [ref=f19e134]: Chaos tool suite (Experimental)
+            - listitem [ref=f19e135]:
+              - link [ref=f19e136] [cursor=pointer]:
+                - /url: "#edit-modules-ckeditor"
+                - strong [ref=f19e137]: CKEditor
+            - listitem [ref=f19e138]:
+              - link [ref=f19e139] [cursor=pointer]:
+                - /url: "#edit-modules-ckeditor-5"
+                - strong [ref=f19e140]: CKEditor 5
+            - listitem [ref=f19e141]:
+              - link [ref=f19e142] [cursor=pointer]:
+                - /url: "#edit-modules-ckeditor-5-plugin-pack"
+                - strong [ref=f19e143]: CKEditor 5 Plugin Pack
+            - listitem [ref=f19e144]:
+              - link [ref=f19e145] [cursor=pointer]:
+                - /url: "#edit-modules-ckeditor-5-premium-features"
+                - strong [ref=f19e146]: CKEditor 5 Premium Features
+            - listitem [ref=f19e147]:
+              - link [ref=f19e148] [cursor=pointer]:
+                - /url: "#edit-modules-config"
+                - strong [ref=f19e149]: Config
+            - listitem [ref=f19e150]:
+              - link [ref=f19e151] [cursor=pointer]:
+                - /url: "#edit-modules-content"
+                - strong [ref=f19e152]: Content
+            - listitem [ref=f19e153]:
+              - link [ref=f19e154] [cursor=pointer]:
+                - /url: "#edit-modules-core-experimental"
+                - strong [ref=f19e155]: Core (Experimental)
+            - listitem [ref=f19e156]:
+              - link [ref=f19e157] [cursor=pointer]:
+                - /url: "#edit-modules-custom"
+                - strong [ref=f19e158]: Custom
+            - listitem [ref=f19e159]:
+              - link [ref=f19e160] [cursor=pointer]:
+                - /url: "#edit-modules-development"
+                - strong [ref=f19e161]: Development
+            - listitem [ref=f19e162]:
+              - link [ref=f19e163] [cursor=pointer]:
+                - /url: "#edit-modules-domain"
+                - strong [ref=f19e164]: Domain
+            - listitem [ref=f19e165]:
+              - link [ref=f19e166] [cursor=pointer]:
+                - /url: "#edit-modules-drupal-helper"
+                - strong [ref=f19e167]: Drupal helper
+            - listitem [ref=f19e168]:
+              - link [ref=f19e169] [cursor=pointer]:
+                - /url: "#edit-modules-examples"
+                - strong [ref=f19e170]: Examples
+            - listitem [ref=f19e171]:
+              - link [ref=f19e172] [cursor=pointer]:
+                - /url: "#edit-modules-field-2"
+                - strong [ref=f19e173]: Field
+            - listitem [ref=f19e174]:
+              - link [ref=f19e175] [cursor=pointer]:
+                - /url: "#edit-modules-fields"
+                - strong [ref=f19e176]: Fields
+            - listitem [ref=f19e177]:
+              - link [ref=f19e178] [cursor=pointer]:
+                - /url: "#edit-modules-field-types"
+                - strong [ref=f19e179]: Field types
+            - listitem [ref=f19e180]:
+              - link [ref=f19e181] [cursor=pointer]:
+                - /url: "#edit-modules-filters"
+                - strong [ref=f19e182]: Filters
+            - listitem [ref=f19e183]:
+              - link [ref=f19e184] [cursor=pointer]:
+                - /url: "#edit-modules-ipsos"
+                - strong [ref=f19e185]: ipsos
+            - listitem [ref=f19e186]:
+              - link [ref=f19e187] [cursor=pointer]:
+                - /url: "#edit-modules-ipsos-2"
+                - strong [ref=f19e188]: Ipsos
+            - listitem [ref=f19e189]:
+              - link [ref=f19e190] [cursor=pointer]:
+                - /url: "#edit-modules-ipsos-minisite"
+                - strong [ref=f19e191]: ipsos_minisite
+            - listitem [ref=f19e192]:
+              - link [ref=f19e193] [cursor=pointer]:
+                - /url: "#edit-modules-jquery-ui"
+                - strong [ref=f19e194]: jQuery UI
+            - listitem [ref=f19e195]:
+              - link [ref=f19e196] [cursor=pointer]:
+                - /url: "#edit-modules-liip"
+                - strong [ref=f19e197]: Liip
+            - listitem [ref=f19e198]:
+              - link [ref=f19e199] [cursor=pointer]:
+                - /url: "#edit-modules-mail"
+                - strong [ref=f19e200]: Mail
+            - listitem [ref=f19e201]:
+              - link [ref=f19e202] [cursor=pointer]:
+                - /url: "#edit-modules-media-2"
+                - strong [ref=f19e203]: Media
+            - listitem [ref=f19e204]:
+              - link [ref=f19e205] [cursor=pointer]:
+                - /url: "#edit-modules-migration"
+                - strong [ref=f19e206]: Migration
+            - listitem [ref=f19e207]:
+              - link [ref=f19e208] [cursor=pointer]:
+                - /url: "#edit-modules-multilingual"
+                - strong [ref=f19e209]: Multilingual
+            - listitem [ref=f19e210]:
+              - link [ref=f19e211] [cursor=pointer]:
+                - /url: "#edit-modules-other"
+                - strong [ref=f19e212]: Other
+            - listitem [ref=f19e213]:
+              - link [ref=f19e214] [cursor=pointer]:
+                - /url: "#edit-modules-paragraphs"
+                - strong [ref=f19e215]: Paragraphs
+            - listitem [ref=f19e216]:
+              - link [ref=f19e217] [cursor=pointer]:
+                - /url: "#edit-modules-performance-and-scalability"
+                - strong [ref=f19e218]: Performance and scalability
+            - listitem [ref=f19e219]:
+              - link [ref=f19e220] [cursor=pointer]:
+                - /url: "#edit-modules-permissions"
+                - strong [ref=f19e221]: Permissions
+            - listitem [ref=f19e222]:
+              - link [ref=f19e223] [cursor=pointer]:
+                - /url: "#edit-modules-purge"
+                - strong [ref=f19e224]: Purge
+            - listitem [ref=f19e225]:
+              - link [ref=f19e226] [cursor=pointer]:
+                - /url: "#edit-modules-purge-processors"
+                - strong [ref=f19e227]: Purge - processors
+            - listitem [ref=f19e228]:
+              - link [ref=f19e229] [cursor=pointer]:
+                - /url: "#edit-modules-purge-queuers"
+                - strong [ref=f19e230]: Purge - queuers
+            - listitem [ref=f19e231]:
+              - link [ref=f19e232] [cursor=pointer]:
+                - /url: "#edit-modules-purge-reverse-proxies-cdns"
+                - strong [ref=f19e233]: Purge - reverse proxies & CDNs
+            - listitem [ref=f19e234]:
+              - link [ref=f19e235] [cursor=pointer]:
+                - /url: "#edit-modules-queues"
+                - strong [ref=f19e236]: Queues
+            - listitem [ref=f19e237]:
+              - link [ref=f19e238] [cursor=pointer]:
+                - /url: "#edit-modules-search-2"
+                - strong [ref=f19e239]: Search
+            - listitem [ref=f19e240]:
+              - link [ref=f19e241] [cursor=pointer]:
+                - /url: "#edit-modules-search-api-2"
+                - strong [ref=f19e242]: search_api
+            - listitem [ref=f19e243]:
+              - link [ref=f19e244] [cursor=pointer]:
+                - /url: "#edit-modules-security"
+                - strong [ref=f19e245]: Security
+            - listitem [ref=f19e246]:
+              - link [ref=f19e247] [cursor=pointer]:
+                - /url: "#edit-modules-seo"
+                - strong [ref=f19e248]: SEO
+            - listitem [ref=f19e249]:
+              - link [ref=f19e250] [cursor=pointer]:
+                - /url: "#edit-modules-spam-control"
+                - strong [ref=f19e251]: Spam control
+            - listitem [ref=f19e252]:
+              - link [ref=f19e253] [cursor=pointer]:
+                - /url: "#edit-modules-taxonomy-2"
+                - strong [ref=f19e254]: Taxonomy
+            - listitem [ref=f19e255]:
+              - link [ref=f19e256] [cursor=pointer]:
+                - /url: "#edit-modules-translation-management"
+                - strong [ref=f19e257]: Translation Management
+            - listitem [ref=f19e258]:
+              - link [ref=f19e259] [cursor=pointer]:
+                - /url: "#edit-modules-user-interface"
+                - strong [ref=f19e260]: User interface
+            - listitem [ref=f19e261]:
+              - link [ref=f19e262] [cursor=pointer]:
+                - /url: "#edit-modules-video-embed-field"
+                - strong [ref=f19e263]: Video Embed Field
+            - listitem [ref=f19e264]:
+              - link [ref=f19e265] [cursor=pointer]:
+                - /url: "#edit-modules-views-2"
+                - strong [ref=f19e266]: Views
+            - listitem [ref=f19e267]:
+              - link [ref=f19e268] [cursor=pointer]:
+                - /url: "#edit-modules-web-services"
+                - strong [ref=f19e269]: Web services
+            - listitem [ref=f19e270]:
+              - link [ref=f19e271] [cursor=pointer]:
+                - /url: "#edit-modules-xml-sitemap"
+                - strong [ref=f19e272]: XML Sitemap
+          - generic [ref=f19e273]:
+            - generic [ref=f19e274]:
+              - generic [ref=f19e275]:
+                - generic [ref=f19e276] [cursor=pointer]: Filter
+                - searchbox "Filter" [active] [ref=f19e278]
+              - generic [ref=f19e280]:
+                - generic [ref=f19e281]:
+                  - checkbox "Enabled" [checked] [ref=f19e282]
+                  - text: Enabled
+                - generic [ref=f19e283]:
+                  - checkbox "Disabled" [checked] [ref=f19e284]
+                  - text: Disabled
+                - generic [ref=f19e285]:
+                  - checkbox "Unavailable" [checked] [ref=f19e286]
+                  - text: Unavailable
+            - table [ref=f19e288]:
+              - rowgroup [ref=f19e293]:
+                - row [ref=f19e294]:
+                  - columnheader "Installed" [ref=f19e295]
+                  - columnheader "Name" [ref=f19e296]
+                  - columnheader "Description" [ref=f19e297]
+              - rowgroup [ref=f19e298]:
+                - row [ref=f19e299]:
+                  - cell [ref=f19e300]:
+                    - checkbox "Acquia Connector" [checked] [disabled] [ref=f19e302]
+                  - cell "Acquia Connector" [ref=f19e303]
+                  - cell [ref=f19e304]:
+                    - group [ref=f19e305]:
+                      - button "Allows Drupal to securely communicate with Acquia." [ref=f19e306]
+                      - text: ", ,"
+                - row [ref=f19e307]:
+                  - cell [ref=f19e308]:
+                    - checkbox "Acquia Purge" [checked] [disabled] [ref=f19e310]
+                  - cell "Acquia Purge" [ref=f19e311]
+                  - cell [ref=f19e312]:
+                    - group [ref=f19e313]:
+                      - button "Top-notch cache invalidation on Acquia Cloud!" [ref=f19e314]
+                      - text: ","
+                - row [ref=f19e315]:
+                  - cell [ref=f19e316]:
+                    - checkbox "Acquia Purge GeoIP" [ref=f19e318]
+                  - cell "Acquia Purge GeoIP" [ref=f19e319]
+                  - cell [ref=f19e320]:
+                    - group [ref=f19e321]:
+                      - button "Adds the X-Geo-Country header to Drupal's Vary response header so that your site gets varied by content." [ref=f19e322]
+                - row [ref=f19e323]:
+                  - cell [ref=f19e324]:
+                    - checkbox "Acquia Search" [checked] [disabled] [ref=f19e326]
+                  - cell "Acquia Search" [ref=f19e327]
+                  - cell [ref=f19e328]:
+                    - group [ref=f19e329]:
+                      - button "Provides integration between your Drupal site and Acquia's hosted search service." [ref=f19e330]
+                      - text: ", , , , , , , ,"
+                - row [ref=f19e331]:
+                  - cell [ref=f19e332]:
+                    - checkbox "Acquia Search Defaults" [ref=f19e334]
+                  - cell "Acquia Search Defaults" [ref=f19e335]
+                  - cell [ref=f19e336]:
+                    - group [ref=f19e337]:
+                      - button "Provides default search index and view for Acquia Search." [ref=f19e338]
+                      - text: ", , , , , , , ,"
+                - row [ref=f19e339]:
+                  - cell [ref=f19e340]:
+                    - checkbox "Actions UI" [checked] [disabled] [ref=f19e342]
+                  - cell "Actions UI" [ref=f19e343]
+                  - cell [ref=f19e344]:
+                    - group [ref=f19e345]:
+                      - button "Allows configuration of tasks to be executed in response to events." [ref=f19e346]
+                - row [ref=f19e347]:
+                  - cell [ref=f19e348]:
+                    - checkbox "Admin Toolbar" [checked] [disabled] [ref=f19e350]
+                  - cell "Admin Toolbar" [ref=f19e351]
+                  - cell [ref=f19e352]:
+                    - group [ref=f19e353]:
+                      - button "Provides an improved drop-down menu interface to the site Toolbar." [ref=f19e354]
+                      - text: ","
+                - row [ref=f19e355]:
+                  - cell [ref=f19e356]:
+                    - checkbox "Admin Toolbar Extra Tools" [checked] [disabled] [ref=f19e358]
+                  - cell "Admin Toolbar Extra Tools" [ref=f19e359]
+                  - cell [ref=f19e360]:
+                    - group [ref=f19e361]:
+                      - button "Adds menu links like Flush cache, Run cron, Run updates, and Logout under Drupal icon." [ref=f19e362]
+                - row [ref=f19e363]:
+                  - cell [ref=f19e364]:
+                    - checkbox "Admin Toolbar Links Access Filter View information on the Deprecated status of the module Admin Toolbar Links Access Filter" [ref=f19e366]
+                  - cell [ref=f19e367]:
+                    - generic [ref=f19e368]:
+                      - text: Admin Toolbar Links Access Filter
+                      - link "View information on the Deprecated status of the module Admin Toolbar Links Access Filter" [ref=f19e369] [cursor=pointer]:
+                        - /url: https://www.drupal.org/project/admin_toolbar/issues/3463291
+                        - text: (Deprecated)
+                  - cell [ref=f19e370]:
+                    - group [ref=f19e371]:
+                      - button "Provides a workaround for the common problem that users with 'Use the administration pages and help' permission see menu links they don't have access permission for. Deprecated from Drupal 10.3 and above." [ref=f19e372]
+                      - text: ", ,"
+                - row [ref=f19e373]:
+                  - cell [ref=f19e374]:
+                    - checkbox "Admin Toolbar Search" [ref=f19e376]
+                  - cell "Admin Toolbar Search" [ref=f19e377]
+                  - cell [ref=f19e378]:
+                    - group [ref=f19e379]:
+                      - button "Allows searching and filtering links in the Admin menu in the Toolbar." [ref=f19e380]
+                      - text: ","
+                - row [ref=f19e381]:
+                  - cell [ref=f19e382]:
+                    - checkbox "AdvAgg Bundler" [ref=f19e384]
+                  - cell "AdvAgg Bundler" [ref=f19e385]
+                  - cell [ref=f19e386]:
+                    - group [ref=f19e387]:
+                      - button "Customize the number of aggregates to be created." [ref=f19e388]
+                - row [ref=f19e389]:
+                  - cell [ref=f19e390]:
+                    - checkbox "AdvAgg CSS/JS Validator" [ref=f19e392]
+                  - cell "AdvAgg CSS/JS Validator" [ref=f19e393]
+                  - cell [ref=f19e394]:
+                    - group [ref=f19e395]:
+                      - button "Validate the CSS and JS files used in Aggregation for syntax errors." [ref=f19e396]
+                - row [ref=f19e397]:
+                  - cell [ref=f19e398]:
+                    - checkbox "AdvAgg External Minification" [ref=f19e400]
+                  - cell "AdvAgg External Minification" [ref=f19e401]
+                  - cell [ref=f19e402]:
+                    - group [ref=f19e403]:
+                      - button "Minify Javascript and/or CSS with a command line minifier." [ref=f19e404]
+                - row [ref=f19e405]:
+                  - cell [ref=f19e406]:
+                    - checkbox "AdvAgg Minify CSS" [ref=f19e408]
+                  - cell "AdvAgg Minify CSS" [ref=f19e409]
+                  - cell [ref=f19e410]:
+                    - group [ref=f19e411]:
+                      - button "Minify CSS." [ref=f19e412]
+                - row [ref=f19e413]:
+                  - cell [ref=f19e414]:
+                    - checkbox "AdvAgg Minify JavaScript" [ref=f19e416]
+                  - cell "AdvAgg Minify JavaScript" [ref=f19e417]
+                  - cell [ref=f19e418]:
+                    - group [ref=f19e419]:
+                      - button "Minify JavaScript with a 3rd party minifier; JSMin+, JSMin c ext, JShrink, and JSqueeze currently." [ref=f19e420]
+                - row [ref=f19e421]:
+                  - cell [ref=f19e422]:
+                    - checkbox "AdvAgg Modifier" [ref=f19e424]
+                  - cell "AdvAgg Modifier" [ref=f19e425]
+                  - cell [ref=f19e426]:
+                    - group [ref=f19e427]:
+                      - button "Allows one to alter the CSS and JS array." [ref=f19e428]
+                - row [ref=f19e429]:
+                  - cell [ref=f19e430]:
+                    - checkbox "Advanced CSS/JS Aggregation" [ref=f19e432]
+                  - cell "Advanced CSS/JS Aggregation" [ref=f19e433]
+                  - cell [ref=f19e434]:
+                    - group [ref=f19e435]:
+                      - button "Aggregates multiple CSS/JS files in a way that prevents 404 from happening when accessing a CSS or JS file." [ref=f19e436]
+                      - text: ", , , , ,"
+                - row [ref=f19e437]:
+                  - cell [ref=f19e438]:
+                    - checkbox "Announcements" [ref=f19e440]
+                  - cell "Announcements" [ref=f19e441]
+                  - cell [ref=f19e442]:
+                    - group [ref=f19e443]:
+                      - button "Displays announcements from the Drupal community." [ref=f19e444]
+                - row [ref=f19e445]:
+                  - cell [ref=f19e446]:
+                    - checkbox "Antibot" [checked] [disabled] [ref=f19e448]
+                  - cell "Antibot" [ref=f19e449]
+                  - cell [ref=f19e450]:
+                    - group [ref=f19e451]:
+                      - button "Prevent forms from being submitted without JavaScript enabled" [ref=f19e452]
+                - row [ref=f19e453]:
+                  - cell [ref=f19e454]:
+                    - checkbox "Automated Cron" [checked] [disabled] [ref=f19e456]
+                  - cell "Automated Cron" [ref=f19e457]
+                  - cell [ref=f19e458]:
+                    - group [ref=f19e459]:
+                      - button "Provides an automated way to run cron jobs, by executing them at the end of a server response." [ref=f19e460]
+                - row [ref=f19e461]:
+                  - cell [ref=f19e462]:
+                    - checkbox "Backoffice Presentation Landing Page" [checked] [disabled] [ref=f19e464]
+                  - cell "Backoffice Presentation Landing Page" [ref=f19e465]
+                  - cell [ref=f19e466]:
+                    - group [ref=f19e467]:
+                      - button "Module for Presentation landing page entity" [ref=f19e468]
+                      - text: ", , , , ,"
+                - row [ref=f19e469]:
+                  - cell [ref=f19e470]:
+                    - checkbox "Backoffice Regulated informations Landing page" [checked] [disabled] [ref=f19e472]
+                  - cell "Backoffice Regulated informations Landing page" [ref=f19e473]
+                  - cell [ref=f19e474]:
+                    - group [ref=f19e475]:
+                      - button "Module for Regulated informations Landing page entity" [ref=f19e476]
+                      - text: ", , , , ,"
+                - row [ref=f19e477]:
+                  - cell [ref=f19e478]:
+                    - checkbox "Ban View information on the Deprecated status of the module Ban" [ref=f19e480]
+                  - cell [ref=f19e481]:
+                    - generic [ref=f19e482]:
+                      - text: Ban
+                      - link "View information on the Deprecated status of the module Ban" [ref=f19e483] [cursor=pointer]:
+                        - /url: https://www.drupal.org/node/3223395#s-ban
+                        - text: (Deprecated)
+                  - cell [ref=f19e484]:
+                    - group [ref=f19e485]:
+                      - button "Allows banning visits from specific IP addresses." [ref=f19e486]
+                - row [ref=f19e487]:
+                  - cell [ref=f19e488]:
+                    - checkbox "Better Exposed Filters" [checked] [disabled] [ref=f19e490]
+                  - cell "Better Exposed Filters" [ref=f19e491]
+                  - cell [ref=f19e492]:
+                    - group [ref=f19e493]:
+                      - button "Provides advanced options (e.g. links, checkboxes, or other widgets) to exposed Views elements." [ref=f19e494]
+                      - text: ", , ,"
+                - row [ref=f19e495]:
+                  - cell [ref=f19e496]:
+                    - checkbox "Better Formats" [checked] [disabled] [ref=f19e498]
+                  - cell "Better Formats" [ref=f19e499]
+                  - cell [ref=f19e500]:
+                    - group [ref=f19e501]:
+                      - button "Enhances the core input format system by managing input format defaults and settings." [ref=f19e502]
+                - row [ref=f19e503]:
+                  - cell [ref=f19e504]:
+                    - checkbox "BigPipe" [ref=f19e506]
+                  - cell "BigPipe" [ref=f19e507]
+                  - cell [ref=f19e508]:
+                    - group [ref=f19e509]:
+                      - button "Sends pages using the BigPipe technique that allows browsers to show them much faster." [ref=f19e510]
+                - row [ref=f19e511]:
+                  - cell [ref=f19e512]:
+                    - checkbox "Block" [checked] [disabled] [ref=f19e514]
+                  - cell "Block" [ref=f19e515]
+                  - cell [ref=f19e516]:
+                    - group [ref=f19e517]:
+                      - button "Allows users to configure blocks (containing content, forms, etc.) and to place them in the regions of a theme." [ref=f19e518]
+                      - text: ", , , , , , , , , , , , , , ,"
+                - row [ref=f19e519]:
+                  - cell [ref=f19e520]:
+                    - checkbox "Block Content" [checked] [disabled] [ref=f19e522]
+                  - cell "Block Content" [ref=f19e523]
+                  - cell [ref=f19e524]:
+                    - group [ref=f19e525]:
+                      - button "Allows the creation of content blocks and block types." [ref=f19e526]
+                      - text: ", , , , ,"
+                - row [ref=f19e527]:
+                  - cell [ref=f19e528]:
+                    - checkbox "Breakpoint" [checked] [disabled] [ref=f19e530]
+                  - cell "Breakpoint" [ref=f19e531]
+                  - cell [ref=f19e532]:
+                    - group [ref=f19e533]:
+                      - button "Manages breakpoints and breakpoint groups for responsive designs." [ref=f19e534]
+                      - text: ", , , , , , , , ,"
+                - row [ref=f19e535]:
+                  - cell [ref=f19e536]:
+                    - checkbox "CAPTCHA" [checked] [disabled] [ref=f19e538]
+                  - cell "CAPTCHA" [ref=f19e539]
+                  - cell [ref=f19e540]:
+                    - group [ref=f19e541]:
+                      - button "Provides the CAPTCHA API for adding challenges to arbitrary forms." [ref=f19e542]
+                      - text: ", ,"
+                - row [ref=f19e543]:
+                  - cell [ref=f19e544]:
+                    - checkbox "CKEditor 5" [checked] [disabled] [ref=f19e546]
+                  - cell "CKEditor 5" [ref=f19e547]
+                  - cell [ref=f19e548]:
+                    - group [ref=f19e549]:
+                      - button "Provides the CKEditor 5 rich text editor." [ref=f19e550]
+                      - text: ", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,"
+                - row [ref=f19e551]:
+                  - cell [ref=f19e552]:
+                    - checkbox "CKEditor 5 Auto Image" [ref=f19e554]
+                  - cell "CKEditor 5 Auto Image" [ref=f19e555]
+                  - cell [ref=f19e556]:
+                    - group [ref=f19e557]:
+                      - button "Provides the CKEditor 5 Auto Image plugin." [ref=f19e558]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e559]:
+                  - cell [ref=f19e560]:
+                    - checkbox "CKEditor 5 Block Indentation" [ref=f19e562]
+                  - cell "CKEditor 5 Block Indentation" [ref=f19e563]
+                  - cell [ref=f19e564]:
+                    - group [ref=f19e565]:
+                      - button "Provides the CKEditor 5 Indent Block plugin." [ref=f19e566]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e567]:
+                  - cell [ref=f19e568]:
+                    - checkbox "CKEditor 5 Bookmarks" [ref=f19e570]
+                  - cell "CKEditor 5 Bookmarks" [ref=f19e571]
+                  - cell [ref=f19e572]:
+                    - group [ref=f19e573]:
+                      - button "Provides the CKEditor 5 Bookmarks plugin." [ref=f19e574]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e575]:
+                  - cell [ref=f19e576]:
+                    - checkbox "CKEditor 5 Emoji" [ref=f19e578]
+                  - cell "CKEditor 5 Emoji" [ref=f19e579]
+                  - cell [ref=f19e580]:
+                    - group [ref=f19e581]:
+                      - button "Provides the CKEditor 5 Emoji plugin." [ref=f19e582]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e583]:
+                  - cell [ref=f19e584]:
+                    - checkbox "CKEditor 5 Empty Block" [ref=f19e586]
+                  - cell "CKEditor 5 Empty Block" [ref=f19e587]
+                  - cell [ref=f19e588]:
+                    - group [ref=f19e589]:
+                      - button "Provides the CKEditor 5 Empty Block plugin." [ref=f19e590]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e591]:
+                  - cell [ref=f19e592]:
+                    - checkbox "CKEditor 5 Find And Replace" [ref=f19e594]
+                  - cell "CKEditor 5 Find And Replace" [ref=f19e595]
+                  - cell [ref=f19e596]:
+                    - group [ref=f19e597]:
+                      - button "Provides the CKEditor 5 Find and Replace plugin." [ref=f19e598]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e599]:
+                  - cell [ref=f19e600]:
+                    - checkbox "CKEditor 5 Font Plugins" [ref=f19e602]
+                  - cell "CKEditor 5 Font Plugins" [ref=f19e603]
+                  - cell [ref=f19e604]:
+                    - group [ref=f19e605]:
+                      - button "Provides the CKEditor 5 Font Family, Size, and Color plugins." [ref=f19e606]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e607]:
+                  - cell [ref=f19e608]:
+                    - checkbox "CKEditor 5 Full-screen Mode (legacy) View information on the Deprecated status of the module CKEditor 5 Full-screen Mode (legacy)" [ref=f19e610]
+                  - cell [ref=f19e611]:
+                    - generic [ref=f19e612]:
+                      - text: CKEditor 5 Full-screen Mode (legacy)
+                      - link "View information on the Deprecated status of the module CKEditor 5 Full-screen Mode (legacy)" [ref=f19e613] [cursor=pointer]:
+                        - /url: https://www.drupal.org/project/ckeditor5_premium_features/issues/3533521
+                        - text: (Deprecated)
+                  - cell [ref=f19e614]:
+                    - group [ref=f19e615]:
+                      - button "Provides a plugin to maximize the editor window." [ref=f19e616]
+                      - text: ", , , , , ,"
+                - row [ref=f19e617]:
+                  - cell [ref=f19e618]:
+                    - checkbox "CKEditor 5 Fullscreen" [ref=f19e620]
+                  - cell "CKEditor 5 Fullscreen" [ref=f19e621]
+                  - cell [ref=f19e622]:
+                    - group [ref=f19e623]:
+                      - button "Provides the CKEditor 5 Fullscreen plugin" [ref=f19e624]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e625]:
+                  - cell [ref=f19e626]:
+                    - checkbox "CKEditor 5 HTML embed" [ref=f19e628]
+                  - cell "CKEditor 5 HTML embed" [ref=f19e629]
+                  - cell [ref=f19e630]:
+                    - group [ref=f19e631]:
+                      - button "Provides the CKEditor 5 HTML embed plugin" [ref=f19e632]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e633]:
+                  - cell [ref=f19e634]:
+                    - checkbox "CKEditor 5 Highlight" [ref=f19e636]
+                  - cell "CKEditor 5 Highlight" [ref=f19e637]
+                  - cell [ref=f19e638]:
+                    - group [ref=f19e639]:
+                      - button "Provides the CKEditor 5 Highlight plugin" [ref=f19e640]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e641]:
+                  - cell [ref=f19e642]:
+                    - checkbox "CKEditor 5 Layout Table" [ref=f19e644]
+                  - cell "CKEditor 5 Layout Table" [ref=f19e645]
+                  - cell [ref=f19e646]:
+                    - group [ref=f19e647]:
+                      - button "Provides the CKEditor 5 Layout Table plugin." [ref=f19e648]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e649]:
+                  - cell [ref=f19e650]:
+                    - checkbox "CKEditor 5 Link Attributes" [checked] [disabled] [ref=f19e652]
+                  - cell "CKEditor 5 Link Attributes" [ref=f19e653]
+                  - cell [ref=f19e654]:
+                    - group [ref=f19e655]:
+                      - button "Provides the CKEditor 5 Link Attributes." [ref=f19e656]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e657]:
+                  - cell [ref=f19e658]:
+                    - checkbox "CKEditor 5 Media Embed" [ref=f19e660]
+                  - cell "CKEditor 5 Media Embed" [ref=f19e661]
+                  - cell [ref=f19e662]:
+                    - group [ref=f19e663]:
+                      - button "Provides the CKEditor 5 Media Embed plugin." [ref=f19e664]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e665]:
+                  - cell [ref=f19e666]:
+                    - checkbox "CKEditor 5 Page Break" [ref=f19e668]
+                  - cell "CKEditor 5 Page Break" [ref=f19e669]
+                  - cell [ref=f19e670]:
+                    - group [ref=f19e671]:
+                      - button "Provides the CKEditor 5 Page Break plugin." [ref=f19e672]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e673]:
+                  - cell [ref=f19e674]:
+                    - checkbox "CKEditor 5 Paste from Markdown" [ref=f19e676]
+                  - cell "CKEditor 5 Paste from Markdown" [ref=f19e677]
+                  - cell [ref=f19e678]:
+                    - group [ref=f19e679]:
+                      - button "Provides the CKEditor 5 Paste from Markdown plugin." [ref=f19e680]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e681]:
+                  - cell [ref=f19e682]:
+                    - checkbox "CKEditor 5 Plugin Pack" [checked] [disabled] [ref=f19e684]
+                  - cell "CKEditor 5 Plugin Pack" [ref=f19e685]
+                  - cell [ref=f19e686]:
+                    - group [ref=f19e687]:
+                      - button "Provides common functions for other modules in the Plugin Pack." [ref=f19e688]
+                      - text: ", , , , , , , , , , , , , , , , , , , , , , , , , , ,"
+                - row [ref=f19e689]:
+                  - cell [ref=f19e690]:
+                    - checkbox "CKEditor 5 Premium Features" [ref=f19e692]
+                  - cell "CKEditor 5 Premium Features" [ref=f19e693]
+                  - cell [ref=f19e694]:
+                    - group [ref=f19e695]:
+                      - button "Provides general configuration and authentication used by all CKEditor 5 Premium Features." [ref=f19e696]
+                      - text: ", , , , , , , , , , , , , , , , , , , , , , , ,"
+                - row [ref=f19e697]:
+                  - cell [ref=f19e698]:
+                    - checkbox "CKEditor 5 Premium Features AI Assistant" [ref=f19e700]
+                  - cell "CKEditor 5 Premium Features AI Assistant" [ref=f19e701]
+                  - cell [ref=f19e702]:
+                    - group [ref=f19e703]:
+                      - button "Provides AI Assistant features." [ref=f19e704]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e705]:
+                  - cell [ref=f19e706]:
+                    - checkbox "CKEditor 5 Premium Features CKEditor AI" [ref=f19e708]
+                  - cell "CKEditor 5 Premium Features CKEditor AI" [ref=f19e709]
+                  - cell [ref=f19e710]:
+                    - group [ref=f19e711]:
+                      - button "Provides CKEditor 5 AI features." [ref=f19e712]
+                      - text: ", , , , , , , ,"
+                - row [ref=f19e713]:
+                  - cell [ref=f19e714]:
+                    - checkbox "CKEditor 5 Premium Features Cloud Services" [ref=f19e716]
+                  - cell "CKEditor 5 Premium Features Cloud Services" [ref=f19e717]
+                  - cell [ref=f19e718]:
+                    - group [ref=f19e719]:
+                      - button "Provides shared functionalities for plugins connecting to CKEditor cloud or self-hosted servers." [ref=f19e720]
+                      - text: ", , , , , , , ,"
+                - row [ref=f19e721]:
+                  - cell [ref=f19e722]:
+                    - checkbox "CKEditor 5 Premium Features Email Editing" [ref=f19e724]
+                  - cell "CKEditor 5 Premium Features Email Editing" [ref=f19e725]
+                  - cell [ref=f19e726]:
+                    - group [ref=f19e727]:
+                      - button "The email editing solution is a set of tools aimed at making the email composition a better and more effective experience." [ref=f19e728]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e729]:
+                  - cell [ref=f19e730]:
+                    - checkbox "CKEditor 5 Premium Features Export to PDF" [ref=f19e732]
+                  - cell "CKEditor 5 Premium Features Export to PDF" [ref=f19e733]
+                  - cell [ref=f19e734]:
+                    - group [ref=f19e735]:
+                      - button "Generate PDF files directly from the CKEditor 5." [ref=f19e736]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e737]:
+                  - cell [ref=f19e738]:
+                    - checkbox "CKEditor 5 Premium Features Export to Word" [ref=f19e740]
+                  - cell "CKEditor 5 Premium Features Export to Word" [ref=f19e741]
+                  - cell [ref=f19e742]:
+                    - group [ref=f19e743]:
+                      - button "Generate Word files directly from the CKEditor 5." [ref=f19e744]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e745]:
+                  - cell [ref=f19e746]:
+                    - checkbox "CKEditor 5 Premium Features Footnotes" [ref=f19e748]
+                  - cell "CKEditor 5 Premium Features Footnotes" [ref=f19e749]
+                  - cell [ref=f19e750]:
+                    - group [ref=f19e751]:
+                      - button "Provides Footnotes plugin." [ref=f19e752]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e753]:
+                  - cell [ref=f19e754]:
+                    - checkbox "CKEditor 5 Premium Features Import from Word" [ref=f19e756]
+                  - cell "CKEditor 5 Premium Features Import from Word" [ref=f19e757]
+                  - cell [ref=f19e758]:
+                    - group [ref=f19e759]:
+                      - button "Allows you to import content from a Word file directly into CKEditor 5." [ref=f19e760]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e761]:
+                  - cell [ref=f19e762]:
+                    - checkbox "CKEditor 5 Premium Features Line Height" [ref=f19e764]
+                  - cell "CKEditor 5 Premium Features Line Height" [ref=f19e765]
+                  - cell [ref=f19e766]:
+                    - group [ref=f19e767]:
+                      - button "Provides the Line Height plugin." [ref=f19e768]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e769]:
+                  - cell [ref=f19e770]:
+                    - checkbox "CKEditor 5 Premium Features Mentions" [ref=f19e772]
+                  - cell "CKEditor 5 Premium Features Mentions" [ref=f19e773]
+                  - cell [ref=f19e774]:
+                    - group [ref=f19e775]:
+                      - button "Provides Mentions features." [ref=f19e776]
+                      - text: ", , , , , , , ,"
+                - row [ref=f19e777]:
+                  - cell [ref=f19e778]:
+                    - checkbox "CKEditor 5 Premium Features Merge Fields" [ref=f19e780]
+                  - cell "CKEditor 5 Premium Features Merge Fields" [ref=f19e781]
+                  - cell [ref=f19e782]:
+                    - group [ref=f19e783]:
+                      - button "Provides Merge Fields functionality for CKEditor 5." [ref=f19e784]
+                      - text: ", , , , , , , ,"
+                - row [ref=f19e785]:
+                  - cell [ref=f19e786]:
+                    - checkbox "CKEditor 5 Premium Features Multi-level Lists" [ref=f19e788]
+                  - cell "CKEditor 5 Premium Features Multi-level Lists" [ref=f19e789]
+                  - cell [ref=f19e790]:
+                    - group [ref=f19e791]:
+                      - button "Provides Multi-Level lists features." [ref=f19e792]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e793]:
+                  - cell [ref=f19e794]:
+                    - checkbox "CKEditor 5 Premium Features Non-realtime Collaboration" [ref=f19e796]
+                  - cell "CKEditor 5 Premium Features Non-realtime Collaboration" [ref=f19e797]
+                  - cell [ref=f19e798]:
+                    - group [ref=f19e799]:
+                      - 'button "Provides Track Changes, Comments and Revision History features. WARNING: Do not enable it together with CKEditor 5 Real-time Collaboration." [ref=f19e800]'
+                      - text: ", , , , , , ,"
+                - row [ref=f19e801]:
+                  - cell [ref=f19e802]:
+                    - checkbox "CKEditor 5 Premium Features Notifications" [ref=f19e804]
+                  - cell "CKEditor 5 Premium Features Notifications" [ref=f19e805]
+                  - cell [ref=f19e806]:
+                    - group [ref=f19e807]:
+                      - 'button "Adds notifications feature for Non-realtime Collaboration and Realtime Collaboration. Note: Currently this module is not stable with CKEditor 5 Realtime Collaboration." [ref=f19e808]'
+                      - text: ", , , , , , ,"
+                - row [ref=f19e809]:
+                  - cell [ref=f19e810]:
+                    - checkbox "CKEditor 5 Premium Features Productivity Pack" [ref=f19e812]
+                  - cell "CKEditor 5 Premium Features Productivity Pack" [ref=f19e813]
+                  - cell [ref=f19e814]:
+                    - group [ref=f19e815]:
+                      - button "Provides a Productivity Pack plugins." [ref=f19e816]
+                      - text: ", , , , , , , ,"
+                - row [ref=f19e817]:
+                  - cell [ref=f19e818]:
+                    - checkbox "CKEditor 5 Premium Features Real-time Collaboration" [ref=f19e820]
+                  - cell "CKEditor 5 Premium Features Real-time Collaboration" [ref=f19e821]
+                  - cell [ref=f19e822]:
+                    - group [ref=f19e823]:
+                      - 'button "Provides Real-time collaborative editing along with Track Changes, Comments and Revision History features. WARNING: Do not enable it together with CKEditor 5 Non-realtime Collaboration." [ref=f19e824]'
+                      - text: ", , , , , , , ,"
+                - row [ref=f19e825]:
+                  - cell [ref=f19e826]:
+                    - checkbox "CKEditor 5 Premium Features Source Editing Enhanced" [ref=f19e828]
+                  - cell "CKEditor 5 Premium Features Source Editing Enhanced" [ref=f19e829]
+                  - cell [ref=f19e830]:
+                    - group [ref=f19e831]:
+                      - button "Provides enhanced source editing capabilities for CKEditor 5." [ref=f19e832]
+                      - text: ", , , , , ,"
+                - row [ref=f19e833]:
+                  - cell [ref=f19e834]:
+                    - checkbox "CKEditor 5 Premium Features WProofreader" [ref=f19e836]
+                  - cell "CKEditor 5 Premium Features WProofreader" [ref=f19e837]
+                  - cell [ref=f19e838]:
+                    - group [ref=f19e839]:
+                      - button "Provides WProofreader features." [ref=f19e840]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e841]:
+                  - cell [ref=f19e842]:
+                    - checkbox "CKEditor 5 Restricted Editing" [ref=f19e844]
+                  - cell "CKEditor 5 Restricted Editing" [ref=f19e845]
+                  - cell [ref=f19e846]:
+                    - group [ref=f19e847]:
+                      - button "Provides the CKEditor 5 Restricted Editing plugin." [ref=f19e848]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e849]:
+                  - cell [ref=f19e850]:
+                    - checkbox "CKEditor 5 Select All" [ref=f19e852]
+                  - cell "CKEditor 5 Select All" [ref=f19e853]
+                  - cell [ref=f19e854]:
+                    - group [ref=f19e855]:
+                      - button "Provides the CKEditor 5 Select All plugin." [ref=f19e856]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e857]:
+                  - cell [ref=f19e858]:
+                    - checkbox "CKEditor 5 Templates" [ref=f19e860]
+                  - cell "CKEditor 5 Templates" [ref=f19e861]
+                  - cell [ref=f19e862]:
+                    - group [ref=f19e863]:
+                      - button "Provides free access to the CKEditor 5 Templates plugin. Requires the CKEditor 5 Premium Features module to work." [ref=f19e864]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e865]:
+                  - cell [ref=f19e866]:
+                    - checkbox "CKEditor 5 Text Transformation" [ref=f19e868]
+                  - cell "CKEditor 5 Text Transformation" [ref=f19e869]
+                  - cell [ref=f19e870]:
+                    - group [ref=f19e871]:
+                      - button "Provides the CKEditor 5 Text Transformation plugin." [ref=f19e872]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e873]:
+                  - cell [ref=f19e874]:
+                    - checkbox "CKEditor 5 To-do List" [ref=f19e876]
+                  - cell "CKEditor 5 To-do List" [ref=f19e877]
+                  - cell [ref=f19e878]:
+                    - group [ref=f19e879]:
+                      - button "Provides the CKEditor 5 To-do List plugin." [ref=f19e880]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e881]:
+                  - cell [ref=f19e882]:
+                    - checkbox "CKEditor 5 Version Override (Advanced)" [ref=f19e884]
+                  - cell "CKEditor 5 Version Override (Advanced)" [ref=f19e885]
+                  - cell [ref=f19e886]:
+                    - group [ref=f19e887]:
+                      - button "It gives the ability to override the CKEditor 5 version to a newer one than is available in Drupal core. Override is available only for specific supported versions." [ref=f19e888]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e889]:
+                  - cell [ref=f19e890]:
+                    - checkbox "CKEditor 5 WProofreader" [ref=f19e892]
+                  - cell "CKEditor 5 WProofreader" [ref=f19e893]
+                  - cell [ref=f19e894]:
+                    - group [ref=f19e895]:
+                      - button "Provides free access to the CKEditor 5 WProofreader plugin. Requires the CKEditor 5 Premium Features module to work." [ref=f19e896]
+                      - text: ", , , , , , , , ,"
+                - row [ref=f19e897]:
+                  - cell [ref=f19e898]:
+                    - checkbox "CKEditor 5 Word Count" [ref=f19e900]
+                  - cell "CKEditor 5 Word Count" [ref=f19e901]
+                  - cell [ref=f19e902]:
+                    - group [ref=f19e903]:
+                      - button "Provides the CKEditor 5 Word Count plugin." [ref=f19e904]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e905]:
+                  - cell [ref=f19e906]:
+                    - checkbox "CKEditor Font" [checked] [disabled] [ref=f19e908]
+                  - cell "CKEditor Font" [ref=f19e909]
+                  - cell [ref=f19e910]:
+                    - group [ref=f19e911]:
+                      - button "Adds Font Size, Font Family, Font Color, Font Background Color to CKEditor 5." [ref=f19e912]
+                      - text: ", , , , , ,"
+                - row [ref=f19e913]:
+                  - cell [ref=f19e914]:
+                    - checkbox "CKEditor iFrame" [checked] [disabled] [ref=f19e916]
+                  - cell "CKEditor iFrame" [ref=f19e917]
+                  - cell [ref=f19e918]:
+                    - group [ref=f19e919]:
+                      - button "Adds the iFrame dialog plugin to CKEditor." [ref=f19e920]
+                - row [ref=f19e921]:
+                  - cell [ref=f19e922]:
+                    - checkbox "CKEditor5 find and replace" [checked] [disabled] [ref=f19e924]
+                  - cell "CKEditor5 find and replace" [ref=f19e925]
+                  - cell [ref=f19e926]:
+                    - group [ref=f19e927]:
+                      - button "The CKEditor5 find and replace feature lets you find and replace any text in your document. This speeds up your work and helps with the consistency of your content." [ref=f19e928]
+                      - text: ", , , , , ,"
+                - row [ref=f19e929]:
+                  - cell [ref=f19e930]:
+                    - checkbox "Chaos Tools" [checked] [disabled] [ref=f19e932]
+                  - cell "Chaos Tools" [ref=f19e933]
+                  - cell [ref=f19e934]:
+                    - group [ref=f19e935]:
+                      - button "Provides a number of utility and helper APIs for Drupal developers and site builders." [ref=f19e936]
+                      - text: ","
+                - row [ref=f19e937]:
+                  - cell [ref=f19e938]:
+                    - checkbox "Chaos Tools Blocks" [ref=f19e940]
+                  - cell "Chaos Tools Blocks" [ref=f19e941]
+                  - cell [ref=f19e942]:
+                    - group [ref=f19e943]:
+                      - button "Provides improvements to blocks that will one day be added to Drupal core." [ref=f19e944]
+                - row [ref=f19e945]:
+                  - cell [ref=f19e946]:
+                    - checkbox "Chaos Tools Views" [ref=f19e948]
+                  - cell "Chaos Tools Views" [ref=f19e949]
+                  - cell [ref=f19e950]:
+                    - group [ref=f19e951]:
+                      - button "A set of improvements to the core Views code that allows for greater control over Blocks." [ref=f19e952]
+                      - text: ", , , ,"
+                - row [ref=f19e953]:
+                  - cell [ref=f19e954]:
+                    - checkbox "Comment" [ref=f19e956]
+                  - cell "Comment" [ref=f19e957]
+                  - cell [ref=f19e958]:
+                    - group [ref=f19e959]:
+                      - button "Allows users to comment on content." [ref=f19e960]
+                      - text: ", , , , , ,"
+                - row [ref=f19e961]:
+                  - cell [ref=f19e962]:
+                    - checkbox "Components" [checked] [disabled] [ref=f19e964]
+                  - cell "Components" [ref=f19e965]
+                  - cell [ref=f19e966]:
+                    - group [ref=f19e967]:
+                      - button "Registers folders of components defined by your theme or module as Twig namespaces" [ref=f19e968]
+                - row [ref=f19e969]:
+                  - cell [ref=f19e970]:
+                    - checkbox "Conditional Fields" [checked] [disabled] [ref=f19e972]
+                  - cell "Conditional Fields" [ref=f19e973]
+                  - cell [ref=f19e974]:
+                    - group [ref=f19e975]:
+                      - button "Define dependencies between fields based on their states and values." [ref=f19e976]
+                - row [ref=f19e977]:
+                  - cell [ref=f19e978]:
+                    - checkbox "Config Entity Source" [checked] [disabled] [ref=f19e980]
+                  - cell "Config Entity Source" [ref=f19e981]
+                  - cell [ref=f19e982]:
+                    - group [ref=f19e983]:
+                      - button "Config entity source plugin for the Translation Management system." [ref=f19e984]
+                      - text: ", , , , , , , , , , , ,"
+                - row [ref=f19e985]:
+                  - cell [ref=f19e986]:
+                    - checkbox "Config Ignore" [checked] [disabled] [ref=f19e988]
+                  - cell "Config Ignore" [ref=f19e989]
+                  - cell [ref=f19e990]:
+                    - group [ref=f19e991]:
+                      - button "Ignore certain configuration during imports and exports" [ref=f19e992]
+                - row [ref=f19e993]:
+                  - cell [ref=f19e994]:
+                    - checkbox "Config Split" [checked] [disabled] [ref=f19e996]
+                  - cell "Config Split" [ref=f19e997]
+                  - cell [ref=f19e998]:
+                    - group [ref=f19e999]:
+                      - button "Configuration transformer for importing and exporting split config" [ref=f19e1000]
+                - row [ref=f19e1001]:
+                  - cell [ref=f19e1002]:
+                    - checkbox "Configuration Batch Export" [checked] [disabled] [ref=f19e1004]
+                  - cell "Configuration Batch Export" [ref=f19e1005]
+                  - cell [ref=f19e1006]:
+                    - group [ref=f19e1007]:
+                      - button "Allows administrators export configuration using batch" [ref=f19e1008]
+                      - text: ", , ,"
+                - row [ref=f19e1009]:
+                  - cell [ref=f19e1010]:
+                    - checkbox "Configuration Manager" [checked] [disabled] [ref=f19e1012]
+                  - cell "Configuration Manager" [ref=f19e1013]
+                  - cell [ref=f19e1014]:
+                    - group [ref=f19e1015]:
+                      - button "Allows importing and exporting configuration changes." [ref=f19e1016]
+                - row [ref=f19e1017]:
+                  - cell [ref=f19e1018]:
+                    - checkbox "Configuration Translation" [checked] [disabled] [ref=f19e1020]
+                  - cell "Configuration Translation" [ref=f19e1021]
+                  - cell [ref=f19e1022]:
+                    - group [ref=f19e1023]:
+                      - button "Allows users to translate configuration text." [ref=f19e1024]
+                      - text: ", , ,"
+                - row [ref=f19e1025]:
+                  - cell [ref=f19e1026]:
+                    - checkbox "Contact" [checked] [disabled] [ref=f19e1028]
+                  - cell "Contact" [ref=f19e1029]
+                  - cell [ref=f19e1030]:
+                    - group [ref=f19e1031]:
+                      - button "Provides site-wide contact forms and forms to contact individual users." [ref=f19e1032]
+                - row [ref=f19e1033]:
+                  - cell [ref=f19e1034]:
+                    - checkbox "Contact storage" [checked] [disabled] [ref=f19e1036]
+                  - cell "Contact storage" [ref=f19e1037]
+                  - cell [ref=f19e1038]:
+                    - group [ref=f19e1039]:
+                      - button "Provides storage and edit capability for contact messages." [ref=f19e1040]
+                      - text: ", , , , , , , ,"
+                - row [ref=f19e1041]:
+                  - cell [ref=f19e1042]:
+                    - checkbox "Content Entity Source" [checked] [disabled] [ref=f19e1044]
+                  - cell "Content Entity Source" [ref=f19e1045]
+                  - cell [ref=f19e1046]:
+                    - group [ref=f19e1047]:
+                      - button "Content entity source plugin for the Translation Management system." [ref=f19e1048]
+                      - text: ", , , , , , , , , ,"
+                - row [ref=f19e1049]:
+                  - cell [ref=f19e1050]:
+                    - checkbox "Content Moderation" [ref=f19e1052]
+                  - cell "Content Moderation" [ref=f19e1053]
+                  - cell [ref=f19e1054]:
+                    - group [ref=f19e1055]:
+                      - button "Provides additional publication states that can be used by other modules to moderate content." [ref=f19e1056]
+                - row [ref=f19e1057]:
+                  - cell [ref=f19e1058]:
+                    - checkbox "Content Translation" [checked] [disabled] [ref=f19e1060]
+                  - cell "Content Translation" [ref=f19e1061]
+                  - cell [ref=f19e1062]:
+                    - group [ref=f19e1063]:
+                      - button "Allows users to translate content." [ref=f19e1064]
+                      - text: ", ,"
+                - row [ref=f19e1065]:
+                  - cell [ref=f19e1066]:
+                    - checkbox "Contextual Links" [checked] [disabled] [ref=f19e1068]
+                  - cell "Contextual Links" [ref=f19e1069]
+                  - cell [ref=f19e1070]:
+                    - group [ref=f19e1071]:
+                      - button "Provides contextual links to directly access tasks related to page elements." [ref=f19e1072]
+                      - text: ", , ,"
+                - row [ref=f19e1073]:
+                  - cell [ref=f19e1074]:
+                    - checkbox "Core tags queuer" [checked] [disabled] [ref=f19e1076]
+                  - cell "Core tags queuer" [ref=f19e1077]
+                  - cell [ref=f19e1078]:
+                    - group [ref=f19e1079]:
+                      - button "Queues every tag that Drupal invalidates internally." [ref=f19e1080]
+                - row [ref=f19e1081]:
+                  - cell [ref=f19e1082]:
+                    - checkbox "Country Path" [checked] [disabled] [ref=f19e1084]
+                  - cell "Country Path" [ref=f19e1085]
+                  - cell [ref=f19e1086]:
+                    - group [ref=f19e1087]:
+                      - button "Adds custom path prefix for multi-countries sites." [ref=f19e1088]
+                      - text: ", , , , , ,"
+                - row [ref=f19e1089]:
+                  - cell [ref=f19e1090]:
+                    - checkbox "Crop API" [checked] [disabled] [ref=f19e1092]
+                  - cell "Crop API" [ref=f19e1093]
+                  - cell [ref=f19e1094]:
+                    - group [ref=f19e1095]:
+                      - button "Provides storage and API for image crops." [ref=f19e1096]
+                      - text: ", , , , ,"
+                - row [ref=f19e1097]:
+                  - cell [ref=f19e1098]:
+                    - checkbox "Custom Menu Links" [checked] [disabled] [ref=f19e1100]
+                  - cell "Custom Menu Links" [ref=f19e1101]
+                  - cell [ref=f19e1102]:
+                    - group [ref=f19e1103]:
+                      - button "Allows users to create menu links." [ref=f19e1104]
+                      - text: ", , ,"
+                - row [ref=f19e1105]:
+                  - cell [ref=f19e1106]:
+                    - checkbox "Database Logging" [ref=f19e1108]
+                  - cell "Database Logging" [ref=f19e1109]
+                  - cell [ref=f19e1110]:
+                    - group [ref=f19e1111]:
+                      - button "Logs system events in the database." [ref=f19e1112]
+                - row [ref=f19e1113]:
+                  - cell [ref=f19e1114]:
+                    - checkbox "Database Search" [checked] [disabled] [ref=f19e1116]
+                  - cell "Database Search" [ref=f19e1117]
+                  - cell [ref=f19e1118]:
+                    - group [ref=f19e1119]:
+                      - button "Offers an implementation of the Search API that uses database tables for indexing content." [ref=f19e1120]
+                      - text: ","
+                - row [ref=f19e1121]:
+                  - cell [ref=f19e1122]:
+                    - checkbox "Database Search Defaults" [ref=f19e1124]
+                  - cell "Database Search Defaults" [ref=f19e1125]
+                  - cell [ref=f19e1126]:
+                    - group [ref=f19e1127]:
+                      - button "Enable this module for a best-practice default setup of Search API with the Database backend. After installation it is recommended to uninstall this module again for performance reasons. The provided configuration will not be removed." [ref=f19e1128]
+                      - text: ", , , , , , , , , , ,"
+                - row [ref=f19e1129]:
+                  - cell [ref=f19e1130]:
+                    - checkbox "Datetime" [checked] [disabled] [ref=f19e1132]
+                  - cell "Datetime" [ref=f19e1133]
+                  - cell [ref=f19e1134]:
+                    - group [ref=f19e1135]:
+                      - button "Defines field types for storing dates and times." [ref=f19e1136]
+                      - text: ", , , ,"
+                - row [ref=f19e1137]:
+                  - cell [ref=f19e1138]:
+                    - checkbox "Datetime Range" [checked] [disabled] [ref=f19e1140]
+                  - cell "Datetime Range" [ref=f19e1141]
+                  - cell [ref=f19e1142]:
+                    - group [ref=f19e1143]:
+                      - button "Provides the ability to store end dates." [ref=f19e1144]
+                      - text: ","
+                - row [ref=f19e1145]:
+                  - cell [ref=f19e1146]:
+                    - checkbox "Devel" [ref=f19e1148]
+                  - cell "Devel" [ref=f19e1149]
+                  - cell [ref=f19e1150]:
+                    - group [ref=f19e1151]:
+                      - button "Various blocks, pages, and functions for developers." [ref=f19e1152]
+                      - text: ","
+                - row [ref=f19e1153]:
+                  - cell [ref=f19e1154]:
+                    - checkbox "Devel Entity Updates" [ref=f19e1156]
+                  - cell "Devel Entity Updates" [ref=f19e1157]
+                  - cell [ref=f19e1158]:
+                    - group [ref=f19e1159]:
+                      - button "Provides developers an API and drush command to perform automatic entity updates." [ref=f19e1160]
+                - row [ref=f19e1161]:
+                  - cell [ref=f19e1162]:
+                    - checkbox "Devel Generate" [ref=f19e1164]
+                  - cell "Devel Generate" [ref=f19e1165]
+                  - cell [ref=f19e1166]:
+                    - group [ref=f19e1167]:
+                      - button "Generate test users, nodes, menus, taxonomy terms..." [ref=f19e1168]
+                - row [ref=f19e1169]:
+                  - cell [ref=f19e1170]:
+                    - checkbox "Domain" [checked] [disabled] [ref=f19e1172]
+                  - cell "Domain" [ref=f19e1173]
+                  - cell [ref=f19e1174]:
+                    - group [ref=f19e1175]:
+                      - button "Creates domain records within a Drupal installation." [ref=f19e1176]
+                      - text: ", , , , , , , , , , , , , , , , , , , ,"
+                - row [ref=f19e1177]:
+                  - cell [ref=f19e1178]:
+                    - checkbox "Domain Access" [checked] [disabled] [ref=f19e1180]
+                  - cell "Domain Access" [ref=f19e1181]
+                  - cell [ref=f19e1182]:
+                    - group [ref=f19e1183]:
+                      - button "Domain-based access control for content." [ref=f19e1184]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e1185]:
+                  - cell [ref=f19e1186]:
+                    - checkbox "Domain Alias" [checked] [disabled] [ref=f19e1188]
+                  - cell "Domain Alias" [ref=f19e1189]
+                  - cell [ref=f19e1190]:
+                    - group [ref=f19e1191]:
+                      - button "Maps multiple host requests to a single domain record." [ref=f19e1192]
+                      - text: ", , , , , ,"
+                - row [ref=f19e1193]:
+                  - cell [ref=f19e1194]:
+                    - checkbox "Domain Configuration" [checked] [disabled] [ref=f19e1196]
+                  - cell "Domain Configuration" [ref=f19e1197]
+                  - cell [ref=f19e1198]:
+                    - group [ref=f19e1199]:
+                      - button "Allows domain specific configuration." [ref=f19e1200]
+                      - text: ", , , , , , , , ,"
+                - row [ref=f19e1201]:
+                  - cell [ref=f19e1202]:
+                    - checkbox "Domain Configuration UI" [ref=f19e1204]
+                  - cell "Domain Configuration UI" [ref=f19e1205]
+                  - cell [ref=f19e1206]:
+                    - group [ref=f19e1207]:
+                      - button "Allows saving of domain specific configuration through the administrative interface." [ref=f19e1208]
+                      - text: ", , , , , , , ,"
+                - row [ref=f19e1209]:
+                  - cell [ref=f19e1210]:
+                    - checkbox "Domain Content" [checked] [disabled] [ref=f19e1212]
+                  - cell "Domain Content" [ref=f19e1213]
+                  - cell [ref=f19e1214]:
+                    - group [ref=f19e1215]:
+                      - button "Review content by assigned domain." [ref=f19e1216]
+                      - text: ", , , , , , , , ,"
+                - row [ref=f19e1217]:
+                  - cell [ref=f19e1218]:
+                    - checkbox "Domain Language" [checked] [disabled] [ref=f19e1220]
+                  - cell "Domain Language" [ref=f19e1221]
+                  - cell [ref=f19e1222]:
+                    - group [ref=f19e1223]:
+                      - button "Allows language restriction across domains." [ref=f19e1224]
+                      - text: ", , , , , , , ,"
+                - row [ref=f19e1225]:
+                  - cell [ref=f19e1226]:
+                    - checkbox "Domain Role" [checked] [disabled] [ref=f19e1228]
+                  - cell "Domain Role" [ref=f19e1229]
+                  - cell [ref=f19e1230]:
+                    - group [ref=f19e1231]:
+                      - button "Extends Domain Access by providing per-domain user roles. With this active, selected must be assigned for each domain." [ref=f19e1232]
+                      - text: ", , , , , , , ,"
+                - row [ref=f19e1233]:
+                  - cell [ref=f19e1234]:
+                    - checkbox "Domain Source" [ref=f19e1236]
+                  - cell "Domain Source" [ref=f19e1237]
+                  - cell [ref=f19e1238]:
+                    - group [ref=f19e1239]:
+                      - button "Domain-based path rewrites for content." [ref=f19e1240]
+                      - text: ", , , , , , , ,"
+                - row [ref=f19e1241]:
+                  - cell [ref=f19e1242]:
+                    - checkbox "DropzoneJS entity browser widget" [checked] [disabled] [ref=f19e1244]
+                  - cell "DropzoneJS entity browser widget" [ref=f19e1245]
+                  - cell [ref=f19e1246]:
+                    - group [ref=f19e1247]:
+                      - button "DropzoneJS Entity browser widget." [ref=f19e1248]
+                      - text: ", , ,"
+                - row [ref=f19e1249]:
+                  - cell [ref=f19e1250]:
+                    - checkbox "Drupal Symfony Mailer" [checked] [disabled] [ref=f19e1252]
+                  - cell "Drupal Symfony Mailer" [ref=f19e1253]
+                  - cell [ref=f19e1254]:
+                    - group [ref=f19e1255]:
+                      - button "Integrate Symfony Mailer into Drupal." [ref=f19e1256]
+                      - text: ", , ,"
+                - row [ref=f19e1257]:
+                  - cell [ref=f19e1258]:
+                    - checkbox "Drupal Symfony Mailer Override View information on the Deprecated status of the module Drupal Symfony Mailer Override" [ref=f19e1260]
+                  - cell [ref=f19e1261]:
+                    - generic [ref=f19e1262]:
+                      - text: Drupal Symfony Mailer Override
+                      - link "View information on the Deprecated status of the module Drupal Symfony Mailer Override" [ref=f19e1263] [cursor=pointer]:
+                        - /url: https://www.drupal.org/project/symfony_mailer/issues/3355626
+                        - text: (Deprecated)
+                  - cell [ref=f19e1264]:
+                    - group [ref=f19e1265]:
+                      - button "Overrides email building for key core and contrib modules, improving features and integration with Symfony Mailer." [ref=f19e1266]
+                - row [ref=f19e1267]:
+                  - cell [ref=f19e1268]:
+                    - checkbox "Drupal helper extra" [checked] [disabled] [ref=f19e1270]
+                  - cell "Drupal helper extra" [ref=f19e1271]
+                  - cell [ref=f19e1272]:
+                    - group [ref=f19e1273]:
+                      - button "Drupal helper extra." [ref=f19e1274]
+                      - text: ", , ,"
+                - row [ref=f19e1275]:
+                  - cell [ref=f19e1276]:
+                    - checkbox "Drupal helper modules" [checked] [disabled] [ref=f19e1278]
+                  - cell "Drupal helper modules" [ref=f19e1279]
+                  - cell [ref=f19e1280]:
+                    - group [ref=f19e1281]:
+                      - button "Drupal helper modules." [ref=f19e1282]
+                - row [ref=f19e1283]:
+                  - cell [ref=f19e1284]:
+                    - checkbox "Drupal helper vardumper twig extension" [disabled] [ref=f19e1286]
+                  - cell "Drupal helper vardumper twig extension" [ref=f19e1287]
+                  - cell [ref=f19e1288]:
+                    - group [ref=f19e1289]:
+                      - button "Drupal helper vardumper twig extension." [ref=f19e1290]
+                - row [ref=f19e1291]:
+                  - cell [ref=f19e1292]:
+                    - checkbox "Drupal user" [ref=f19e1294]
+                  - cell "Drupal user" [ref=f19e1295]
+                  - cell [ref=f19e1296]:
+                    - group [ref=f19e1297]:
+                      - button "Allows local users to provide translation services." [ref=f19e1298]
+                      - text: ", , , , , , , , , ,"
+                - row [ref=f19e1299]:
+                  - cell [ref=f19e1300]:
+                    - checkbox "Dynamic Entity Reference" [checked] [disabled] [ref=f19e1302]
+                  - cell "Dynamic Entity Reference" [ref=f19e1303]
+                  - cell [ref=f19e1304]:
+                    - group [ref=f19e1305]:
+                      - button "Provides an entity reference field that can reference multiple entity types." [ref=f19e1306]
+                - row [ref=f19e1307]:
+                  - cell [ref=f19e1308]:
+                    - checkbox "EU Cookie Compliance" [checked] [disabled] [ref=f19e1310]
+                  - cell "EU Cookie Compliance" [ref=f19e1311]
+                  - cell [ref=f19e1312]:
+                    - group [ref=f19e1313]:
+                      - button "This module aims at making the website compliant with the new EU cookie regulation" [ref=f19e1314]
+                      - text: ", ,"
+                - row [ref=f19e1315]:
+                  - cell [ref=f19e1316]:
+                    - checkbox "EUCC to Klaro migrator module" [disabled] [ref=f19e1318]
+                  - cell "EUCC to Klaro migrator module" [ref=f19e1319]
+                  - cell [ref=f19e1320]:
+                    - group [ref=f19e1321]:
+                      - button "This module attempts to migrate the settings from the EUCC to Klaro modules" [ref=f19e1322]
+                      - text: ", , , ,"
+                - row [ref=f19e1323]:
+                  - cell [ref=f19e1324]:
+                    - checkbox "Editor Advanced Link" [checked] [disabled] [ref=f19e1326]
+                  - cell "Editor Advanced Link" [ref=f19e1327]
+                  - cell [ref=f19e1328]:
+                    - group [ref=f19e1329]:
+                      - button "Add title, target etc. attributes to Text Editor's link dialog if the text format allows them." [ref=f19e1330]
+                      - text: ", , , , ,"
+                - row [ref=f19e1331]:
+                  - cell [ref=f19e1332]:
+                    - checkbox "Embed" [checked] [disabled] [ref=f19e1334]
+                  - cell "Embed" [ref=f19e1335]
+                  - cell [ref=f19e1336]:
+                    - group [ref=f19e1337]:
+                      - button "Provides a framework for different types of embeds in text editors." [ref=f19e1338]
+                - row [ref=f19e1339]:
+                  - cell [ref=f19e1340]:
+                    - checkbox "Entity" [checked] [disabled] [ref=f19e1342]
+                  - cell "Entity" [ref=f19e1343]
+                  - cell [ref=f19e1344]:
+                    - group [ref=f19e1345]:
+                      - button "Provides expanded entity APIs, which will be moved to Drupal core one day." [ref=f19e1346]
+                - row [ref=f19e1347]:
+                  - cell [ref=f19e1348]:
+                    - checkbox "Entity Browser" [checked] [disabled] [ref=f19e1350]
+                  - cell "Entity Browser" [ref=f19e1351]
+                  - cell [ref=f19e1352]:
+                    - group [ref=f19e1353]:
+                      - button "Provide a generic entity browser/picker/selector." [ref=f19e1354]
+                      - text: ", , , ,"
+                - row [ref=f19e1355]:
+                  - cell [ref=f19e1356]:
+                    - checkbox "Entity Browser IEF" [ref=f19e1358]
+                  - cell "Entity Browser IEF" [ref=f19e1359]
+                  - cell [ref=f19e1360]:
+                    - group [ref=f19e1361]:
+                      - button "Entity browser inline entity form integration." [ref=f19e1362]
+                      - text: ","
+                - row [ref=f19e1363]:
+                  - cell [ref=f19e1364]:
+                    - checkbox "Entity Browser example" [ref=f19e1366]
+                  - cell "Entity Browser example" [ref=f19e1367]
+                  - cell [ref=f19e1368]:
+                    - group [ref=f19e1369]:
+                      - button "Entity browser example module." [ref=f19e1370]
+                      - text: ", , , , , , , , , , ,"
+                - row [ref=f19e1371]:
+                  - cell [ref=f19e1372]:
+                    - checkbox "Entity Embed" [checked] [disabled] [ref=f19e1374]
+                  - cell "Entity Embed" [ref=f19e1375]
+                  - cell [ref=f19e1376]:
+                    - group [ref=f19e1377]:
+                      - button "Allows entities to be embedded using a text editor." [ref=f19e1378]
+                      - text: ", , , , , ,"
+                - row [ref=f19e1379]:
+                  - cell [ref=f19e1380]:
+                    - checkbox "Entity Mask" [ref=f19e1382]
+                  - cell "Entity Mask" [ref=f19e1383]
+                  - cell [ref=f19e1384]:
+                    - group [ref=f19e1385]:
+                      - button "Allows an entity type to borrow the fields and display configuration of another entity type." [ref=f19e1386]
+                - row [ref=f19e1387]:
+                  - cell [ref=f19e1388]:
+                    - checkbox "Entity Reference Revisions" [checked] [disabled] [ref=f19e1390]
+                  - cell "Entity Reference Revisions" [ref=f19e1391]
+                  - cell [ref=f19e1392]:
+                    - group [ref=f19e1393]:
+                      - button "Adds a Entity Reference field type with revision support." [ref=f19e1394]
+                      - text: ", , ,"
+                - row [ref=f19e1395]:
+                  - cell [ref=f19e1396]:
+                    - checkbox "Environment Indicator" [checked] [disabled] [ref=f19e1398]
+                  - cell "Environment Indicator" [ref=f19e1399]
+                  - cell [ref=f19e1400]:
+                    - group [ref=f19e1401]:
+                      - button "Adds a color indicator for the different environments." [ref=f19e1402]
+                      - text: ","
+                - row [ref=f19e1403]:
+                  - cell [ref=f19e1404]:
+                    - checkbox "Environment Indicator - Toolbar Integration" [ref=f19e1406]
+                  - cell "Environment Indicator - Toolbar Integration" [ref=f19e1407]
+                  - cell [ref=f19e1408]:
+                    - group [ref=f19e1409]:
+                      - button "Changes the toolbar background and text color depending on environment." [ref=f19e1410]
+                      - text: ", ,"
+                - row [ref=f19e1411]:
+                  - cell [ref=f19e1412]:
+                    - checkbox "Environment Indicator UI" [checked] [disabled] [ref=f19e1414]
+                  - cell "Environment Indicator UI" [ref=f19e1415]
+                  - cell [ref=f19e1416]:
+                    - group [ref=f19e1417]:
+                      - button "Provides a UI for environment indicator toolbar configurations." [ref=f19e1418]
+                - row [ref=f19e1419]:
+                  - cell [ref=f19e1420]:
+                    - checkbox "Export / Import File" [ref=f19e1422]
+                  - cell "Export / Import File" [ref=f19e1423]
+                  - cell [ref=f19e1424]:
+                    - group [ref=f19e1425]:
+                      - button "A translator which allows you to export source data into a file and import the translated in return." [ref=f19e1426]
+                      - text: ", , , , , , , , , ,"
+                - row [ref=f19e1427]:
+                  - cell [ref=f19e1428]:
+                    - checkbox "Extra Field" [checked] [disabled] [ref=f19e1430]
+                  - cell "Extra Field" [ref=f19e1431]
+                  - cell [ref=f19e1432]:
+                    - group [ref=f19e1433]:
+                      - button "Provides a plugin type for extra fields that look like real fields, but do not store data." [ref=f19e1434]
+                - row [ref=f19e1435]:
+                  - cell [ref=f19e1436]:
+                    - checkbox "Extra Field Example" [ref=f19e1438]
+                  - cell "Extra Field Example" [ref=f19e1439]
+                  - cell [ref=f19e1440]:
+                    - group [ref=f19e1441]:
+                      - button "Provides Extra Field plugin examples ." [ref=f19e1442]
+                      - text: ","
+                - row [ref=f19e1443]:
+                  - cell [ref=f19e1444]:
+                    - checkbox "Facets" [checked] [disabled] [ref=f19e1446]
+                  - cell "Facets" [ref=f19e1447]
+                  - cell [ref=f19e1448]:
+                    - group [ref=f19e1449]:
+                      - button "Faceted search interfaces that can be used on Search API searchers." [ref=f19e1450]
+                      - text: ", , ,"
+                - row [ref=f19e1451]:
+                  - cell [ref=f19e1452]:
+                    - checkbox "Facets Range Widget" [ref=f19e1454]
+                  - cell "Facets Range Widget" [ref=f19e1455]
+                  - cell [ref=f19e1456]:
+                    - group [ref=f19e1457]:
+                      - button "Provides a range widget and solid slider." [ref=f19e1458]
+                      - text: ", , ,"
+                - row [ref=f19e1459]:
+                  - cell [ref=f19e1460]:
+                    - checkbox "Facets Searchbox Widget" [ref=f19e1462]
+                  - cell "Facets Searchbox Widget" [ref=f19e1463]
+                  - cell [ref=f19e1464]:
+                    - group [ref=f19e1465]:
+                      - button "Provides a input to search and filter facet items." [ref=f19e1466]
+                - row [ref=f19e1467]:
+                  - cell [ref=f19e1468]:
+                    - checkbox "Facets summary (Experimental)" [ref=f19e1470]
+                  - cell "Facets summary (Experimental)" [ref=f19e1471]
+                  - cell [ref=f19e1472]:
+                    - group [ref=f19e1473]:
+                      - button "Exposes a Facets block summary showing the current search." [ref=f19e1474]
+                - row [ref=f19e1475]:
+                  - cell [ref=f19e1476]:
+                    - checkbox "Fast 404" [checked] [disabled] [ref=f19e1478]
+                  - cell "Fast 404" [ref=f19e1479]
+                  - cell [ref=f19e1480]:
+                    - group [ref=f19e1481]:
+                      - button "Speed up the generation of 404 pages with this module. Route 404 display to a static page." [ref=f19e1482]
+                - row [ref=f19e1483]:
+                  - cell [ref=f19e1484]:
+                    - checkbox "Field" [checked] [disabled] [ref=f19e1486]
+                  - cell "Field" [ref=f19e1487]
+                  - cell [ref=f19e1488]:
+                    - group [ref=f19e1489]:
+                      - button "Provides the capabilities to add fields to entities." [ref=f19e1490]
+                      - text: ", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,"
+                - row [ref=f19e1491]:
+                  - cell [ref=f19e1492]:
+                    - checkbox "Field Collection" [checked] [disabled] [ref=f19e1494]
+                  - cell "Field Collection" [ref=f19e1495]
+                  - cell [ref=f19e1496]:
+                    - group [ref=f19e1497]:
+                      - button "This version is not compatible with Drupal 11.4.11 and should be replaced." [ref=f19e1498]
+                      - text: ","
+                - row [ref=f19e1499]:
+                  - cell [ref=f19e1500]:
+                    - checkbox "Field Group" [checked] [disabled] [ref=f19e1502]
+                  - cell "Field Group" [ref=f19e1503]
+                  - cell [ref=f19e1504]:
+                    - group [ref=f19e1505]:
+                      - button "Provides the ability to group your fields on both form and display." [ref=f19e1506]
+                - row [ref=f19e1507]:
+                  - cell [ref=f19e1508]:
+                    - checkbox "Field Group Migrate" [ref=f19e1510]
+                  - cell "Field Group Migrate" [ref=f19e1511]
+                  - cell [ref=f19e1512]:
+                    - group [ref=f19e1513]:
+                      - button "Provides the ability to migrate field groups from D6/D7 to D8." [ref=f19e1514]
+                      - text: ","
+                - row [ref=f19e1515]:
+                  - cell [ref=f19e1516]:
+                    - 'checkbox "Field Group: Accordion formatter (Deprecated)" [disabled] [ref=f19e1518]'
+                  - 'cell "Field Group: Accordion formatter (Deprecated)" [ref=f19e1519]'
+                  - cell [ref=f19e1520]:
+                    - group [ref=f19e1521]:
+                      - button "Provides the option to render groups as accordion. This module is deprecated as Jquery UI is EOL." [ref=f19e1522]
+                      - text: ","
+                - row [ref=f19e1523]:
+                  - cell [ref=f19e1524]:
+                    - checkbox "Field Layout View information on the Deprecated status of the module Field Layout" [ref=f19e1526]
+                  - cell [ref=f19e1527]:
+                    - generic [ref=f19e1528]:
+                      - text: Field Layout
+                      - link "View information on the Deprecated status of the module Field Layout" [ref=f19e1529] [cursor=pointer]:
+                        - /url: https://www.drupal.org/node/3223395#s-field-layout
+                        - text: (Deprecated)
+                  - cell [ref=f19e1530]:
+                    - group [ref=f19e1531]:
+                      - button "Allows users to configure the display and form display by arranging fields in several columns." [ref=f19e1532]
+                - row [ref=f19e1533]:
+                  - cell [ref=f19e1534]:
+                    - checkbox "Field UI" [checked] [disabled] [ref=f19e1536]
+                  - cell "Field UI" [ref=f19e1537]
+                  - cell [ref=f19e1538]:
+                    - group [ref=f19e1539]:
+                      - button "Provides a user interface for the Field module." [ref=f19e1540]
+                - row [ref=f19e1541]:
+                  - cell [ref=f19e1542]:
+                    - checkbox "File" [checked] [disabled] [ref=f19e1544]
+                  - cell "File" [ref=f19e1545]
+                  - cell [ref=f19e1546]:
+                    - group [ref=f19e1547]:
+                      - button "Provides a field type for files and defines a \"managed_file\" Form API element." [ref=f19e1548]
+                      - text: ", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,"
+                - row [ref=f19e1549]:
+                  - cell [ref=f19e1550]:
+                    - checkbox "File (Field) Paths" [checked] [disabled] [ref=f19e1552]
+                  - cell "File (Field) Paths" [ref=f19e1553]
+                  - cell [ref=f19e1554]:
+                    - group [ref=f19e1555]:
+                      - button "Adds improved Token based file sorting and renaming functionalities." [ref=f19e1556]
+                      - text: ","
+                - row [ref=f19e1557]:
+                  - cell [ref=f19e1558]:
+                    - checkbox "File Compressor field" [checked] [disabled] [ref=f19e1560]
+                  - cell "File Compressor field" [ref=f19e1561]
+                  - cell [ref=f19e1562]:
+                    - group [ref=f19e1563]:
+                      - button "Allow users to download multiple file based field items in a single compressed file." [ref=f19e1564]
+                - row [ref=f19e1565]:
+                  - cell [ref=f19e1566]:
+                    - checkbox "File entity" [checked] [disabled] [ref=f19e1568]
+                  - cell "File entity" [ref=f19e1569]
+                  - cell [ref=f19e1570]:
+                    - group [ref=f19e1571]:
+                      - button "Extends Drupal file entities to be fieldable and viewable." [ref=f19e1572]
+                      - text: ", , , , , , , ,"
+                - row [ref=f19e1573]:
+                  - cell [ref=f19e1574]:
+                    - checkbox "Filter" [checked] [disabled] [ref=f19e1576]
+                  - cell "Filter" [ref=f19e1577]
+                  - cell [ref=f19e1578]:
+                    - group [ref=f19e1579]:
+                      - button "Filters text content in preparation for display." [ref=f19e1580]
+                      - text: ", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,"
+                - row [ref=f19e1581]:
+                  - cell [ref=f19e1582]:
+                    - checkbox "Form Options Attributes" [checked] [disabled] [ref=f19e1584]
+                  - cell "Form Options Attributes" [ref=f19e1585]
+                  - cell [ref=f19e1586]:
+                    - group [ref=f19e1587]:
+                      - button "Allows form options for select, checkboxes, and radio elements to have individual attributes." [ref=f19e1588]
+                - row [ref=f19e1589]:
+                  - cell [ref=f19e1590]:
+                    - checkbox "Gin Toolbar" [checked] [disabled] [ref=f19e1592]
+                  - cell "Gin Toolbar" [ref=f19e1593]
+                  - cell [ref=f19e1594]:
+                    - group [ref=f19e1595]:
+                      - button "Gin Toolbar for Gin Theme" [ref=f19e1596]
+                - row [ref=f19e1597]:
+                  - cell [ref=f19e1598]:
+                    - checkbox "Google Translator" [checked] [disabled] [ref=f19e1600]
+                  - cell "Google Translator" [ref=f19e1601]
+                  - cell [ref=f19e1602]:
+                    - group [ref=f19e1603]:
+                      - button "TMGMT implementation of Google Translate Service." [ref=f19e1604]
+                      - text: ", , , , , , , , ,"
+                - row [ref=f19e1605]:
+                  - cell [ref=f19e1606]:
+                    - checkbox "HTTP Basic Authentication" [ref=f19e1608]
+                  - cell "HTTP Basic Authentication" [ref=f19e1609]
+                  - cell [ref=f19e1610]:
+                    - group [ref=f19e1611]:
+                      - button "Provides an HTTP Basic authentication provider." [ref=f19e1612]
+                      - text: ","
+                - row [ref=f19e1613]:
+                  - cell [ref=f19e1614]:
+                    - checkbox "Help" [checked] [disabled] [ref=f19e1616]
+                  - cell "Help" [ref=f19e1617]
+                  - cell [ref=f19e1618]:
+                    - group [ref=f19e1619]:
+                      - button "Generates help pages and provides a Help block with page-level help." [ref=f19e1620]
+                - row [ref=f19e1621]:
+                  - cell [ref=f19e1622]:
+                    - checkbox "History View information on the Deprecated status of the module History" [ref=f19e1624]
+                  - cell [ref=f19e1625]:
+                    - generic [ref=f19e1626]:
+                      - text: History
+                      - link "View information on the Deprecated status of the module History" [ref=f19e1627] [cursor=pointer]:
+                        - /url: https://www.drupal.org/node/3223395#s-history
+                        - text: (Deprecated)
+                  - cell [ref=f19e1628]:
+                    - group [ref=f19e1629]:
+                      - button "Records which content users have viewed and marks it as new or updated." [ref=f19e1630]
+                      - text: ", , , , ,"
+                - row [ref=f19e1631]:
+                  - cell [ref=f19e1632]:
+                    - checkbox "IPSOS Error page" [checked] [disabled] [ref=f19e1634]
+                  - cell "IPSOS Error page" [ref=f19e1635]
+                  - cell [ref=f19e1636]:
+                    - group [ref=f19e1637]:
+                      - button "IPSOS Error page module." [ref=f19e1638]
+                - row [ref=f19e1639]:
+                  - cell [ref=f19e1640]:
+                    - checkbox "IPSOS Face to Face" [checked] [disabled] [ref=f19e1642]
+                  - cell "IPSOS Face to Face" [ref=f19e1643]
+                  - cell [ref=f19e1644]:
+                    - group [ref=f19e1645]:
+                      - button "IPSOS Face to Face form module" [ref=f19e1646]
+                      - text: ","
+                - row [ref=f19e1647]:
+                  - cell [ref=f19e1648]:
+                    - checkbox "IPSOS Menu" [checked] [disabled] [ref=f19e1650]
+                  - cell "IPSOS Menu" [ref=f19e1651]
+                  - cell [ref=f19e1652]:
+                    - group [ref=f19e1653]:
+                      - button "IPSOS Menu functionality." [ref=f19e1654]
+                      - text: ", , , , , , , , , ,"
+                - row [ref=f19e1655]:
+                  - cell [ref=f19e1656]:
+                    - checkbox "IPSOS Test" [ref=f19e1658]
+                  - cell "IPSOS Test" [ref=f19e1659]
+                  - cell [ref=f19e1660]:
+                    - group [ref=f19e1661]:
+                      - button "PHPUnit tests for the IPSOS project." [ref=f19e1662]
+                - row [ref=f19e1663]:
+                  - cell [ref=f19e1664]:
+                    - checkbox "IPSOS backoffice" [checked] [disabled] [ref=f19e1666]
+                  - cell "IPSOS backoffice" [ref=f19e1667]
+                  - cell [ref=f19e1668]:
+                    - group [ref=f19e1669]:
+                      - button "Altering backoffice functionality." [ref=f19e1670]
+                      - text: ", , , , , , , , , , , , , ,"
+                - row [ref=f19e1671]:
+                  - cell [ref=f19e1672]:
+                    - checkbox "IPSOS backoffice Flex page" [checked] [disabled] [ref=f19e1674]
+                  - cell "IPSOS backoffice Flex page" [ref=f19e1675]
+                  - cell [ref=f19e1676]:
+                    - group [ref=f19e1677]:
+                      - button "IPSOS backoffice flex page functionality." [ref=f19e1678]
+                      - text: ", , , , ,"
+                - row [ref=f19e1679]:
+                  - cell [ref=f19e1680]:
+                    - checkbox "IPSOS backoffice file summary" [checked] [disabled] [ref=f19e1682]
+                  - cell "IPSOS backoffice file summary" [ref=f19e1683]
+                  - cell [ref=f19e1684]:
+                    - group [ref=f19e1685]:
+                      - button "Extracts and summarizes files used in CKEditor fields." [ref=f19e1686]
+                      - text: ", , , , ,"
+                - row [ref=f19e1687]:
+                  - cell [ref=f19e1688]:
+                    - checkbox "IPSOS backoffice homepage" [checked] [disabled] [ref=f19e1690]
+                  - cell "IPSOS backoffice homepage" [ref=f19e1691]
+                  - cell [ref=f19e1692]:
+                    - group [ref=f19e1693]:
+                      - button "IPSOS backoffice homepage functionality." [ref=f19e1694]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e1695]:
+                  - cell [ref=f19e1696]:
+                    - checkbox "IPSOS backoffice language settings" [checked] [disabled] [ref=f19e1698]
+                  - cell "IPSOS backoffice language settings" [ref=f19e1699]
+                  - cell [ref=f19e1700]:
+                    - group [ref=f19e1701]:
+                      - button "IPSOS language site settings functionality" [ref=f19e1702]
+                - row [ref=f19e1703]:
+                  - cell [ref=f19e1704]:
+                    - checkbox "IPSOS backoffice news & events" [checked] [disabled] [ref=f19e1706]
+                  - cell "IPSOS backoffice news & events" [ref=f19e1707]
+                  - cell [ref=f19e1708]:
+                    - group [ref=f19e1709]:
+                      - button "IPSOS backoffice news & events functionality." [ref=f19e1710]
+                      - text: ", , , , ,"
+                - row [ref=f19e1711]:
+                  - cell [ref=f19e1712]:
+                    - checkbox "IPSOS backoffice newsletter" [checked] [disabled] [ref=f19e1714]
+                  - cell "IPSOS backoffice newsletter" [ref=f19e1715]
+                  - cell [ref=f19e1716]:
+                    - group [ref=f19e1717]:
+                      - button "IPSOS backoffice newsletter functionality." [ref=f19e1718]
+                      - text: ", , , , ,"
+                - row [ref=f19e1719]:
+                  - cell [ref=f19e1720]:
+                    - checkbox "IPSOS backoffice products" [checked] [disabled] [ref=f19e1722]
+                  - cell "IPSOS backoffice products" [ref=f19e1723]
+                  - cell [ref=f19e1724]:
+                    - group [ref=f19e1725]:
+                      - button "IPSOS backoffice products functionality." [ref=f19e1726]
+                - row [ref=f19e1727]:
+                  - cell [ref=f19e1728]:
+                    - checkbox "IPSOS backoffice publication" [checked] [disabled] [ref=f19e1730]
+                  - cell "IPSOS backoffice publication" [ref=f19e1731]
+                  - cell [ref=f19e1732]:
+                    - group [ref=f19e1733]:
+                      - button "IPSOS backoffice publication functionality." [ref=f19e1734]
+                      - text: ", , , , , ,"
+                - row [ref=f19e1735]:
+                  - cell [ref=f19e1736]:
+                    - checkbox "IPSOS backoffice solution" [checked] [disabled] [ref=f19e1738]
+                  - cell "IPSOS backoffice solution" [ref=f19e1739]
+                  - cell [ref=f19e1740]:
+                    - group [ref=f19e1741]:
+                      - button "IPSOS backoffice solution functionality." [ref=f19e1742]
+                      - text: ", , , , ,"
+                - row [ref=f19e1743]:
+                  - cell [ref=f19e1744]:
+                    - checkbox "IPSOS backoffice solution tup" [checked] [disabled] [ref=f19e1746]
+                  - cell "IPSOS backoffice solution tup" [ref=f19e1747]
+                  - cell [ref=f19e1748]:
+                    - group [ref=f19e1749]:
+                      - button "IPSOS backoffice solution yup functionality." [ref=f19e1750]
+                      - text: ", , , , ,"
+                - row [ref=f19e1751]:
+                  - cell [ref=f19e1752]:
+                    - checkbox "IPSOS contact" [checked] [disabled] [ref=f19e1754]
+                  - cell "IPSOS contact" [ref=f19e1755]
+                  - cell [ref=f19e1756]:
+                    - group [ref=f19e1757]:
+                      - button "IPSOS contact module" [ref=f19e1758]
+                      - text: ","
+                - row [ref=f19e1759]:
+                  - cell [ref=f19e1760]:
+                    - checkbox "IPSOS countries" [checked] [disabled] [ref=f19e1762]
+                  - cell "IPSOS countries" [ref=f19e1763]
+                  - cell [ref=f19e1764]:
+                    - group [ref=f19e1765]:
+                      - button "Ipsos countries" [ref=f19e1766]
+                - row [ref=f19e1767]:
+                  - cell [ref=f19e1768]:
+                    - checkbox "IPSOS domain" [checked] [disabled] [ref=f19e1770]
+                  - cell "IPSOS domain" [ref=f19e1771]
+                  - cell [ref=f19e1772]:
+                    - group [ref=f19e1773]:
+                      - button "Ipsos domain" [ref=f19e1774]
+                      - text: ", , , , , , , , ,"
+                - row [ref=f19e1775]:
+                  - cell [ref=f19e1776]:
+                    - checkbox "IPSOS mail" [checked] [disabled] [ref=f19e1778]
+                  - cell "IPSOS mail" [ref=f19e1779]
+                  - cell [ref=f19e1780]:
+                    - group [ref=f19e1781]:
+                      - button "IPSOS mail functionality." [ref=f19e1782]
+                      - text: ","
+                - row [ref=f19e1783]:
+                  - cell [ref=f19e1784]:
+                    - checkbox "IPSOS minisite" [checked] [disabled] [ref=f19e1786]
+                  - cell "IPSOS minisite" [ref=f19e1787]
+                  - cell [ref=f19e1788]:
+                    - group [ref=f19e1789]:
+                      - button "IPSOS minisite module" [ref=f19e1790]
+                      - text: ", , , , , , , , , , , , , , ,"
+                - row [ref=f19e1791]:
+                  - cell [ref=f19e1792]:
+                    - checkbox "IPSOS minisite landing page" [checked] [disabled] [ref=f19e1794]
+                  - cell "IPSOS minisite landing page" [ref=f19e1795]
+                  - cell [ref=f19e1796]:
+                    - group [ref=f19e1797]:
+                      - button "IPSOS minisite landing page module" [ref=f19e1798]
+                      - text: ", , , , , , , , , , , , , , , ,"
+                - row [ref=f19e1799]:
+                  - cell [ref=f19e1800]:
+                    - checkbox "IPSOS modal" [checked] [disabled] [ref=f19e1802]
+                  - cell "IPSOS modal" [ref=f19e1803]
+                  - cell [ref=f19e1804]:
+                    - group [ref=f19e1805]:
+                      - button "IPSOS modal functionality." [ref=f19e1806]
+                      - text: ", , ,"
+                - row [ref=f19e1807]:
+                  - cell [ref=f19e1808]:
+                    - checkbox "IPSOS search" [checked] [disabled] [ref=f19e1810]
+                  - cell "IPSOS search" [ref=f19e1811]
+                  - cell [ref=f19e1812]:
+                    - group [ref=f19e1813]:
+                      - button "IPSOS search functionality." [ref=f19e1814]
+                      - text: ", , , , , , , ,"
+                - row [ref=f19e1815]:
+                  - cell [ref=f19e1816]:
+                    - checkbox "IPSOS site" [checked] [disabled] [ref=f19e1818]
+                  - cell "IPSOS site" [ref=f19e1819]
+                  - cell [ref=f19e1820]:
+                    - group [ref=f19e1821]:
+                      - button "IPSOS site common functionality." [ref=f19e1822]
+                      - text: ", , ,"
+                - row [ref=f19e1823]:
+                  - cell [ref=f19e1824]:
+                    - checkbox "Icon Select" [checked] [disabled] [ref=f19e1826]
+                  - cell "Icon Select" [ref=f19e1827]
+                  - cell [ref=f19e1828]:
+                    - group [ref=f19e1829]:
+                      - button "Icon selector field" [ref=f19e1830]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e1831]:
+                  - cell [ref=f19e1832]:
+                    - checkbox "Image" [checked] [disabled] [ref=f19e1834]
+                  - cell "Image" [ref=f19e1835]
+                  - cell [ref=f19e1836]:
+                    - group [ref=f19e1837]:
+                      - button "Defines a field type for image media and provides display configuration tools." [ref=f19e1838]
+                      - text: ", , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,"
+                - row [ref=f19e1839]:
+                  - cell [ref=f19e1840]:
+                    - checkbox "Image CAPTCHA" [ref=f19e1842]
+                  - cell "Image CAPTCHA" [ref=f19e1843]
+                  - cell [ref=f19e1844]:
+                    - group [ref=f19e1845]:
+                      - button "Provides an image based CAPTCHA." [ref=f19e1846]
+                - row [ref=f19e1847]:
+                  - cell [ref=f19e1848]:
+                    - checkbox "ImageWidgetCrop" [checked] [disabled] [ref=f19e1850]
+                  - cell "ImageWidgetCrop" [ref=f19e1851]
+                  - cell [ref=f19e1852]:
+                    - group [ref=f19e1853]:
+                      - button "Provides an interface for using the features of the Crop API." [ref=f19e1854]
+                      - text: ", , , , ,"
+                - row [ref=f19e1855]:
+                  - cell [ref=f19e1856]:
+                    - checkbox "ImageWidgetCrop examples" [ref=f19e1858]
+                  - cell "ImageWidgetCrop examples" [ref=f19e1859]
+                  - cell [ref=f19e1860]:
+                    - group [ref=f19e1861]:
+                      - button "Provides an out of box example implementation of ImageWidgetCrop." [ref=f19e1862]
+                      - text: ", , , , , , , , , , , , , , ,"
+                - row [ref=f19e1863]:
+                  - cell [ref=f19e1864]:
+                    - checkbox "Inline Entity Form" [checked] [disabled] [ref=f19e1866]
+                  - cell "Inline Entity Form" [ref=f19e1867]
+                  - cell [ref=f19e1868]:
+                    - group [ref=f19e1869]:
+                      - button "Provides a widget for inline management (creation, modification, removal) of referenced entities." [ref=f19e1870]
+                      - text: ","
+                - row [ref=f19e1871]:
+                  - cell [ref=f19e1872]:
+                    - checkbox "Inline Form Errors" [checked] [disabled] [ref=f19e1874]
+                  - cell "Inline Form Errors" [ref=f19e1875]
+                  - cell [ref=f19e1876]:
+                    - group [ref=f19e1877]:
+                      - button "Places error messages adjacent to form inputs, for improved usability and accessibility." [ref=f19e1878]
+                - row [ref=f19e1879]:
+                  - cell [ref=f19e1880]:
+                    - checkbox "Interface Translation" [checked] [disabled] [ref=f19e1882]
+                  - cell "Interface Translation" [ref=f19e1883]
+                  - cell [ref=f19e1884]:
+                    - group [ref=f19e1885]:
+                      - button "Allows users to translate interface text and to switch between interface languages." [ref=f19e1886]
+                      - text: ", , , , ,"
+                - row [ref=f19e1887]:
+                  - cell [ref=f19e1888]:
+                    - checkbox "Internal Dynamic Page Cache" [checked] [disabled] [ref=f19e1890]
+                  - cell "Internal Dynamic Page Cache" [ref=f19e1891]
+                  - cell [ref=f19e1892]:
+                    - group [ref=f19e1893]:
+                      - button "Caches pages, including those with dynamic content, for all users." [ref=f19e1894]
+                - row [ref=f19e1895]:
+                  - cell [ref=f19e1896]:
+                    - checkbox "Internal Page Cache" [checked] [disabled] [ref=f19e1898]
+                  - cell "Internal Page Cache" [ref=f19e1899]
+                  - cell [ref=f19e1900]:
+                    - group [ref=f19e1901]:
+                      - button "Caches pages for anonymous users and can be used when external page cache is not available." [ref=f19e1902]
+                - row [ref=f19e1903]:
+                  - cell [ref=f19e1904]:
+                    - checkbox "Ipsos Cron" [checked] [disabled] [ref=f19e1906]
+                  - cell "Ipsos Cron" [ref=f19e1907]
+                  - cell [ref=f19e1908]:
+                    - group [ref=f19e1909]:
+                      - button [ref=f19e1910]
+                      - text: ", , , , , ,"
+                - row [ref=f19e1911]:
+                  - cell [ref=f19e1912]:
+                    - checkbox "Ipsos GTM" [checked] [disabled] [ref=f19e1914]
+                  - cell "Ipsos GTM" [ref=f19e1915]
+                  - cell [ref=f19e1916]:
+                    - group [ref=f19e1917]:
+                      - button "Ipsos GTM" [ref=f19e1918]
+                - row [ref=f19e1919]:
+                  - cell [ref=f19e1920]:
+                    - checkbox "Ipsos Migrate UI" [disabled] [ref=f19e1922]
+                  - cell "Ipsos Migrate UI" [ref=f19e1923]
+                  - cell [ref=f19e1924]:
+                    - group [ref=f19e1925]:
+                      - button [ref=f19e1926]
+                      - text: ", , , , , , , , , , , , ,"
+                - row [ref=f19e1927]:
+                  - cell [ref=f19e1928]:
+                    - checkbox "Ipsos Migration Queue" [disabled] [ref=f19e1930]
+                  - cell "Ipsos Migration Queue" [ref=f19e1931]
+                  - cell [ref=f19e1932]:
+                    - group [ref=f19e1933]:
+                      - button [ref=f19e1934]
+                      - text: ", ,"
+                - row [ref=f19e1935]:
+                  - cell [ref=f19e1936]:
+                    - checkbox "Ipsos Migration from CSV files" [checked] [disabled] [ref=f19e1938]
+                  - cell "Ipsos Migration from CSV files" [ref=f19e1939]
+                  - cell [ref=f19e1940]:
+                    - group [ref=f19e1941]:
+                      - button [ref=f19e1942]
+                      - text: ", , , , , , , , , ,"
+                - row [ref=f19e1943]:
+                  - cell [ref=f19e1944]:
+                    - checkbox "Ipsos Migration from External Database" [disabled] [ref=f19e1946]
+                  - cell "Ipsos Migration from External Database" [ref=f19e1947]
+                  - cell [ref=f19e1948]:
+                    - group [ref=f19e1949]:
+                      - button [ref=f19e1950]
+                      - text: ", ,"
+                - row [ref=f19e1951]:
+                  - cell [ref=f19e1952]:
+                    - checkbox "Ipsos Migration from External Database (FR)" [disabled] [ref=f19e1954]
+                  - cell "Ipsos Migration from External Database (FR)" [ref=f19e1955]
+                  - cell [ref=f19e1956]:
+                    - group [ref=f19e1957]:
+                      - button [ref=f19e1958]
+                      - text: ", , , , , , , , , ,"
+                - row [ref=f19e1959]:
+                  - cell [ref=f19e1960]:
+                    - checkbox "Ipsos Seo" [checked] [disabled] [ref=f19e1962]
+                  - cell "Ipsos Seo" [ref=f19e1963]
+                  - cell [ref=f19e1964]:
+                    - group [ref=f19e1965]:
+                      - button "Ipsos Seo features." [ref=f19e1966]
+                - row [ref=f19e1967]:
+                  - cell [ref=f19e1968]:
+                    - checkbox "Ipsos taxonomy import" [checked] [disabled] [ref=f19e1970]
+                  - cell "Ipsos taxonomy import" [ref=f19e1971]
+                  - cell [ref=f19e1972]:
+                    - group [ref=f19e1973]:
+                      - button "Ipsos taxonomy import features." [ref=f19e1974]
+                - row [ref=f19e1975]:
+                  - cell [ref=f19e1976]:
+                    - checkbox "JSON:API" [ref=f19e1978]
+                  - cell "JSON:API" [ref=f19e1979]
+                  - cell [ref=f19e1980]:
+                    - group [ref=f19e1981]:
+                      - button "Exposes entities as a JSON:API-specification-compliant web API." [ref=f19e1982]
+                      - text: ", ,"
+                - row [ref=f19e1983]:
+                  - cell [ref=f19e1984]:
+                    - checkbox "Language" [checked] [disabled] [ref=f19e1986]
+                  - cell "Language" [ref=f19e1987]
+                  - cell [ref=f19e1988]:
+                    - group [ref=f19e1989]:
+                      - button "Allows users to configure available languages." [ref=f19e1990]
+                      - text: ", , , , , , , , , , , , , , , , , , , , , , , , , ,"
+                - row [ref=f19e1991]:
+                  - cell [ref=f19e1992]:
+                    - checkbox "Late runtime processor" [checked] [disabled] [ref=f19e1994]
+                  - cell "Late runtime processor" [ref=f19e1995]
+                  - cell [ref=f19e1996]:
+                    - group [ref=f19e1997]:
+                      - button "Process the queue on every request, this is only recommended on high latency configurations." [ref=f19e1998]
+                - row [ref=f19e1999]:
+                  - cell [ref=f19e2000]:
+                    - checkbox "Layout Builder" [ref=f19e2002]
+                  - cell "Layout Builder" [ref=f19e2003]
+                  - cell [ref=f19e2004]:
+                    - group [ref=f19e2005]:
+                      - button "Allows users to add and arrange blocks and content fields directly on the content." [ref=f19e2006]
+                      - text: ", , ,"
+                - row [ref=f19e2007]:
+                  - cell [ref=f19e2008]:
+                    - checkbox "Layout Builder Expose All Field Blocks View information on the Deprecated status of the module Layout Builder Expose All Field Blocks" [ref=f19e2010]
+                  - cell [ref=f19e2011]:
+                    - generic [ref=f19e2012]:
+                      - text: Layout Builder Expose All Field Blocks
+                      - link "View information on the Deprecated status of the module Layout Builder Expose All Field Blocks" [ref=f19e2013] [cursor=pointer]:
+                        - /url: https://www.drupal.org/node/3223395#s-layout-builder-expose-all-field-blocks
+                        - text: (Deprecated)
+                  - cell [ref=f19e2014]:
+                    - group [ref=f19e2015]:
+                      - button "When enabled, this module exposes all fields for all entity view displays. When disabled, only entity type bundles that have layout builder enabled will have their fields exposed. Enabling this module could significantly decrease performance on sites with a large number of entity types and bundles." [ref=f19e2016]
+                      - text: ", , ,"
+                - row [ref=f19e2017]:
+                  - cell [ref=f19e2018]:
+                    - checkbox "Layout Discovery" [ref=f19e2020]
+                  - cell "Layout Discovery" [ref=f19e2021]
+                  - cell [ref=f19e2022]:
+                    - group [ref=f19e2023]:
+                      - button "Provides a way for modules or themes to register layouts." [ref=f19e2024]
+                      - text: ", , ,"
+                - row [ref=f19e2025]:
+                  - cell [ref=f19e2026]:
+                    - checkbox "Link" [checked] [disabled] [ref=f19e2028]
+                  - cell "Link" [ref=f19e2029]
+                  - cell [ref=f19e2030]:
+                    - group [ref=f19e2031]:
+                      - button "Provides a field type for internal and external URLs." [ref=f19e2032]
+                      - text: ", , , , , , , , , , , ,"
+                - row [ref=f19e2033]:
+                  - cell [ref=f19e2034]:
+                    - checkbox "Link attributes" [checked] [disabled] [ref=f19e2036]
+                  - cell "Link attributes" [ref=f19e2037]
+                  - cell [ref=f19e2038]:
+                    - group [ref=f19e2039]:
+                      - button "Provides a widget to allow settings of link attributes for link fields." [ref=f19e2040]
+                      - text: ", , ,"
+                - row [ref=f19e2041]:
+                  - cell [ref=f19e2042]:
+                    - 'checkbox "Link attributes: Menu Link Content integration" [checked] [disabled] [ref=f19e2044]'
+                  - 'cell "Link attributes: Menu Link Content integration" [ref=f19e2045]'
+                  - cell [ref=f19e2046]:
+                    - group [ref=f19e2047]:
+                      - button "Allows setting link attributes on menu links contents." [ref=f19e2048]
+                      - text: ", ,"
+                - row [ref=f19e2049]:
+                  - cell [ref=f19e2050]:
+                    - checkbox "Linkit" [checked] [disabled] [ref=f19e2052]
+                  - cell "Linkit" [ref=f19e2053]
+                  - cell [ref=f19e2054]:
+                    - group [ref=f19e2055]:
+                      - button "Provides an easy interface for internal and external linking with wysiwyg editors." [ref=f19e2056]
+                - row [ref=f19e2057]:
+                  - cell [ref=f19e2058]:
+                    - checkbox "Linkit attributes" [ref=f19e2060]
+                  - cell "Linkit attributes" [ref=f19e2061]
+                  - cell [ref=f19e2062]:
+                    - group [ref=f19e2063]:
+                      - button "Provides a linkit widget with attributes settings." [ref=f19e2064]
+                      - text: ", , ,"
+                - row [ref=f19e2065]:
+                  - cell [ref=f19e2066]:
+                    - checkbox "Locales Source" [checked] [disabled] [ref=f19e2068]
+                  - cell "Locales Source" [ref=f19e2069]
+                  - cell [ref=f19e2070]:
+                    - group [ref=f19e2071]:
+                      - button "Locales source plugin for the Translation Management system." [ref=f19e2072]
+                      - text: ", , , , , , , , , , ,"
+                - row [ref=f19e2073]:
+                  - cell [ref=f19e2074]:
+                    - checkbox "Mail System" [checked] [disabled] [ref=f19e2076]
+                  - cell "Mail System" [ref=f19e2077]
+                  - cell [ref=f19e2078]:
+                    - group [ref=f19e2079]:
+                      - button "Provides a user interface for per-module and site-wide mail_system selection." [ref=f19e2080]
+                      - text: ", ,"
+                - row [ref=f19e2081]:
+                  - cell [ref=f19e2082]:
+                    - checkbox "Mailer Transport" [checked] [disabled] [ref=f19e2084]
+                  - cell "Mailer Transport" [ref=f19e2085]
+                  - cell [ref=f19e2086]:
+                    - group [ref=f19e2087]:
+                      - button "Placeholder to support upgrade to v2.x" [ref=f19e2088]
+                      - text: ","
+                - row [ref=f19e2089]:
+                  - cell [ref=f19e2090]:
+                    - checkbox "Marketo Engine" [checked] [disabled] [ref=f19e2092]
+                  - cell "Marketo Engine" [ref=f19e2093]
+                  - cell [ref=f19e2094]:
+                    - group [ref=f19e2095]:
+                      - button "IPSOS marketo integration engine." [ref=f19e2096]
+                - row [ref=f19e2097]:
+                  - cell [ref=f19e2098]:
+                    - checkbox "Markup" [checked] [disabled] [ref=f19e2100]
+                  - cell "Markup" [ref=f19e2101]
+                  - cell [ref=f19e2102]:
+                    - group [ref=f19e2103]:
+                      - button "Defines a field type for markup." [ref=f19e2104]
+                - row [ref=f19e2105]:
+                  - cell [ref=f19e2106]:
+                    - checkbox "Media" [ref=f19e2108]
+                  - cell "Media" [ref=f19e2109]
+                  - cell [ref=f19e2110]:
+                    - group [ref=f19e2111]:
+                      - button "Manages the creation, configuration, and display of media items." [ref=f19e2112]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e2113]:
+                  - cell [ref=f19e2114]:
+                    - checkbox "Media Library" [ref=f19e2116]
+                  - cell "Media Library" [ref=f19e2117]
+                  - cell [ref=f19e2118]:
+                    - group [ref=f19e2119]:
+                      - button "Enhances the media list with additional features to more easily find and use existing media items." [ref=f19e2120]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e2121]:
+                  - cell [ref=f19e2122]:
+                    - checkbox "MediaElement.js" [checked] [disabled] [ref=f19e2124]
+                  - cell "MediaElement.js" [ref=f19e2125]
+                  - cell [ref=f19e2126]:
+                    - group [ref=f19e2127]:
+                      - button "Provide MediaElement.js to be used with Filefields." [ref=f19e2128]
+                      - text: ","
+                - row [ref=f19e2129]:
+                  - cell [ref=f19e2130]:
+                    - checkbox "Memcache" [checked] [disabled] [ref=f19e2132]
+                  - cell "Memcache" [ref=f19e2133]
+                  - cell [ref=f19e2134]:
+                    - group [ref=f19e2135]:
+                      - button "High performance integration with memcache." [ref=f19e2136]
+                - row [ref=f19e2137]:
+                  - cell [ref=f19e2138]:
+                    - checkbox "Memcache Admin" [ref=f19e2140]
+                  - cell "Memcache Admin" [ref=f19e2141]
+                  - cell [ref=f19e2142]:
+                    - group [ref=f19e2143]:
+                      - button "Adds a User Interface to monitor the Memcache for this site." [ref=f19e2144]
+                - row [ref=f19e2145]:
+                  - cell [ref=f19e2146]:
+                    - checkbox "Menu UI" [checked] [disabled] [ref=f19e2148]
+                  - cell "Menu UI" [ref=f19e2149]
+                  - cell [ref=f19e2150]:
+                    - group [ref=f19e2151]:
+                      - button "Provides a user interface for managing menus." [ref=f19e2152]
+                      - text: ", , ,"
+                - row [ref=f19e2153]:
+                  - cell [ref=f19e2154]:
+                    - checkbox "Metatag" [checked] [disabled] [ref=f19e2156]
+                  - cell "Metatag" [ref=f19e2157]
+                  - cell [ref=f19e2158]:
+                    - group [ref=f19e2159]:
+                      - button "Manage meta tags for all entities." [ref=f19e2160]
+                      - text: ", , , , , , , , , , , , , , , , , ,"
+                - row [ref=f19e2161]:
+                  - cell [ref=f19e2162]:
+                    - checkbox "Metatag Custom Routes (Paths)" [ref=f19e2164]
+                  - cell "Metatag Custom Routes (Paths)" [ref=f19e2165]
+                  - cell [ref=f19e2166]:
+                    - group [ref=f19e2167]:
+                      - button "Allows assigning meta tags to be used on custom routes, equivalent to custom paths." [ref=f19e2168]
+                      - text: ", ,"
+                - row [ref=f19e2169]:
+                  - cell [ref=f19e2170]:
+                    - checkbox "Metatag Extended Permissions" [ref=f19e2172]
+                  - cell "Metatag Extended Permissions" [ref=f19e2173]
+                  - cell [ref=f19e2174]:
+                    - group [ref=f19e2175]:
+                      - 'button "Adds individual permissions for each meta tag, allowing for fine-grained access to the meta tags. Note: this may lead to performance issues on the permissions admin page, please see the included README.txt file for details." [ref=f19e2176]'
+                      - text: ", ,"
+                - row [ref=f19e2177]:
+                  - cell [ref=f19e2178]:
+                    - 'checkbox "Metatag: App Links" [ref=f19e2180]'
+                  - 'cell "Metatag: App Links" [ref=f19e2181]'
+                  - cell [ref=f19e2182]:
+                    - group [ref=f19e2183]:
+                      - button "Provides support for applinks.org meta tags." [ref=f19e2184]
+                      - text: ", ,"
+                - row [ref=f19e2185]:
+                  - cell [ref=f19e2186]:
+                    - 'checkbox "Metatag: Custom Tags" [ref=f19e2188]'
+                  - 'cell "Metatag: Custom Tags" [ref=f19e2189]'
+                  - cell [ref=f19e2190]:
+                    - group [ref=f19e2191]:
+                      - button "Provides support to define and manage custom meta tags." [ref=f19e2192]
+                      - text: ", ,"
+                - row [ref=f19e2193]:
+                  - cell [ref=f19e2194]:
+                    - 'checkbox "Metatag: Dublin Core" [ref=f19e2196]'
+                  - 'cell "Metatag: Dublin Core" [ref=f19e2197]'
+                  - cell [ref=f19e2198]:
+                    - group [ref=f19e2199]:
+                      - button [ref=f19e2200]:
+                        - generic [ref=f19e2201]:
+                          - text: Provides the fifteen
+                          - link "Dublin Core Metadata Element Set 1.1" [ref=f19e2202] [cursor=pointer]:
+                            - /url: https://dublincore.org/documents/dces/
+                          - text: meta tags from the
+                          - link "Dublin Core Metadata Institute" [ref=f19e2203] [cursor=pointer]:
+                            - /url: https://dublincore.org/
+                          - text: .
+                      - text: ", ,"
+                - row [ref=f19e2204]:
+                  - cell [ref=f19e2205]:
+                    - 'checkbox "Metatag: Dublin Core Advanced" [ref=f19e2207]'
+                  - 'cell "Metatag: Dublin Core Advanced" [ref=f19e2208]'
+                  - cell [ref=f19e2209]:
+                    - group [ref=f19e2210]:
+                      - button [ref=f19e2211]:
+                        - generic [ref=f19e2212]:
+                          - text: Provides forty additional meta tags from the
+                          - link "Dublin Core Metadata Institute" [ref=f19e2213] [cursor=pointer]:
+                            - /url: https://dublincore.org/
+                          - text: .
+                      - text: ", , ,"
+                - row [ref=f19e2214]:
+                  - cell [ref=f19e2215]:
+                    - 'checkbox "Metatag: Facebook" [ref=f19e2217]'
+                  - 'cell "Metatag: Facebook" [ref=f19e2218]'
+                  - cell [ref=f19e2219]:
+                    - group [ref=f19e2220]:
+                      - button "A set of meta tags specially for controlling advanced functionality with Facebook." [ref=f19e2221]
+                      - text: ", ,"
+                - row [ref=f19e2222]:
+                  - cell [ref=f19e2223]:
+                    - 'checkbox "Metatag: Favicons" [ref=f19e2225]'
+                  - 'cell "Metatag: Favicons" [ref=f19e2226]'
+                  - cell [ref=f19e2227]:
+                    - group [ref=f19e2228]:
+                      - button "Provides support for many different favicons." [ref=f19e2229]
+                      - text: ", ,"
+                - row [ref=f19e2230]:
+                  - cell [ref=f19e2231]:
+                    - 'checkbox "Metatag: Google Custom Search Engine (CSE)" [ref=f19e2233]'
+                  - 'cell "Metatag: Google Custom Search Engine (CSE)" [ref=f19e2234]'
+                  - cell [ref=f19e2235]:
+                    - group [ref=f19e2236]:
+                      - button "Provides support for meta tags used for Google Custom Search Engine." [ref=f19e2237]
+                      - text: ", ,"
+                - row [ref=f19e2238]:
+                  - cell [ref=f19e2239]:
+                    - 'checkbox "Metatag: Hreflang" [ref=f19e2241]'
+                  - 'cell "Metatag: Hreflang" [ref=f19e2242]'
+                  - cell [ref=f19e2243]:
+                    - group [ref=f19e2244]:
+                      - button "Provides support for the hreflang meta tag with some extra logic to simplify it." [ref=f19e2245]
+                      - text: ", ,"
+                - row [ref=f19e2246]:
+                  - cell [ref=f19e2247]:
+                    - 'checkbox "Metatag: Mobile & UI Adjustments" [ref=f19e2249]'
+                  - 'cell "Metatag: Mobile & UI Adjustments" [ref=f19e2250]'
+                  - cell [ref=f19e2251]:
+                    - group [ref=f19e2252]:
+                      - button "Provides support for meta tags used to control the mobile browser experience." [ref=f19e2253]
+                      - text: ", ,"
+                - row [ref=f19e2254]:
+                  - cell [ref=f19e2255]:
+                    - 'checkbox "Metatag: Open Graph" [checked] [disabled] [ref=f19e2257]'
+                  - 'cell "Metatag: Open Graph" [ref=f19e2258]'
+                  - cell [ref=f19e2259]:
+                    - group [ref=f19e2260]:
+                      - button "Provides support for Open Graph Protocol meta tags." [ref=f19e2261]
+                      - text: ", ,"
+                - row [ref=f19e2262]:
+                  - cell [ref=f19e2263]:
+                    - 'checkbox "Metatag: Open Graph Products" [ref=f19e2265]'
+                  - 'cell "Metatag: Open Graph Products" [ref=f19e2266]'
+                  - cell [ref=f19e2267]:
+                    - group [ref=f19e2268]:
+                      - button "Provides additional Open Graph Protocol meta tags for describing products." [ref=f19e2269]
+                      - text: ", , ,"
+                - row [ref=f19e2270]:
+                  - cell [ref=f19e2271]:
+                    - 'checkbox "Metatag: Page Manager" [disabled] [ref=f19e2273]'
+                  - 'cell "Metatag: Page Manager" [ref=f19e2274]'
+                  - cell [ref=f19e2275]:
+                    - group [ref=f19e2276]:
+                      - button "Provides metatag support for Page Manager variants." [ref=f19e2277]
+                      - text: ", , ,"
+                - row [ref=f19e2278]:
+                  - cell [ref=f19e2279]:
+                    - 'checkbox "Metatag: Pinterest" [ref=f19e2281]'
+                  - 'cell "Metatag: Pinterest" [ref=f19e2282]'
+                  - cell [ref=f19e2283]:
+                    - group [ref=f19e2284]:
+                      - button "Provides support for Pinterest's custom meta tags." [ref=f19e2285]
+                      - text: ", ,"
+                - row [ref=f19e2286]:
+                  - cell [ref=f19e2287]:
+                    - 'checkbox "Metatag: Twitter Cards" [checked] [disabled] [ref=f19e2289]'
+                  - 'cell "Metatag: Twitter Cards" [ref=f19e2290]'
+                  - cell [ref=f19e2291]:
+                    - group [ref=f19e2292]:
+                      - button "Provides support for Twitter's Card meta tags." [ref=f19e2293]
+                      - text: ", ,"
+                - row [ref=f19e2294]:
+                  - cell [ref=f19e2295]:
+                    - 'checkbox "Metatag: Verification" [ref=f19e2297]'
+                  - 'cell "Metatag: Verification" [ref=f19e2298]'
+                  - cell [ref=f19e2299]:
+                    - group [ref=f19e2300]:
+                      - button "Verifies ownership of a site for search engines and other services." [ref=f19e2301]
+                      - text: ", ,"
+                - row [ref=f19e2302]:
+                  - cell [ref=f19e2303]:
+                    - 'checkbox "Metatag: Views" [ref=f19e2305]'
+                  - 'cell "Metatag: Views" [ref=f19e2306]'
+                  - cell [ref=f19e2307]:
+                    - group [ref=f19e2308]:
+                      - button "Provides views integration for metatags." [ref=f19e2309]
+                      - text: ", , , , , ,"
+                - row [ref=f19e2310]:
+                  - cell [ref=f19e2311]:
+                    - checkbox "Migrate" [checked] [disabled] [ref=f19e2313]
+                  - cell "Migrate" [ref=f19e2314]
+                  - cell [ref=f19e2315]:
+                    - group [ref=f19e2316]:
+                      - button "Provides a framework for migrating data to Drupal." [ref=f19e2317]
+                      - text: ", , , , , , , , , , ,"
+                - row [ref=f19e2318]:
+                  - cell [ref=f19e2319]:
+                    - checkbox "Migrate Drupal View information on the Deprecated status of the module Migrate Drupal" [ref=f19e2321]
+                  - cell [ref=f19e2322]:
+                    - generic [ref=f19e2323]:
+                      - text: Migrate Drupal
+                      - link "View information on the Deprecated status of the module Migrate Drupal" [ref=f19e2324] [cursor=pointer]:
+                        - /url: https://www.drupal.org/node/3223395#s-migrate-drupal
+                        - text: (Deprecated)
+                  - cell [ref=f19e2325]:
+                    - group [ref=f19e2326]:
+                      - button "Provides a framework to migrate data from previous versions of Drupal into the site." [ref=f19e2327]
+                      - text: ","
+                - row [ref=f19e2328]:
+                  - cell [ref=f19e2329]:
+                    - checkbox "Migrate Drupal UI View information on the Deprecated status of the module Migrate Drupal UI" [ref=f19e2331]
+                  - cell [ref=f19e2332]:
+                    - generic [ref=f19e2333]:
+                      - text: Migrate Drupal UI
+                      - link "View information on the Deprecated status of the module Migrate Drupal UI" [ref=f19e2334] [cursor=pointer]:
+                        - /url: https://www.drupal.org/node/3223395#s-migrate-drupal-ui
+                        - text: (Deprecated)
+                  - cell [ref=f19e2335]:
+                    - group [ref=f19e2336]:
+                      - button "Provides a user interface for migrating from older Drupal versions." [ref=f19e2337]
+                      - text: ", , ,"
+                - row [ref=f19e2338]:
+                  - cell [ref=f19e2339]:
+                    - checkbox "Migrate Example" [ref=f19e2341]
+                  - cell "Migrate Example" [ref=f19e2342]
+                  - cell [ref=f19e2343]:
+                    - group [ref=f19e2344]:
+                      - button "Examples of how Drupal 8+ migration compares to previous versions." [ref=f19e2345]
+                      - text: ", , , , , , , , , , , , , , , , , ,"
+                - row [ref=f19e2346]:
+                  - cell [ref=f19e2347]:
+                    - checkbox "Migrate Example (Advanced)" [ref=f19e2349]
+                  - cell "Migrate Example (Advanced)" [ref=f19e2350]
+                  - cell [ref=f19e2351]:
+                    - group [ref=f19e2352]:
+                      - button "Specialized examples of Drupal 8+ migration." [ref=f19e2353]
+                      - text: ", , , , , , , , , , , , , ,"
+                - row [ref=f19e2354]:
+                  - cell [ref=f19e2355]:
+                    - checkbox "Migrate JSON Example" [ref=f19e2357]
+                  - cell "Migrate JSON Example" [ref=f19e2358]
+                  - cell [ref=f19e2359]:
+                    - group [ref=f19e2360]:
+                      - button "Simple JSON Migration example" [ref=f19e2361]
+                      - text: ","
+                - row [ref=f19e2362]:
+                  - cell [ref=f19e2363]:
+                    - checkbox "Migrate Plus" [checked] [disabled] [ref=f19e2365]
+                  - cell "Migrate Plus" [ref=f19e2366]
+                  - cell [ref=f19e2367]:
+                    - group [ref=f19e2368]:
+                      - button "Enhancements to core migration support" [ref=f19e2369]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e2370]:
+                  - cell [ref=f19e2371]:
+                    - checkbox "Migrate Source CSV" [checked] [disabled] [ref=f19e2373]
+                  - cell "Migrate Source CSV" [ref=f19e2374]
+                  - cell [ref=f19e2375]:
+                    - group [ref=f19e2376]:
+                      - button "CSV source migration." [ref=f19e2377]
+                      - text: ","
+                - row [ref=f19e2378]:
+                  - cell [ref=f19e2379]:
+                    - checkbox "Module Filter" [checked] [disabled] [ref=f19e2381]
+                  - cell "Module Filter" [ref=f19e2382]
+                  - cell [ref=f19e2383]:
+                    - group [ref=f19e2384]:
+                      - button "Filter the modules list." [ref=f19e2385]
+                      - text: ", , ,"
+                - row [ref=f19e2386]:
+                  - cell [ref=f19e2387]:
+                    - checkbox "Monitoring tool Client" [checked] [disabled] [ref=f19e2389]
+                  - cell "Monitoring tool Client" [ref=f19e2390]
+                  - cell [ref=f19e2391]:
+                    - group [ref=f19e2392]:
+                      - button "This version is not compatible with Drupal 11.4.11 and should be replaced." [ref=f19e2393]
+                - row [ref=f19e2394]:
+                  - cell [ref=f19e2395]:
+                    - checkbox "MySQL" [checked] [disabled] [ref=f19e2397]
+                  - cell "MySQL" [ref=f19e2398]
+                  - cell [ref=f19e2399]:
+                    - group [ref=f19e2400]:
+                      - button "Provides the MySQL database driver." [ref=f19e2401]
+                - row [ref=f19e2402]:
+                  - cell [ref=f19e2403]:
+                    - checkbox "Navigation" [ref=f19e2405]
+                  - cell "Navigation" [ref=f19e2406]
+                  - cell [ref=f19e2407]:
+                    - group [ref=f19e2408]:
+                      - button "Provides a sidebar navigation for site administration." [ref=f19e2409]
+                      - text: ", , , , ,"
+                - row [ref=f19e2410]:
+                  - cell [ref=f19e2411]:
+                    - checkbox "New Relic RPM" [checked] [disabled] [ref=f19e2413]
+                  - cell "New Relic RPM" [ref=f19e2414]
+                  - cell [ref=f19e2415]:
+                    - group [ref=f19e2416]:
+                      - button "Integration with the New Relic reporting and optimization system." [ref=f19e2417]
+                - row [ref=f19e2418]:
+                  - cell [ref=f19e2419]:
+                    - checkbox "Node" [checked] [disabled] [ref=f19e2421]
+                  - cell "Node" [ref=f19e2422]
+                  - cell [ref=f19e2423]:
+                    - group [ref=f19e2424]:
+                      - button "Manages the creation, configuration, and display of the main site content." [ref=f19e2425]
+                      - text: ", , , , , , , , , , , , , , , , , , , , , , ,"
+                - row [ref=f19e2426]:
+                  - cell [ref=f19e2427]:
+                    - checkbox "Node Access Rebuild Progressive" [ref=f19e2429]
+                  - cell "Node Access Rebuild Progressive" [ref=f19e2430]
+                  - cell [ref=f19e2431]:
+                    - group [ref=f19e2432]:
+                      - button "Rebuild node access grants in chunks" [ref=f19e2433]
+                - row [ref=f19e2434]:
+                  - cell [ref=f19e2435]:
+                    - checkbox "Node Noindex" [checked] [disabled] [ref=f19e2437]
+                  - cell "Node Noindex" [ref=f19e2438]
+                  - cell [ref=f19e2439]:
+                    - group [ref=f19e2440]:
+                      - button "Gives the option to exclude specific nodes from search engines" [ref=f19e2441]
+                - row [ref=f19e2442]:
+                  - cell [ref=f19e2443]:
+                    - checkbox "Options" [checked] [disabled] [ref=f19e2445]
+                  - cell "Options" [ref=f19e2446]
+                  - cell [ref=f19e2447]:
+                    - group [ref=f19e2448]:
+                      - button "Defines field types with select lists, checkboxes, and radio buttons to select values from fixed lists of options." [ref=f19e2449]
+                      - text: ", , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,"
+                - row [ref=f19e2450]:
+                  - cell [ref=f19e2451]:
+                    - checkbox "Paragraphs" [checked] [disabled] [ref=f19e2453]
+                  - cell "Paragraphs" [ref=f19e2454]
+                  - cell [ref=f19e2455]:
+                    - group [ref=f19e2456]:
+                      - button "Enables the creation of paragraphs entities." [ref=f19e2457]
+                      - text: ", , , ,"
+                - row [ref=f19e2458]:
+                  - cell [ref=f19e2459]:
+                    - checkbox "Paragraphs Demo" [disabled] [ref=f19e2461]
+                  - cell "Paragraphs Demo" [ref=f19e2462]
+                  - cell [ref=f19e2463]:
+                    - group [ref=f19e2464]:
+                      - button "Provides multilingual demo Paragraphs types." [ref=f19e2465]
+                      - text: ", , , , , , , , , , , , , , , , , , , , , ,"
+                - row [ref=f19e2466]:
+                  - cell [ref=f19e2467]:
+                    - checkbox "Paragraphs Library" [disabled] [ref=f19e2469]
+                  - cell "Paragraphs Library" [ref=f19e2470]
+                  - cell [ref=f19e2471]:
+                    - group [ref=f19e2472]:
+                      - button "Provides a library for reusing paragraphs." [ref=f19e2473]
+                      - text: ", , , , , , , ,"
+                - row [ref=f19e2474]:
+                  - cell [ref=f19e2475]:
+                    - checkbox "Paragraphs Type Permissions" [ref=f19e2477]
+                  - cell "Paragraphs Type Permissions" [ref=f19e2478]
+                  - cell [ref=f19e2479]:
+                    - group [ref=f19e2480]:
+                      - button "Allows users to configure permissions for individual Paragraphs types." [ref=f19e2481]
+                      - text: ", , ,"
+                - row [ref=f19e2482]:
+                  - cell [ref=f19e2483]:
+                    - checkbox "Password Compatibility" [checked] [disabled] [ref=f19e2485]
+                  - cell "Password Compatibility" [ref=f19e2486]
+                  - cell [ref=f19e2487]:
+                    - group [ref=f19e2488]:
+                      - button "Provides the password checking algorithm for user accounts created with Drupal prior to version 10.1.0." [ref=f19e2489]
+                      - text: ","
+                - row [ref=f19e2490]:
+                  - cell [ref=f19e2491]:
+                    - checkbox "Path" [checked] [disabled] [ref=f19e2493]
+                  - cell "Path" [ref=f19e2494]
+                  - cell [ref=f19e2495]:
+                    - group [ref=f19e2496]:
+                      - button "Allows users to create custom URLs for existing paths on the site." [ref=f19e2497]
+                      - text: ", , , , ,"
+                - row [ref=f19e2498]:
+                  - cell [ref=f19e2499]:
+                    - checkbox "Pathauto" [checked] [disabled] [ref=f19e2501]
+                  - cell "Pathauto" [ref=f19e2502]
+                  - cell [ref=f19e2503]:
+                    - group [ref=f19e2504]:
+                      - button "Provides a mechanism for modules to automatically generate aliases for the content they manage." [ref=f19e2505]
+                      - text: ", , ,"
+                - row [ref=f19e2506]:
+                  - cell [ref=f19e2507]:
+                    - checkbox "PostgreSQL" [ref=f19e2509]
+                  - cell "PostgreSQL" [ref=f19e2510]
+                  - cell [ref=f19e2511]:
+                    - group [ref=f19e2512]:
+                      - button "Provides the PostgreSQL database driver." [ref=f19e2513]
+                - row [ref=f19e2514]:
+                  - cell [ref=f19e2515]:
+                    - checkbox "Purge" [checked] [disabled] [ref=f19e2517]
+                  - cell "Purge" [ref=f19e2518]
+                  - cell [ref=f19e2519]:
+                    - group [ref=f19e2520]:
+                      - button "Provides a generic external cache invalidation API and queue service." [ref=f19e2521]
+                      - text: ", , , , ,"
+                - row [ref=f19e2522]:
+                  - cell [ref=f19e2523]:
+                    - checkbox "Purge Cron Processor" [checked] [disabled] [ref=f19e2525]
+                  - cell "Purge Cron Processor" [ref=f19e2526]
+                  - cell [ref=f19e2527]:
+                    - group [ref=f19e2528]:
+                      - button "Processes the queue every time cron runs, recommended for most configurations." [ref=f19e2529]
+                - row [ref=f19e2530]:
+                  - cell [ref=f19e2531]:
+                    - checkbox "Purge Tokens" [checked] [disabled] [ref=f19e2533]
+                  - cell "Purge Tokens" [ref=f19e2534]
+                  - cell [ref=f19e2535]:
+                    - group [ref=f19e2536]:
+                      - button "Adds tokens support for external cache invalidation." [ref=f19e2537]
+                - row [ref=f19e2538]:
+                  - cell [ref=f19e2539]:
+                    - checkbox "Purge UI" [checked] [disabled] [ref=f19e2541]
+                  - cell "Purge UI" [ref=f19e2542]
+                  - cell [ref=f19e2543]:
+                    - group [ref=f19e2544]:
+                      - button "Administrative interface for Purge." [ref=f19e2545]
+                - row [ref=f19e2546]:
+                  - cell [ref=f19e2547]:
+                    - checkbox "Queue UI" [checked] [disabled] [ref=f19e2549]
+                  - cell "Queue UI" [ref=f19e2550]
+                  - cell [ref=f19e2551]:
+                    - group [ref=f19e2552]:
+                      - button "Interface and manager for Drupal queues." [ref=f19e2553]
+                - row [ref=f19e2554]:
+                  - cell [ref=f19e2555]:
+                    - checkbox "RESTful Web Services" [checked] [disabled] [ref=f19e2557]
+                  - cell "RESTful Web Services" [ref=f19e2558]
+                  - cell [ref=f19e2559]:
+                    - group [ref=f19e2560]:
+                      - button "Provides a framework for exposing REST resources." [ref=f19e2561]
+                      - text: ", , , ,"
+                - row [ref=f19e2562]:
+                  - cell [ref=f19e2563]:
+                    - checkbox "Redirect" [checked] [disabled] [ref=f19e2565]
+                  - cell "Redirect" [ref=f19e2566]
+                  - cell [ref=f19e2567]:
+                    - group [ref=f19e2568]:
+                      - button "Allows users to redirect from old URLs to new URLs." [ref=f19e2569]
+                      - text: ", , , , , , , ,"
+                - row [ref=f19e2570]:
+                  - cell [ref=f19e2571]:
+                    - checkbox "Redirect 404" [checked] [disabled] [ref=f19e2573]
+                  - cell "Redirect 404" [ref=f19e2574]
+                  - cell [ref=f19e2575]:
+                    - group [ref=f19e2576]:
+                      - button "Logs 404 errors and allows users to create redirects for often requested but missing pages." [ref=f19e2577]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e2578]:
+                  - cell [ref=f19e2579]:
+                    - checkbox "Redirect Domain" [ref=f19e2581]
+                  - cell "Redirect Domain" [ref=f19e2582]
+                  - cell [ref=f19e2583]:
+                    - group [ref=f19e2584]:
+                      - button "Allows users to redirect between domains." [ref=f19e2585]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e2586]:
+                  - cell [ref=f19e2587]:
+                    - checkbox "Redirect Import" [checked] [disabled] [ref=f19e2589]
+                  - cell "Redirect Import" [ref=f19e2590]
+                  - cell [ref=f19e2591]:
+                    - group [ref=f19e2592]:
+                      - button "Provides the ability to import redirects for the Redirect module" [ref=f19e2593]
+                      - text: ", , , , , , , , , , ,"
+                - row [ref=f19e2594]:
+                  - cell [ref=f19e2595]:
+                    - checkbox "Reroute Email" [checked] [disabled] [ref=f19e2597]
+                  - cell "Reroute Email" [ref=f19e2598]
+                  - cell [ref=f19e2599]:
+                    - group [ref=f19e2600]:
+                      - button "Reroutes emails send from the site to a predefined email. Useful for test sites." [ref=f19e2601]
+                - row [ref=f19e2602]:
+                  - cell [ref=f19e2603]:
+                    - checkbox "Reroute Email (Symfony Mailer support)" [ref=f19e2605]
+                  - cell "Reroute Email (Symfony Mailer support)" [ref=f19e2606]
+                  - cell [ref=f19e2607]:
+                    - group [ref=f19e2608]:
+                      - button "Reroute emails to predefined addresses using Symfony Mailer." [ref=f19e2609]
+                      - text: ", , , , ,"
+                - row [ref=f19e2610]:
+                  - cell [ref=f19e2611]:
+                    - checkbox "Responsive Image" [checked] [disabled] [ref=f19e2613]
+                  - cell "Responsive Image" [ref=f19e2614]
+                  - cell [ref=f19e2615]:
+                    - group [ref=f19e2616]:
+                      - button "Provides functionality to output responsive images using the HTML5 picture tag." [ref=f19e2617]
+                      - text: ", , , ,"
+                - row [ref=f19e2618]:
+                  - cell [ref=f19e2619]:
+                    - checkbox "Responsive image class" [checked] [disabled] [ref=f19e2621]
+                  - cell "Responsive image class" [ref=f19e2622]
+                  - cell [ref=f19e2623]:
+                    - group [ref=f19e2624]:
+                      - button "Allow additional classes to be added to the responsive image format" [ref=f19e2625]
+                      - text: ", , , ,"
+                - row [ref=f19e2626]:
+                  - cell [ref=f19e2627]:
+                    - checkbox "Rest Facets" [ref=f19e2629]
+                  - cell "Rest Facets" [ref=f19e2630]
+                  - cell [ref=f19e2631]:
+                    - group [ref=f19e2632]:
+                      - button "Adds facets to rest views based on a Search API index." [ref=f19e2633]
+                      - text: ", ,"
+                - row [ref=f19e2634]:
+                  - cell [ref=f19e2635]:
+                    - checkbox "SQLite" [ref=f19e2637]
+                  - cell "SQLite" [ref=f19e2638]
+                  - cell [ref=f19e2639]:
+                    - group [ref=f19e2640]:
+                      - button "Provides the SQLite database driver." [ref=f19e2641]
+                - row [ref=f19e2642]:
+                  - cell [ref=f19e2643]:
+                    - checkbox "Scheduler" [checked] [disabled] [ref=f19e2645]
+                  - cell "Scheduler" [ref=f19e2646]
+                  - cell [ref=f19e2647]:
+                    - group [ref=f19e2648]:
+                      - button "Publish and unpublish content and entities automatically on specified dates and times." [ref=f19e2649]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e2650]:
+                  - cell [ref=f19e2651]:
+                    - checkbox "Scheduler Rules Integration" [disabled] [ref=f19e2653]
+                  - cell "Scheduler Rules Integration" [ref=f19e2654]
+                  - cell [ref=f19e2655]:
+                    - group [ref=f19e2656]:
+                      - button "Scheduler sub-module providing conditions, actions and events for use with the Rules module." [ref=f19e2657]
+                      - text: ", , , , , , , , ,"
+                - row [ref=f19e2658]:
+                  - cell [ref=f19e2659]:
+                    - checkbox "Scheduler field" [checked] [disabled] [ref=f19e2661]
+                  - cell "Scheduler field" [ref=f19e2662]
+                  - cell [ref=f19e2663]:
+                    - group [ref=f19e2664]:
+                      - button "Provides schedule functionalities thanks to scheduler field." [ref=f19e2665]
+                      - text: ", ,"
+                - row [ref=f19e2666]:
+                  - cell [ref=f19e2667]:
+                    - checkbox "Search" [ref=f19e2669]
+                  - cell "Search" [ref=f19e2670]
+                  - cell [ref=f19e2671]:
+                    - group [ref=f19e2672]:
+                      - button "Allows users to create search pages based on plugins provided by other modules." [ref=f19e2673]
+                      - text: ","
+                - row [ref=f19e2674]:
+                  - cell [ref=f19e2675]:
+                    - checkbox "Search API" [checked] [disabled] [ref=f19e2677]
+                  - cell "Search API" [ref=f19e2678]
+                  - cell [ref=f19e2679]:
+                    - group [ref=f19e2680]:
+                      - button "Provides a generic framework for modules offering search capabilities." [ref=f19e2681]
+                      - text: ", , , , , , , , , , , , , , ,"
+                - row [ref=f19e2682]:
+                  - cell [ref=f19e2683]:
+                    - checkbox "Search API Exclude" [checked] [disabled] [ref=f19e2685]
+                  - cell "Search API Exclude" [ref=f19e2686]
+                  - cell [ref=f19e2687]:
+                    - group [ref=f19e2688]:
+                      - button "Allows users to exclude certain nodes from being indexed." [ref=f19e2689]
+                - row [ref=f19e2690]:
+                  - cell [ref=f19e2691]:
+                    - checkbox "Search API Solr" [checked] [disabled] [ref=f19e2693]
+                  - cell "Search API Solr" [ref=f19e2694]
+                  - cell [ref=f19e2695]:
+                    - group [ref=f19e2696]:
+                      - button "Offers an implementation of the Search API that uses an Apache Solr server for indexing content." [ref=f19e2697]
+                      - text: ", , , , , , , , ,"
+                - row [ref=f19e2698]:
+                  - cell [ref=f19e2699]:
+                    - checkbox "Search API Solr Admin" [checked] [disabled] [ref=f19e2701]
+                  - cell "Search API Solr Admin" [ref=f19e2702]
+                  - cell [ref=f19e2703]:
+                    - group [ref=f19e2704]:
+                      - button "Provides various Solr administration tasks." [ref=f19e2705]
+                      - text: ", ,"
+                - row [ref=f19e2706]:
+                  - cell [ref=f19e2707]:
+                    - checkbox "Search API Solr Autocomplete" [disabled] [ref=f19e2709]
+                  - cell "Search API Solr Autocomplete" [ref=f19e2710]
+                  - cell [ref=f19e2711]:
+                    - group [ref=f19e2712]:
+                      - button "Adds autocomplete functionality to Apache Solr searches." [ref=f19e2713]
+                      - text: ", , ,"
+                - row [ref=f19e2714]:
+                  - cell [ref=f19e2715]:
+                    - checkbox "Search API Solr Devel" [ref=f19e2717]
+                  - cell "Search API Solr Devel" [ref=f19e2718]
+                  - cell [ref=f19e2719]:
+                    - group [ref=f19e2720]:
+                      - button "Debugging your Solr integration." [ref=f19e2721]
+                      - text: ", , ,"
+                - row [ref=f19e2722]:
+                  - cell [ref=f19e2723]:
+                    - checkbox "Search API Solr Legacy" [ref=f19e2725]
+                  - cell "Search API Solr Legacy" [ref=f19e2726]
+                  - cell [ref=f19e2727]:
+                    - group [ref=f19e2728]:
+                      - button "Add support for older unsupported Solr versions (3.6, >=4.5, 5.x)." [ref=f19e2729]
+                      - text: ", ,"
+                - row [ref=f19e2730]:
+                  - cell [ref=f19e2731]:
+                    - checkbox "Search API Solr Log" [disabled] [ref=f19e2733]
+                  - cell "Search API Solr Log" [ref=f19e2734]
+                  - cell [ref=f19e2735]:
+                    - group [ref=f19e2736]:
+                      - button "Logs system events using Solr." [ref=f19e2737]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e2738]:
+                  - cell [ref=f19e2739]:
+                    - checkbox "Search API Sorts" [checked] [disabled] [ref=f19e2741]
+                  - cell "Search API Sorts" [ref=f19e2742]
+                  - cell [ref=f19e2743]:
+                    - group [ref=f19e2744]:
+                      - button "Create sort options for search queries executed via the Search API." [ref=f19e2745]
+                - row [ref=f19e2746]:
+                  - cell [ref=f19e2747]:
+                    - checkbox "Search help" [ref=f19e2749]
+                  - cell "Search help" [ref=f19e2750]
+                  - cell [ref=f19e2751]:
+                    - group [ref=f19e2752]:
+                      - button "Provides a search plugin for searching site help." [ref=f19e2753]
+                      - text: ","
+                - row [ref=f19e2754]:
+                  - cell [ref=f19e2755]:
+                    - checkbox "Search node" [ref=f19e2757]
+                  - cell "Search node" [ref=f19e2758]
+                  - cell [ref=f19e2759]:
+                    - group [ref=f19e2760]:
+                      - button "Provides a search plugin for searching content." [ref=f19e2761]
+                      - text: ", , , , , ,"
+                - row [ref=f19e2762]:
+                  - cell [ref=f19e2763]:
+                    - checkbox "SearchStax" [checked] [disabled] [ref=f19e2765]
+                  - cell "SearchStax" [ref=f19e2766]
+                  - cell [ref=f19e2767]:
+                    - group [ref=f19e2768]:
+                      - button "Integrates with SearchStax and SearchStudio." [ref=f19e2769]
+                - row [ref=f19e2770]:
+                  - cell [ref=f19e2771]:
+                    - checkbox "Security Kit" [checked] [disabled] [ref=f19e2773]
+                  - cell "Security Kit" [ref=f19e2774]
+                  - cell [ref=f19e2775]:
+                    - group [ref=f19e2776]:
+                      - button "Enhance security of your Drupal website." [ref=f19e2777]
+                - row [ref=f19e2778]:
+                  - cell [ref=f19e2779]:
+                    - checkbox "Serialization" [checked] [disabled] [ref=f19e2781]
+                  - cell "Serialization" [ref=f19e2782]
+                  - cell [ref=f19e2783]:
+                    - group [ref=f19e2784]:
+                      - button "Provides a service for converting data to and from formats such as JSON and XML." [ref=f19e2785]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e2786]:
+                  - cell [ref=f19e2787]:
+                    - checkbox "Serialization (CSV)" [checked] [disabled] [ref=f19e2789]
+                  - cell "Serialization (CSV)" [ref=f19e2790]
+                  - cell [ref=f19e2791]:
+                    - group [ref=f19e2792]:
+                      - button "Provides CSV as a serialization format." [ref=f19e2793]
+                - row [ref=f19e2794]:
+                  - cell [ref=f19e2795]:
+                    - checkbox "Serialization (Excel using OpenSpout library)" [ref=f19e2797]
+                  - cell "Serialization (Excel using OpenSpout library)" [ref=f19e2798]
+                  - cell [ref=f19e2799]:
+                    - group [ref=f19e2800]:
+                      - button "Replace the Excel (xls) as a serialization format with a serializer using the OpenSpout library. This does not support all the features of the serializer provided by Excel Serialization." [ref=f19e2801]
+                      - text: ", ,"
+                - row [ref=f19e2802]:
+                  - cell [ref=f19e2803]:
+                    - checkbox "Serialization (Excel)" [checked] [disabled] [ref=f19e2805]
+                  - cell "Serialization (Excel)" [ref=f19e2806]
+                  - cell [ref=f19e2807]:
+                    - group [ref=f19e2808]:
+                      - button "Provides Excel (xls) as a serialization format." [ref=f19e2809]
+                      - text: ","
+                - row [ref=f19e2810]:
+                  - cell [ref=f19e2811]:
+                    - checkbox "Settings Tray" [ref=f19e2813]
+                  - cell "Settings Tray" [ref=f19e2814]
+                  - cell [ref=f19e2815]:
+                    - group [ref=f19e2816]:
+                      - button "Allows users to directly edit the configuration of blocks on the current page." [ref=f19e2817]
+                      - text: ", , ,"
+                - row [ref=f19e2818]:
+                  - cell [ref=f19e2819]:
+                    - checkbox "Shortcut" [checked] [disabled] [ref=f19e2821]
+                  - cell "Shortcut" [ref=f19e2822]
+                  - cell [ref=f19e2823]:
+                    - group [ref=f19e2824]:
+                      - button "Allows users to create sets of shortcuts within the site." [ref=f19e2825]
+                      - text: ","
+                - row [ref=f19e2826]:
+                  - cell [ref=f19e2827]:
+                    - checkbox "Simple Mail" [checked] [disabled] [ref=f19e2829]
+                  - cell "Simple Mail" [ref=f19e2830]
+                  - cell [ref=f19e2831]:
+                    - group [ref=f19e2832]:
+                      - button "Email functionality for Drupal, simplified." [ref=f19e2833]
+                      - text: ", ,"
+                - row [ref=f19e2834]:
+                  - cell [ref=f19e2835]:
+                    - checkbox "Solr to SearchStax Site Search Migration" [ref=f19e2837]
+                  - cell "Solr to SearchStax Site Search Migration" [ref=f19e2838]
+                  - cell [ref=f19e2839]:
+                    - group [ref=f19e2840]:
+                      - button "Provides a simple user interface for migrating search configuration from non-SearchStax Solr servers to SearchStax Site Search. (The module should be uninstalled again after the migration is complete.)" [ref=f19e2841]
+                      - text: ", , ,"
+                - row [ref=f19e2842]:
+                  - cell [ref=f19e2843]:
+                    - checkbox "Stage File Proxy" [checked] [disabled] [ref=f19e2845]
+                  - cell "Stage File Proxy" [ref=f19e2846]
+                  - cell [ref=f19e2847]:
+                    - group [ref=f19e2848]:
+                      - button "Proxies files from production server so you do not have to transfer them manually" [ref=f19e2849]
+                      - text: ", ,"
+                - row [ref=f19e2850]:
+                  - cell [ref=f19e2851]:
+                    - checkbox "Sync import/export by one" [checked] [disabled] [ref=f19e2853]
+                  - cell "Sync import/export by one" [ref=f19e2854]
+                  - cell [ref=f19e2855]:
+                    - group [ref=f19e2856]:
+                      - button "Import sync files one by one." [ref=f19e2857]
+                - row [ref=f19e2858]:
+                  - cell [ref=f19e2859]:
+                    - checkbox "Syslog" [checked] [disabled] [ref=f19e2861]
+                  - cell "Syslog" [ref=f19e2862]
+                  - cell [ref=f19e2863]:
+                    - group [ref=f19e2864]:
+                      - button "Logs events to the web server's system log." [ref=f19e2865]
+                - row [ref=f19e2866]:
+                  - cell [ref=f19e2867]:
+                    - checkbox "System" [checked] [disabled] [ref=f19e2869]
+                  - cell "System" [ref=f19e2870]
+                  - cell [ref=f19e2871]:
+                    - group [ref=f19e2872]:
+                      - button "Provides user interfaces for core systems." [ref=f19e2873]
+                      - text: ", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,"
+                - row [ref=f19e2874]:
+                  - cell [ref=f19e2875]:
+                    - checkbox "Taxonomy" [checked] [disabled] [ref=f19e2877]
+                  - cell "Taxonomy" [ref=f19e2878]
+                  - cell [ref=f19e2879]:
+                    - group [ref=f19e2880]:
+                      - button "Enables the categorization of content." [ref=f19e2881]
+                      - text: ", , , , , , , , ,"
+                - row [ref=f19e2882]:
+                  - cell [ref=f19e2883]:
+                    - checkbox "Taxonomy Access Fix" [checked] [disabled] [ref=f19e2885]
+                  - cell "Taxonomy Access Fix" [ref=f19e2886]
+                  - cell [ref=f19e2887]:
+                    - group [ref=f19e2888]:
+                      - button "Extends access handling of Drupal Core's Taxonomy module." [ref=f19e2889]
+                      - text: ", , , , , ,"
+                - row [ref=f19e2890]:
+                  - cell [ref=f19e2891]:
+                    - checkbox "Telephone" [checked] [disabled] [ref=f19e2893]
+                  - cell "Telephone" [ref=f19e2894]
+                  - cell [ref=f19e2895]:
+                    - group [ref=f19e2896]:
+                      - button "Defines a field type for telephone numbers." [ref=f19e2897]
+                - row [ref=f19e2898]:
+                  - cell [ref=f19e2899]:
+                    - checkbox "Text" [checked] [disabled] [ref=f19e2901]
+                  - cell "Text" [ref=f19e2902]
+                  - cell [ref=f19e2903]:
+                    - group [ref=f19e2904]:
+                      - button "Defines field types for short and long text with optional summaries." [ref=f19e2905]
+                      - text: ", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,"
+                - row [ref=f19e2906]:
+                  - cell [ref=f19e2907]:
+                    - checkbox "Text Editor" [checked] [disabled] [ref=f19e2909]
+                  - cell "Text Editor" [ref=f19e2910]
+                  - cell [ref=f19e2911]:
+                    - group [ref=f19e2912]:
+                      - button "Provides a framework to associate text editors (like WYSIWYGs) and toolbars with text formats." [ref=f19e2913]
+                      - text: ", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,"
+                - row [ref=f19e2914]:
+                  - cell [ref=f19e2915]:
+                    - checkbox "Token" [checked] [disabled] [ref=f19e2917]
+                  - cell "Token" [ref=f19e2918]
+                  - cell [ref=f19e2919]:
+                    - group [ref=f19e2920]:
+                      - button "Provides a user interface for the Token API and some missing core tokens." [ref=f19e2921]
+                      - text: ", , , , , , , , , , , , , , , , , , , , , , ,"
+                - row [ref=f19e2922]:
+                  - cell [ref=f19e2923]:
+                    - checkbox "Toolbar" [checked] [disabled] [ref=f19e2925]
+                  - cell "Toolbar" [ref=f19e2926]
+                  - cell [ref=f19e2927]:
+                    - group [ref=f19e2928]:
+                      - button "Provides an administration toolbar to display links provided by modules." [ref=f19e2929]
+                      - text: ", , , , ,"
+                - row [ref=f19e2930]:
+                  - cell [ref=f19e2931]:
+                    - checkbox "Tour" [checked] [disabled] [ref=f19e2933]
+                  - cell "Tour" [ref=f19e2934]
+                  - cell [ref=f19e2935]:
+                    - group [ref=f19e2936]:
+                      - button "Displays guided tours of the site interface." [ref=f19e2937]
+                - row [ref=f19e2938]:
+                  - cell [ref=f19e2939]:
+                    - checkbox "Tourauto" [ref=f19e2941]
+                  - cell "Tourauto" [ref=f19e2942]
+                  - cell [ref=f19e2943]:
+                    - group [ref=f19e2944]:
+                      - button "Lets tour authors choose whether their tour should open automatically." [ref=f19e2945]
+                - row [ref=f19e2946]:
+                  - cell [ref=f19e2947]:
+                    - checkbox "Translation Language abilities" [ref=f19e2949]
+                  - cell "Translation Language abilities" [ref=f19e2950]
+                  - cell [ref=f19e2951]:
+                    - group [ref=f19e2952]:
+                      - button "Provides a field that allows users to select language combinations." [ref=f19e2953]
+                      - text: ","
+                - row [ref=f19e2954]:
+                  - cell [ref=f19e2955]:
+                    - checkbox "Translation Management Core" [checked] [disabled] [ref=f19e2957]
+                  - cell "Translation Management Core" [ref=f19e2958]
+                  - cell [ref=f19e2959]:
+                    - group [ref=f19e2960]:
+                      - button "Core functionality for the Translation Management Suite." [ref=f19e2961]
+                      - text: ", , , , , , , , , , , , , ,"
+                - row [ref=f19e2962]:
+                  - cell [ref=f19e2963]:
+                    - checkbox "Translation Management Demo" [ref=f19e2965]
+                  - cell "Translation Management Demo" [ref=f19e2966]
+                  - cell [ref=f19e2967]:
+                    - group [ref=f19e2968]:
+                      - button "All elements for a functioning demo." [ref=f19e2969]
+                      - text: ", , , , , , , , , , , , , , , , , , , , , , , , ,"
+                - row [ref=f19e2970]:
+                  - cell [ref=f19e2971]:
+                    - checkbox "Twig Tweak" [checked] [disabled] [ref=f19e2973]
+                  - cell "Twig Tweak" [ref=f19e2974]
+                  - cell [ref=f19e2975]:
+                    - group [ref=f19e2976]:
+                      - button "Provides some extra Twig functions and filters." [ref=f19e2977]
+                - row [ref=f19e2978]:
+                  - cell [ref=f19e2979]:
+                    - checkbox "Twig Xdebug" [ref=f19e2981]
+                  - cell "Twig Xdebug" [ref=f19e2982]
+                  - cell [ref=f19e2983]:
+                    - group [ref=f19e2984]:
+                      - button "Enables Xdebug breakpoints in Twig." [ref=f19e2985]
+                - row [ref=f19e2986]:
+                  - cell [ref=f19e2987]:
+                    - checkbox "Twitter Block" [checked] [disabled] [ref=f19e2989]
+                  - cell "Twitter Block" [ref=f19e2990]
+                  - cell [ref=f19e2991]:
+                    - group [ref=f19e2992]:
+                      - button "Provides configurable blocks for a Twitter feed." [ref=f19e2993]
+                - row [ref=f19e2994]:
+                  - cell [ref=f19e2995]:
+                    - checkbox "Ultimate Cron" [checked] [disabled] [ref=f19e2997]
+                  - cell "Ultimate Cron" [ref=f19e2998]
+                  - cell [ref=f19e2999]:
+                    - group [ref=f19e3000]:
+                      - button "Runs cron jobs individually in parallel using configurable rules, pool management and load balancing." [ref=f19e3001]
+                - row [ref=f19e3002]:
+                  - cell [ref=f19e3003]:
+                    - checkbox "Update Status" [checked] [disabled] [ref=f19e3005]
+                  - cell "Update Status" [ref=f19e3006]
+                  - cell [ref=f19e3007]:
+                    - group [ref=f19e3008]:
+                      - button "Checks for updates and can notify users if there are new releases available." [ref=f19e3009]
+                - row [ref=f19e3010]:
+                  - cell [ref=f19e3011]:
+                    - checkbox "Upgrade Status" [ref=f19e3013]
+                  - cell "Upgrade Status" [ref=f19e3014]
+                  - cell [ref=f19e3015]:
+                    - group [ref=f19e3016]:
+                      - button "Review Drupal major upgrade readiness of the environment and components of the site." [ref=f19e3017]
+                - row [ref=f19e3018]:
+                  - cell [ref=f19e3019]:
+                    - checkbox "User" [checked] [disabled] [ref=f19e3021]
+                  - cell "User" [ref=f19e3022]
+                  - cell [ref=f19e3023]:
+                    - group [ref=f19e3024]:
+                      - button "Allows users to register and log in, and manages user roles and permissions." [ref=f19e3025]
+                      - text: ", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,"
+                - row [ref=f19e3026]:
+                  - cell [ref=f19e3027]:
+                    - checkbox "Video Embed Field" [checked] [disabled] [ref=f19e3029]
+                  - cell "Video Embed Field" [ref=f19e3030]
+                  - cell [ref=f19e3031]:
+                    - group [ref=f19e3032]:
+                      - button "Provides a field type for displaying videos from 3rd party providers such as YouTube and Vimeo." [ref=f19e3033]
+                      - text: ", , , , , , , , , , , , , , , , ,"
+                - row [ref=f19e3034]:
+                  - cell [ref=f19e3035]:
+                    - checkbox "Video Embed Media" [ref=f19e3037]
+                  - cell "Video Embed Media" [ref=f19e3038]
+                  - cell [ref=f19e3039]:
+                    - group [ref=f19e3040]:
+                      - button "Integrates video_embed_field with the Media module, creating a new media type tailored to display embedded videos. Useful for websites which are using the media suite of modules." [ref=f19e3041]
+                      - text: ", , , , , ,"
+                - row [ref=f19e3042]:
+                  - cell [ref=f19e3043]:
+                    - checkbox "Video Embed Media - Migrate to core oEmbed" [ref=f19e3045]
+                  - cell "Video Embed Media - Migrate to core oEmbed" [ref=f19e3046]
+                  - cell [ref=f19e3047]:
+                    - group [ref=f19e3048]:
+                      - button "Provides a drush command to migrate to cores oEmbed" [ref=f19e3049]
+                      - text: ", , , , , , ,"
+                - row [ref=f19e3050]:
+                  - cell [ref=f19e3051]:
+                    - checkbox "Video Embed WYSIWYG" [ref=f19e3053]
+                  - cell "Video Embed WYSIWYG" [ref=f19e3054]
+                  - cell [ref=f19e3055]:
+                    - group [ref=f19e3056]:
+                      - button "Integrates video_embed_field directly into ckeditor. Useful for websites not using the media suite of modules that need WYSIWYG support." [ref=f19e3057]
+                      - text: ", , , , , , , ,"
+                - row [ref=f19e3058]:
+                  - cell [ref=f19e3059]:
+                    - checkbox "View Unpublished" [checked] [disabled] [ref=f19e3061]
+                  - cell "View Unpublished" [ref=f19e3062]
+                  - cell [ref=f19e3063]:
+                    - group [ref=f19e3064]:
+                      - button "Select which roles should be able to see unpublished nodes." [ref=f19e3065]
+                      - text: ", , , , ,"
+                - row [ref=f19e3066]:
+                  - cell [ref=f19e3067]:
+                    - checkbox "Viewfield" [checked] [disabled] [ref=f19e3069]
+                  - cell "Viewfield" [ref=f19e3070]
+                  - cell [ref=f19e3071]:
+                    - group [ref=f19e3072]:
+                      - button "Defines an entity reference field type to display a view." [ref=f19e3073]
+                      - text: ", , , ,"
+                - row [ref=f19e3074]:
+                  - cell [ref=f19e3075]:
+                    - checkbox "Views" [checked] [disabled] [ref=f19e3077]
+                  - cell "Views" [ref=f19e3078]
+                  - cell [ref=f19e3079]:
+                    - group [ref=f19e3080]:
+                      - button "Provides a framework to fetch information from the database and to display it in different formats." [ref=f19e3081]
+                      - text: ", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,"
+                - row [ref=f19e3082]:
+                  - cell [ref=f19e3083]:
+                    - checkbox "Views Autocomplete Filters" [checked] [disabled] [ref=f19e3085]
+                  - cell "Views Autocomplete Filters" [ref=f19e3086]
+                  - cell [ref=f19e3087]:
+                    - group [ref=f19e3088]:
+                      - button "Use Autocomplete for string field filters." [ref=f19e3089]
+                      - text: ", , ,"
+                - row [ref=f19e3090]:
+                  - cell [ref=f19e3091]:
+                    - checkbox "Views Data Export" [checked] [disabled] [ref=f19e3093]
+                  - cell "Views Data Export" [ref=f19e3094]
+                  - cell [ref=f19e3095]:
+                    - group [ref=f19e3096]:
+                      - button "Plugin to export views data into various file formats." [ref=f19e3097]
+                      - text: ", , , , , ,"
+                - row [ref=f19e3098]:
+                  - cell [ref=f19e3099]:
+                    - checkbox "Views Filter Autosubmit" [checked] [disabled] [ref=f19e3101]
+                  - cell "Views Filter Autosubmit" [ref=f19e3102]
+                  - cell [ref=f19e3103]:
+                    - group [ref=f19e3104]:
+                      - button "Recreates the autosubmit option for Views exposed filters." [ref=f19e3105]
+                      - text: ", , ,"
+                - row [ref=f19e3106]:
+                  - cell [ref=f19e3107]:
+                    - checkbox "Views UI" [checked] [disabled] [ref=f19e3109]
+                  - cell "Views UI" [ref=f19e3110]
+                  - cell [ref=f19e3111]:
+                    - group [ref=f19e3112]:
+                      - button "Provides a user interface for creating and managing views." [ref=f19e3113]
+                      - text: ", , ,"
+                - row [ref=f19e3114]:
+                  - cell [ref=f19e3115]:
+                    - checkbox "Weight" [checked] [disabled] [ref=f19e3117]
+                  - cell "Weight" [ref=f19e3118]
+                  - cell [ref=f19e3119]:
+                    - group [ref=f19e3120]:
+                      - button "Allows arbitrary ordering of entities." [ref=f19e3121]
+                - row [ref=f19e3122]:
+                  - cell [ref=f19e3123]:
+                    - checkbox "Workflows" [ref=f19e3125]
+                  - cell "Workflows" [ref=f19e3126]
+                  - cell [ref=f19e3127]:
+                    - group [ref=f19e3128]:
+                      - button "Provides an interface to create workflows with transitions between different states (for example publication or user status) provided by other modules." [ref=f19e3129]
+                      - text: ","
+                - row [ref=f19e3130]:
+                  - cell [ref=f19e3131]:
+                    - checkbox "Workspaces" [ref=f19e3133]
+                  - cell "Workspaces" [ref=f19e3134]
+                  - cell [ref=f19e3135]:
+                    - group [ref=f19e3136]:
+                      - button "Provides an API for staging and previewing content in a full site context." [ref=f19e3137]
+                      - text: ","
+                - row [ref=f19e3138]:
+                  - cell [ref=f19e3139]:
+                    - checkbox "Workspaces UI" [ref=f19e3141]
+                  - cell "Workspaces UI" [ref=f19e3142]
+                  - cell [ref=f19e3143]:
+                    - group [ref=f19e3144]:
+                      - button "Provides a user interface for creating and managing workspaces." [ref=f19e3145]
+                      - text: ", ,"
+                - row [ref=f19e3146]:
+                  - cell [ref=f19e3147]:
+                    - checkbox "XML Sitemap" [checked] [disabled] [ref=f19e3149]
+                  - cell "XML Sitemap" [ref=f19e3150]
+                  - cell [ref=f19e3151]:
+                    - group [ref=f19e3152]:
+                      - button [ref=f19e3153]:
+                        - generic [ref=f19e3154]:
+                          - text: Creates an XML Sitemap conforming to the
+                          - link "sitemaps.org protocol" [ref=f19e3155] [cursor=pointer]:
+                            - /url: http://sitemaps.org/
+                          - text: .
+                      - text: ","
+                - row [ref=f19e3156]:
+                  - cell [ref=f19e3157]:
+                    - checkbox "XML Sitemap Custom" [checked] [disabled] [ref=f19e3159]
+                  - cell "XML Sitemap Custom" [ref=f19e3160]
+                  - cell [ref=f19e3161]:
+                    - group [ref=f19e3162]:
+                      - button "Adds user configurable links to the sitemap." [ref=f19e3163]
+                - row [ref=f19e3164]:
+                  - cell [ref=f19e3165]:
+                    - checkbox "XML Sitemap Engines" [ref=f19e3167]
+                  - cell "XML Sitemap Engines" [ref=f19e3168]
+                  - cell [ref=f19e3169]:
+                    - group [ref=f19e3170]:
+                      - button "Submit the sitemap to search engines." [ref=f19e3171]
+                - row [ref=f19e3172]:
+                  - cell [ref=f19e3173]:
+                    - checkbox "dropzonejs" [checked] [disabled] [ref=f19e3175]
+                  - cell "dropzonejs" [ref=f19e3176]
+                  - cell [ref=f19e3177]:
+                    - group [ref=f19e3178]:
+                      - button "The Drupal integration for DropzoneJS." [ref=f19e3179]
+                      - text: ","
+                - row [ref=f19e3180]:
+                  - cell [ref=f19e3181]:
+                    - checkbox "iFrame Resizer" [checked] [disabled] [ref=f19e3183]
+                  - cell "iFrame Resizer" [ref=f19e3184]
+                  - cell [ref=f19e3185]:
+                    - group [ref=f19e3186]:
+                      - button "Provides access to the iFrame Resizer javascript library" [ref=f19e3187]
+                - row [ref=f19e3188]:
+                  - cell [ref=f19e3189]:
+                    - checkbox "jQuery Deprecated functions" [checked] [disabled] [ref=f19e3191]
+                  - cell "jQuery Deprecated functions" [ref=f19e3192]
+                  - cell [ref=f19e3193]:
+                    - group [ref=f19e3194]:
+                      - button "This module provides deprecated jQuery functions such as isFunction, $.trim, etc." [ref=f19e3195]
+                - row [ref=f19e3196]:
+                  - cell [ref=f19e3197]:
+                    - checkbox "jQuery UI" [checked] [disabled] [ref=f19e3199]
+                  - cell "jQuery UI" [ref=f19e3200]
+                  - cell [ref=f19e3201]:
+                    - group [ref=f19e3202]:
+                      - button "Provides jQuery UI library." [ref=f19e3203]
+                      - text: ", , , , , ,"
+                - row [ref=f19e3204]:
+                  - cell [ref=f19e3205]:
+                    - checkbox "jQuery UI Autocomplete" [checked] [disabled] [ref=f19e3207]
+                  - cell "jQuery UI Autocomplete" [ref=f19e3208]
+                  - cell [ref=f19e3209]:
+                    - group [ref=f19e3210]:
+                      - button "Provides jQuery UI Autocomplete library." [ref=f19e3211]
+                      - text: ","
+                - row [ref=f19e3212]:
+                  - cell [ref=f19e3213]:
+                    - checkbox "jQuery UI Datepicker" [checked] [disabled] [ref=f19e3215]
+                  - cell "jQuery UI Datepicker" [ref=f19e3216]
+                  - cell [ref=f19e3217]:
+                    - group [ref=f19e3218]:
+                      - button "Provides jQuery UI Datepicker library." [ref=f19e3219]
+                - row [ref=f19e3220]:
+                  - cell [ref=f19e3221]:
+                    - checkbox "jQuery UI Menu" [checked] [disabled] [ref=f19e3223]
+                  - cell "jQuery UI Menu" [ref=f19e3224]
+                  - cell [ref=f19e3225]:
+                    - group [ref=f19e3226]:
+                      - button "Provides jQuery UI Menu library." [ref=f19e3227]
+                      - text: ","
+                - row [ref=f19e3228]:
+                  - cell [ref=f19e3229]:
+                    - checkbox "jQuery UI Slider" [checked] [disabled] [ref=f19e3231]
+                  - cell "jQuery UI Slider" [ref=f19e3232]
+                  - cell [ref=f19e3233]:
+                    - group [ref=f19e3234]:
+                      - button "Provides jQuery UI Slider library." [ref=f19e3235]
+                - row [ref=f19e3236]:
+                  - cell [ref=f19e3237]:
+                    - checkbox "jQuery UI Touch Punch" [checked] [disabled] [ref=f19e3239]
+                  - cell "jQuery UI Touch Punch" [ref=f19e3240]
+                  - cell [ref=f19e3241]:
+                    - group [ref=f19e3242]:
+                      - button "Provides jQuery UI Touch Punch library." [ref=f19e3243]
+                - row [ref=f19e3244]:
+                  - cell [ref=f19e3245]:
+                    - checkbox "reCAPTCHA" [checked] [disabled] [ref=f19e3247]
+                  - cell "reCAPTCHA" [ref=f19e3248]
+                  - cell [ref=f19e3249]:
+                    - group [ref=f19e3250]:
+                      - button "Protect your website from spam and abuse while letting real people pass through with ease." [ref=f19e3251]
+                - row [ref=f19e3252]:
+                  - cell [ref=f19e3253]:
+                    - checkbox "reCAPTCHA v3" [checked] [disabled] [ref=f19e3255]
+                  - cell "reCAPTCHA v3" [ref=f19e3256]
+                  - cell [ref=f19e3257]:
+                    - group [ref=f19e3258]:
+                      - button "The reCaptcha V3 module provides integration with Google reCaptcha V3 and CAPTCHA module." [ref=f19e3259]
+            - button "Install" [ref=f19e3261] [cursor=pointer]
+  - status [ref=f19e3263]

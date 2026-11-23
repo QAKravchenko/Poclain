@@ -1,0 +1,69 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - link "QA Dojo" [ref=e10] [cursor=pointer]:
+            - /url: /articles
+          - generic [ref=e11]: Testing articles
+        - link "← All modules" [ref=e12] [cursor=pointer]:
+          - /url: /
+      - navigation [ref=e13]:
+        - link "Home" [ref=e14] [cursor=pointer]:
+          - /url: /articles
+        - link "Sign in" [active] [ref=e15] [cursor=pointer]:
+          - /url: /articles/login
+        - link "Register" [ref=e16] [cursor=pointer]:
+          - /url: /articles/register
+        - button "Toggle theme" [ref=e17] [cursor=pointer]: ☾
+  - main [ref=e19]:
+    - generic [ref=e99]:
+      - generic [ref=e100]:
+        - paragraph [ref=e101]: Members
+        - heading "Sign in" [level=1] [ref=e102]
+        - paragraph [ref=e103]:
+          - text: No account yet?
+          - link "Register" [ref=e104] [cursor=pointer]:
+            - /url: /articles/register
+        - generic [ref=e105]:
+          - generic [ref=e106]:
+            - generic [ref=e107]: Email
+            - textbox "Email" [ref=e108]:
+              - /placeholder: you@example.com
+          - generic [ref=e109]:
+            - generic [ref=e110]: Password
+            - textbox "Password" [ref=e111]:
+              - /placeholder: ••••••••
+          - button "Sign in" [ref=e112] [cursor=pointer]
+      - complementary [ref=e113]:
+        - paragraph [ref=e114]: Demo credentials
+        - generic [ref=e115]:
+          - term [ref=e116]: Email
+          - definition [ref=e117]: olena@example.com
+          - term [ref=e118]: Password
+          - definition [ref=e119]: password
+        - paragraph [ref=e120]: All data is demonstrative and resets on request. Every field on this form carries a stable test id.
+  - contentinfo [ref=e38]:
+    - generic [ref=e40]:
+      - navigation [ref=e42]:
+        - link "Home" [ref=e43] [cursor=pointer]:
+          - /url: /articles
+        - link "All modules" [ref=e44] [cursor=pointer]:
+          - /url: /
+        - link "Documentation" [ref=e45] [cursor=pointer]:
+          - /url: https://github.com
+        - link "Feedback" [ref=e46] [cursor=pointer]:
+          - /url: /articles/contact
+      - generic [ref=e47]:
+        - paragraph [ref=e48]: Subscribe to the digest
+        - generic [ref=e49]:
+          - generic [ref=e50]:
+            - textbox "Your email" [ref=e51]
+            - button "Subscribe" [ref=e52] [cursor=pointer]
+          - group "Frequency" [ref=e53]:
+            - generic [ref=e55] [cursor=pointer]:
+              - radio "Daily"
+              - text: Daily
+            - generic [ref=e57] [cursor=pointer]:
+              - radio "Weekly" [checked]
+              - text: Weekly

@@ -1,0 +1,762 @@
+{
+  "discoveredLangs": [
+    {
+      "text": "English",
+      "href": "https://isoprod.poclain.com/",
+      "hreflang": "en"
+    },
+    {
+      "text": "Français",
+      "href": "https://isoprod.poclain.com/fr",
+      "hreflang": "fr"
+    }
+  ],
+  "publicResults": [
+    {
+      "label": "Homepage",
+      "url": "https://isoprod.poclain.com/",
+      "finalUrl": "https://isoprod.poclain.com/",
+      "status": 200,
+      "title": "Poclain | Specialist in hydraulic & electric power transmission",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Public: About us",
+      "url": "https://isoprod.poclain.com/about-us",
+      "finalUrl": "https://isoprod.poclain.com/about-us",
+      "status": 200,
+      "title": "About us | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Public: Network",
+      "url": "https://isoprod.poclain.com/network",
+      "finalUrl": "https://isoprod.poclain.com/network",
+      "status": 200,
+      "title": "Network | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Public: News",
+      "url": "https://isoprod.poclain.com/news",
+      "finalUrl": "https://isoprod.poclain.com/news",
+      "status": 200,
+      "title": "News | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [
+        "/sites/default/files/styles/last_news_image/public/2026-07/Poclain%20Emsiso%20and%20Moteg%20at%20IVT%20Expo.jpg.webp?itok=wcaPBAye",
+        "/sites/default/files/styles/last_news_image/public/2026-04/test-enr-ss-webp.webp?itok=U2rI5ykP",
+        "/sites/default/files/styles/last_news_image/public/2024-10/139A7347.jpg.webp?itok=KCUwHoqt",
+        "/sites/default/files/styles/last_news_image/public/2024-10/banniere-shredder-1440x592.jpg.webp?itok=T0soFJT3"
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "pageErrors": [],
+      "failedRequests": [
+        "404 image https://isoprod.poclain.com/sites/default/files/styles/last_news_image/public/2026-04/test-enr-ss-webp.webp?itok=U2rI5ykP",
+        "404 image https://isoprod.poclain.com/sites/default/files/styles/last_news_image/public/2024-10/139A7347.jpg.webp?itok=KCUwHoqt",
+        "404 image https://isoprod.poclain.com/sites/default/files/styles/last_news_image/public/2026-07/Poclain%20Emsiso%20and%20Moteg%20at%20IVT%20Expo.jpg.webp?itok=wcaPBAye",
+        "404 image https://isoprod.poclain.com/sites/default/files/styles/last_news_image/public/2024-10/banniere-shredder-1440x592.jpg.webp?itok=T0soFJT3"
+      ]
+    },
+    {
+      "label": "Public: Français",
+      "url": "https://isoprod.poclain.com/fr",
+      "finalUrl": "https://isoprod.poclain.com/fr",
+      "status": 200,
+      "title": "Poclain | Sécialiste de la transmission hydraulique et électrique",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [
+        "/sites/default/files/styles/homepage_slider_image/public/2026-06/rapport-rse-2025-1440x500-en.webp?itok=Dwpeytza",
+        "/sites/default/files/styles/last_news_image/public/2024-10/139A7347.jpg.webp?itok=KCUwHoqt"
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "pageErrors": [],
+      "failedRequests": [
+        "404 image https://isoprod.poclain.com/sites/default/files/styles/homepage_slider_image/public/2026-06/rapport-rse-2025-1440x500-en.webp?itok=Dwpeytza",
+        "404 image https://isoprod.poclain.com/sites/default/files/styles/last_news_image/public/2024-10/139A7347.jpg.webp?itok=KCUwHoqt"
+      ]
+    },
+    {
+      "label": "Public: 100 YEARS",
+      "url": "https://isoprod.poclain.com/100-years",
+      "finalUrl": "https://isoprod.poclain.com/100-years",
+      "status": 200,
+      "title": "100 Years | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "pageErrors": [],
+      "failedRequests": [
+        "404 image https://isoprod.poclain.com/sites/default/files/styles/last_news_image/public/2026-04/Tom%20Lovell%20Tutt%27Art%40%20%287%29.jpg.webp?itok=poo0TBzR"
+      ]
+    },
+    {
+      "label": "Public: PRODUCTS",
+      "url": "https://isoprod.poclain.com/products",
+      "finalUrl": "https://isoprod.poclain.com/products",
+      "status": 200,
+      "title": "Products | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Public: Hydraulic Motors",
+      "url": "https://isoprod.poclain.com/products/hydraulic-motors",
+      "finalUrl": "https://isoprod.poclain.com/products/hydraulic-motors",
+      "status": 200,
+      "title": "Hydraulic Motors | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Public: MK Compactness",
+      "url": "https://isoprod.poclain.com/products/hydraulic-motors/mk-compactness",
+      "finalUrl": "https://isoprod.poclain.com/products/hydraulic-motors/mk-compactness",
+      "status": 200,
+      "title": "MK Compactness | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Public: MG Steerable Wheel",
+      "url": "https://isoprod.poclain.com/products/hydraulic-motors/mg-steerable-wheel",
+      "finalUrl": "https://isoprod.poclain.com/products/hydraulic-motors/mg-steerable-wheel",
+      "status": 200,
+      "title": "MG Steerable Wheel | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Public: MHP High Performance",
+      "url": "https://isoprod.poclain.com/products/hydraulic-motors/mhp-high-performance",
+      "finalUrl": "https://isoprod.poclain.com/products/hydraulic-motors/mhp-high-performance",
+      "status": 200,
+      "title": "MHP High Performance | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Public: MS Multipurpose",
+      "url": "https://isoprod.poclain.com/products/hydraulic-motors/ms-multipurpose",
+      "finalUrl": "https://isoprod.poclain.com/products/hydraulic-motors/ms-multipurpose",
+      "status": 200,
+      "title": "MS Multipurpose | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Public: ML Chain Drive",
+      "url": "https://isoprod.poclain.com/products/hydraulic-motors/ml-chain-drive",
+      "finalUrl": "https://isoprod.poclain.com/products/hydraulic-motors/ml-chain-drive",
+      "status": 200,
+      "title": "ML Chain Drive | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Public: MF Rotating Cam",
+      "url": "https://isoprod.poclain.com/products/hydraulic-motors/mf-rotating-cam",
+      "finalUrl": "https://isoprod.poclain.com/products/hydraulic-motors/mf-rotating-cam",
+      "status": 200,
+      "title": "MF Rotating Cam | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Public: MT Track Drive",
+      "url": "https://isoprod.poclain.com/products/hydraulic-motors/mt-track-drive",
+      "finalUrl": "https://isoprod.poclain.com/products/hydraulic-motors/mt-track-drive",
+      "status": 200,
+      "title": "MT Track Drive | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Public: MI High Power",
+      "url": "https://isoprod.poclain.com/products/hydraulic-motors/mi-high-power",
+      "finalUrl": "https://isoprod.poclain.com/products/hydraulic-motors/mi-high-power",
+      "status": 200,
+      "title": "MI High Power | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Public: MZ Swing Drive",
+      "url": "https://isoprod.poclain.com/products/hydraulic-motors/mz-swing-drive",
+      "finalUrl": "https://isoprod.poclain.com/products/hydraulic-motors/mz-swing-drive",
+      "status": 200,
+      "title": "MZ Swing Drive | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Public: CDM Clutchable Double Shaft",
+      "url": "https://isoprod.poclain.com/products/hydraulic-motors/cdm-clutchable-double-shaft",
+      "finalUrl": "https://isoprod.poclain.com/products/hydraulic-motors/cdm-clutchable-double-shaft",
+      "status": 200,
+      "title": "CDM Clutchable Double Shaft | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Public: MHD Motors",
+      "url": "https://isoprod.poclain.com/products/hydraulic-motors/mhd-motors",
+      "finalUrl": "https://isoprod.poclain.com/products/hydraulic-motors/mhd-motors",
+      "status": 200,
+      "title": "MHD Motors | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Public: HEVO Technology",
+      "url": "https://isoprod.poclain.com/hevo",
+      "finalUrl": "https://isoprod.poclain.com/hevo",
+      "status": 200,
+      "title": "HEVO, THE HYDRAULIC EVOLUTION | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Public: Hydraulic Pumps",
+      "url": "https://isoprod.poclain.com/products/hydraulic-pumps",
+      "finalUrl": "https://isoprod.poclain.com/products/hydraulic-pumps",
+      "status": 200,
+      "title": "Hydraulic Pumps | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Public: PM Axial Piston Hydraulic Pumps",
+      "url": "https://isoprod.poclain.com/products/hydraulic-pumps/axial-piston-hydraulic-pumps",
+      "finalUrl": "https://isoprod.poclain.com/products/hydraulic-pumps/axial-piston-hydraulic-pumps",
+      "status": 200,
+      "title": "PM Axial Piston Hydraulic Pumps | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Public: Hydraulic Valves",
+      "url": "https://isoprod.poclain.com/products/hydraulic-valves",
+      "finalUrl": "https://isoprod.poclain.com/products/hydraulic-valves",
+      "status": 200,
+      "title": "Hydraulic Valves | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Public: VB Hydraulic brake valves",
+      "url": "https://isoprod.poclain.com/products/hydraulic-valves/hydraulic-brake-valves",
+      "finalUrl": "https://isoprod.poclain.com/products/hydraulic-valves/hydraulic-brake-valves",
+      "status": 200,
+      "title": "VB Hydraulic brake valves | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Public: Motion Control Valves",
+      "url": "https://isoprod.poclain.com/products/hydraulic-valves/hydraulic-valves-power-transmission-motion-control",
+      "finalUrl": "https://isoprod.poclain.com/products/hydraulic-valves/hydraulic-valves-power-transmission-motion-control",
+      "status": 200,
+      "title": "Motion Control Valves | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    }
+  ],
+  "langResults": [
+    {
+      "label": "Lang (en)",
+      "url": "https://isoprod.poclain.com/",
+      "finalUrl": "https://isoprod.poclain.com/",
+      "status": 200,
+      "title": "Poclain | Specialist in hydraulic & electric power transmission",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Lang (fr)",
+      "url": "https://isoprod.poclain.com/fr",
+      "finalUrl": "https://isoprod.poclain.com/fr",
+      "status": 200,
+      "title": "Poclain | Sécialiste de la transmission hydraulique et électrique",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "pageErrors": [],
+      "failedRequests": [
+        "404 image https://isoprod.poclain.com/sites/default/files/styles/last_news_image/public/2026-07/Poclain%20Emsiso%20and%20Moteg%20at%20IVT%20Expo.jpg.webp?itok=wcaPBAye",
+        "404 image https://isoprod.poclain.com/sites/default/files/styles/homepage_slider_image/public/2025-02/Bauma-2025.jpg.webp?itok=q-8RTdEY"
+      ]
+    }
+  ],
+  "notFoundResult": {
+    "status": 404,
+    "title": "Page not found | Poclain",
+    "hasPhpErrors": false
+  },
+  "searchResults": [
+    {
+      "label": "Search: motor",
+      "url": "https://isoprod.poclain.com/search?keys=motor",
+      "finalUrl": "https://isoprod.poclain.com/search?keys=motor",
+      "status": 200,
+      "title": "Search | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Search: pump",
+      "url": "https://isoprod.poclain.com/search?keys=pump",
+      "finalUrl": "https://isoprod.poclain.com/search?keys=pump",
+      "status": 200,
+      "title": "Search | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Search: ",
+      "url": "https://isoprod.poclain.com/search?keys=",
+      "finalUrl": "https://isoprod.poclain.com/search?keys=",
+      "status": 200,
+      "title": "Search | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Search: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "url": "https://isoprod.poclain.com/search?keys=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "finalUrl": "https://isoprod.poclain.com/search?keys=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "status": 200,
+      "title": "Search | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    }
+  ],
+  "securityResults": [
+    {
+      "path": "/admin",
+      "status": 410,
+      "finalUrl": "https://isoprod.poclain.com/admin"
+    },
+    {
+      "path": "/admin/reports/status",
+      "status": 410,
+      "finalUrl": "https://isoprod.poclain.com/admin/reports/status"
+    },
+    {
+      "path": "/admin/content",
+      "status": 410,
+      "finalUrl": "https://isoprod.poclain.com/admin/content"
+    },
+    {
+      "path": "/node/add/page",
+      "status": 410,
+      "finalUrl": "https://isoprod.poclain.com/node/add/page"
+    },
+    {
+      "path": "/user/1/edit",
+      "status": 404,
+      "finalUrl": "https://isoprod.poclain.com/user/1/edit"
+    }
+  ],
+  "adminResults": [
+    {
+      "label": "Admin: Status Report",
+      "url": "https://isoprod.poclain.com/admin/reports/status",
+      "finalUrl": "https://isoprod.poclain.com/admin/reports/status",
+      "status": 200,
+      "title": "Status report | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Admin: Recent Log Messages",
+      "url": "https://isoprod.poclain.com/admin/reports/dblog",
+      "finalUrl": "https://isoprod.poclain.com/admin/reports/dblog",
+      "status": 200,
+      "title": "Recent log messages | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Admin: DBLog PHP Errors/Warnings",
+      "url": "https://isoprod.poclain.com/admin/reports/dblog?type%5B%5D=php",
+      "finalUrl": "https://isoprod.poclain.com/admin/reports/dblog?type%5B%5D=php",
+      "status": 200,
+      "title": "Recent log messages | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Admin: Extend / Modules",
+      "url": "https://isoprod.poclain.com/admin/modules",
+      "finalUrl": "https://isoprod.poclain.com/admin/modules",
+      "status": 200,
+      "title": "Extend | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Admin: Content",
+      "url": "https://isoprod.poclain.com/admin/content",
+      "finalUrl": "https://isoprod.poclain.com/admin/content",
+      "status": 200,
+      "title": "Content | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Admin: Media",
+      "url": "https://isoprod.poclain.com/admin/content/media",
+      "finalUrl": "https://isoprod.poclain.com/admin/content/media",
+      "status": 200,
+      "title": "Media | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Admin: Files",
+      "url": "https://isoprod.poclain.com/admin/content/files",
+      "finalUrl": "https://isoprod.poclain.com/admin/content/files",
+      "status": 200,
+      "title": "Files | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Admin: Structure",
+      "url": "https://isoprod.poclain.com/admin/structure",
+      "finalUrl": "https://isoprod.poclain.com/admin/structure",
+      "status": 200,
+      "title": "Structure | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Admin: Block layout",
+      "url": "https://isoprod.poclain.com/admin/structure/block",
+      "finalUrl": "https://isoprod.poclain.com/admin/structure/block",
+      "status": 200,
+      "title": "Block layout | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Admin: Menus",
+      "url": "https://isoprod.poclain.com/admin/structure/menu",
+      "finalUrl": "https://isoprod.poclain.com/admin/structure/menu",
+      "status": 200,
+      "title": "Menus | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Admin: Taxonomy",
+      "url": "https://isoprod.poclain.com/admin/structure/taxonomy",
+      "finalUrl": "https://isoprod.poclain.com/admin/structure/taxonomy",
+      "status": 200,
+      "title": "Taxonomy | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Admin: Views",
+      "url": "https://isoprod.poclain.com/admin/structure/views",
+      "finalUrl": "https://isoprod.poclain.com/admin/structure/views",
+      "status": 200,
+      "title": "Views | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Admin: Webforms",
+      "url": "https://isoprod.poclain.com/admin/structure/webform",
+      "finalUrl": "https://isoprod.poclain.com/admin/structure/webform",
+      "status": 200,
+      "title": "Webforms | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Admin: Configuration",
+      "url": "https://isoprod.poclain.com/admin/config",
+      "finalUrl": "https://isoprod.poclain.com/admin/config",
+      "status": 200,
+      "title": "Configuration | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Admin: Image styles",
+      "url": "https://isoprod.poclain.com/admin/config/media/image-styles",
+      "finalUrl": "https://isoprod.poclain.com/admin/config/media/image-styles",
+      "status": 200,
+      "title": "Image styles | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Admin: Image toolkit",
+      "url": "https://isoprod.poclain.com/admin/config/media/image-toolkit",
+      "finalUrl": "https://isoprod.poclain.com/admin/config/media/image-toolkit",
+      "status": 200,
+      "title": "Image toolkit | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Admin: Languages",
+      "url": "https://isoprod.poclain.com/admin/config/regional/language",
+      "finalUrl": "https://isoprod.poclain.com/admin/config/regional/language",
+      "status": 200,
+      "title": "Languages | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Admin: Cron",
+      "url": "https://isoprod.poclain.com/admin/config/system/cron",
+      "finalUrl": "https://isoprod.poclain.com/admin/config/system/cron",
+      "status": 200,
+      "title": "Cron | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Admin: People",
+      "url": "https://isoprod.poclain.com/admin/people",
+      "finalUrl": "https://isoprod.poclain.com/admin/people",
+      "status": 200,
+      "title": "People | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "Admin: Permissions",
+      "url": "https://isoprod.poclain.com/admin/people/permissions",
+      "finalUrl": "https://isoprod.poclain.com/admin/people/permissions",
+      "status": 200,
+      "title": "Permissions | Poclain",
+      "loadError": null,
+      "bodyProblems": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    }
+  ],
+  "phpLogRowsCount": 20,
+  "phpLogDetails": [
+    {
+      "href": "/admin/reports/dblog/event/85677",
+      "detailText": "Type\tphp\nDate\tMonday, November 16, 2026 - 11:27\nUser\tAnonymous (not verified)\nLocation\thttps://isoprod.poclain.com/contact-us\nReferrer\thttps://isoprod.poclain.com/contact-us\nMessage\tUser warning: Access to not initialized OpenTelemetry context in fiber (id: 18715), automatic forking not supported, must attach initial fiber context manually in OpenTelemetry\\Context\\FiberBoundContextStorage::triggerNotInitializedFiberContextWarning() (line 84 of /var/www/poclain/vendor/open-telemetry/context/FiberBoundContextStorage.php)\n#0 /var/www/poclain/web/core/includes/bootstrap.inc(104): _drupal_error_handler_real(512, 'Access to not i...', '/var/www/poclai...', 84)\n#1 [internal function]: _drupal_error_handler(512, 'Access to not i...', '/var/www/poclai...', 84)\n#2 /var/www/poclain/vendor/open-telemetry/context/FiberBoundContextStorage.php(84): trigger_error('Access to not i...', 512)\n#3 /var/www/poclain/vendor/open-telemetry/context/FiberBoundContextStorage.php(59): OpenTelemetry\\Context\\FiberBoundContextStorage::triggerNotInitializedFiberContextWarning()\n#4 /var/www/poclain/vendor/open-telemetry/context/FiberBoundContextStorageExecutionAwareBC.php(70): OpenTelemetry\\Context\\FiberBoundContextStorage->current()\n#5 /var/www/poclain/vendor/open-telemetry/context/Context.php(74): OpenTelemetry\\Context\\FiberBoundContextStorageExecutionAwareBC->current()\n#6 /var/www/poclain/vendor/open-telemetry/api/Trace/Span.php(56): OpenTelemetry\\Context\\Context::getCurrent()\n#7 /var/www/poclain/vendor/microsoft/kiota-http-guzzle/src/GuzzleRequestAdapter.php(368): OpenTelemetry\\API\\Trace\\Span->activate()\n#8 /var/www/poclain/vendor/microsoft/microsoft-graph/src/Generated/Users/Item/SendMail/SendMailRequestBuilder.php(45): Microsoft\\Kiota\\Http\\GuzzleRequestAdapter->sendNoContentAsync(Object(Microsoft\\Kiota\\Abstractions\\RequestInformation), Array)\n#9 /var/www/poclain/web/modules/custom/poclain_mailer_cert/src/Transport/Api/MicrosoftGraphApiTransport.php(93): Microsoft\\Graph\\Generated\\Users\\Item\\SendMail\\SendMailRequestBuilder->post(Object(Microsoft\\Graph\\Generated\\Users\\Item\\SendMail\\SendMailPostRequestBody))\n#10 /var/www/poclain/vendor/symfony/mailer/Transport/AbstractTransport.php(69): Drupal\\poclain_mailer_cert\\Transport\\Api\\MicrosoftGraphApiTransport->doSend(Object(Symfony\\Component\\Mailer\\SentMessage))\n#11 /var/www/poclain/vendor/symfony/mailer/Transport/Transports.php(51): Symfony\\Component\\Mailer\\Transport\\AbstractTransport->send(Object(Symfony\\Component\\Mime\\Email), Object(Symfony\\Component\\Mailer\\DelayedEnvelope))\n#12 /var/www/poclain/vendor/symfony/mailer/Mailer.php(38): Symfony\\Component\\Mailer\\Transport\\Transports->send(Object(Symfony\\Component\\Mime\\Email), NULL)\n#13 /var/www/poclain/web/modules/contrib/symfony_mailer_lite/src/Plugin/Mail/SymfonyMailer.php(401): Symfony\\Component\\Mailer\\Mailer->send(Object(Symfony\\Component\\Mime\\Email))\n#14 /var/www/poclain/web/modules/contrib/mailsystem/src/Adapter.php(50): Drupal\\symfony_mailer_lite\\Plugin\\Mail\\SymfonyMailer->mail(Array)\n#15 /var/www/poclain/web/core/lib/Drupal/Core/Mail/MailManager.php(309): Drupal\\mailsystem\\Adapter->mail(Array)\n#16 /var/www/poclain/web/core/lib/Drupal/Core/Mail/MailManager.php(181): Drupal\\Core\\Mail\\MailManager->doMail('webform', 'contact_contact...', 'info-france@poc...', 'en', Array, 'request-interna...', true)\n#17 /var/www/poclain/web/core/lib/Drupal/Core/Render/Renderer.php(638): Drupal\\Core\\Mail\\MailManager->{closure:Drupal\\Core\\Mail\\MailManager::mail():180}()\n#18 [internal function]: Drupal\\Core\\Render\\Renderer::{closure:Drupal\\Core\\Render\\Renderer::executeInRenderContext():638}()\n#19 /var/www/poclain/web/core/lib/Drupal/Core/Render/Renderer.php(653): Fiber->resume()\n#20 /var/www/poclain/web/core/lib/Drupal/Core/Mail/MailManager.php(180): Drupal\\Core\\Render\\Renderer->executeInRenderContext(Object(Drupal\\Core\\Render\\RenderContext), Object(Closure))\n#21 /var/www/poclain/web/modules/contrib/mailsystem/src/MailsystemManager.php(70): Drupal\\Core\\Mail\\MailManager->mail('webform', 'contact_contact...', 'info-france@poc...', 'en', Array, 'request-interna...', true)\n#22 /var/www/poclain/web/modules/contrib/webform/src/Plugin/WebformHandler/EmailWebformHandler.php(1238): Drupal\\mailsystem\\MailsystemManager->mail('webform', 'contact_contact...', 'info-france@poc...', 'en', Array, 'request-interna...')\n#23 /var/www/poclain/web/modules/custom/poclain_core/src/Plugin/WebformHandler/ContactUsEmailWebformHandler.php(70): Drupal\\webform\\Plugin\\WebformHandler\\EmailWebformHandler->sendMessage(Object(Drupal\\webform\\Entity\\WebformSubmission), Array)\n#24 /var/www/poclain/web/modules/contrib/webform/src/Plugin/WebformHandler/EmailWebformHandler.php(887): Drupal\\poclain_core\\Plugin\\WebformHandler\\ContactUsEmailWebformHandler->sendMessage(Object(Drupal\\webform\\Entity\\WebformSubmission), Array)\n#25 /var/www/poclain/web/modules/contrib/webform/src/Entity/Webform.php(2766): Drupal\\webform\\Plugin\\WebformHandler\\EmailWebformHandler->postSave(Object(Drupal\\webform\\Entity\\WebformSubmission), false, NULL)\n#26 /var/www/poclain/web/modules/contrib/webform/src/WebformSubmissionStorage.php(1235): Drupal\\webform\\Entity\\Webform->invokeHandlers('postSave', Object(Drupal\\webform\\Entity\\WebformSubmission), false, NULL)\n#27 /var/www/poclain/web/modules/contrib/webform/src/WebformSubmissionStorage.php(1140): Drupal\\webform\\WebformSubmissionStorage->invokeWebformHandlers('postSave', Object(Drupal\\webform\\Entity\\WebformSubmission), false)\n#28 /var/www/poclain/web/core/lib/Drupal/Core/Entity/EntityStorageBase.php(543): Drupal\\webform\\WebformSubmissionStorage->doPostSave(Object(Drupal\\webform\\Entity\\WebformSubmission), false)\n#29 /var/www/poclain/web/core/lib/Drupal/Core/Entity/Sql/SqlContentEntityStorage.php(844): Drupal\\Core\\Entity\\EntityStorageBase->save(Object(Drupal\\webform\\Entity\\WebformSubmission))\n#30 /var/www/poclain/web/modules/contrib/webform/src/WebformSubmissionStorage.php(1003): Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage->save(Object(Drupal\\webform\\Entity\\WebformSubmission))\n#31 /var/www/poclain/web/core/lib/Drupal/Core/Entity/EntityBase.php(371): Drupal\\webform\\WebformSubmissionStorage->save(Object(Drupal\\webform\\Entity\\WebformSubmission))\n#32 /var/www/poclain/web/modules/contrib/webform/src/Entity/WebformSubmission.php(920): Drupal\\Core\\Entity\\EntityBase->save()\n#33 /var/www/poclain/web/modules/contrib/webform/src/WebformSubmissionForm.php(2052): Drupal\\webform\\Entity\\WebformSubmission->save()\n#34 /var/www/poclain/web/core/lib/Drupal/Core/Form/FormSubmitter.php(108): Drupal\\webform\\WebformSubmissionForm->save(Array, Object(Drupal\\Core\\Form\\FormState))\n#35 /var/www/poclain/web/core/lib/Drupal/Core/Form/FormSubmitter.php(45): Drupal\\Core\\Form\\FormSubmitter->executeSubmitHandlers(Array, Object(Drupal\\Core\\Form\\FormState))\n#36 /var/www/poclain/web/core/lib/Drupal/Core/Form/FormBuilder.php(620): Drupal\\Core\\Form\\FormSubmitter->doSubmitForm(Array, Object(Drupal\\Core\\Form\\FormState))\n#37 /var/www/poclain/web/core/lib/Drupal/Core/Form/FormBuilder.php(343): Drupal\\Core\\Form\\FormBuilder->processForm('webform_submiss...', Array, Object(Drupal\\Core\\Form\\FormState))\n#38 /var/www/poclain/web/core/lib/Drupal/Core/Entity/EntityFormBuilder.php(48): Drupal\\Core\\Form\\FormBuilder->buildForm(Object(Drupal\\webform\\WebformSubmissionForm), Object(Drupal\\Core\\Form\\FormState))\n#39 /var/www/poclain/web/modules/contrib/webform/src/Entity/Webform.php(1243): Drupal\\Core\\Entity\\EntityFormBuilder->getForm(Object(Drupal\\webform\\Entity\\WebformSubmission), 'add')\n#40 /var/www/poclain/web/modules/contrib/webform/src/Element/Webform.php(112): Drupal\\webform\\Entity\\Webform->getSubmissionForm(Array)\n#41 [internal function]: Drupal\\webform\\Element\\Webform::preRenderWebformElement(Array)\n#42 /var/www/poclain/web/core/lib/Drupal/Core/Security/DoTrustedCallbackTrait.php(107): call_user_func_array(Array, Array)\n#43 /var/www/poclain/web/core/lib/Drupal/Core/Render/Renderer.php(914): Drupal\\Core\\Render\\Renderer->doTrustedCallback(Array, Array, 'Render #pre_ren...', 'exception', 'Drupal\\\\Core\\\\Ren...')\n#44 /var/www/poclain/web/core/lib/Drupal/Core/Render/Renderer.php(447): Drupal\\Core\\Render\\Renderer->doCallback('#pre_render', Array, Array)\n#45 /var/www/poclain/web/core/lib/Drupal/Core/Render/Renderer.php(230): Drupal\\Core\\Render\\Renderer->doRender(Array, Object(Drupal\\Core\\Render\\RenderContext))\n#46 /var/www/poclain/web/core/lib/Drupal/Core/Template/TwigExtension.php(523): Drupal\\Core\\Render\\Renderer->render(Array)\n#47 /var/www/poclain/web/sites/default/files/php/twig/6ae90a4c68ec3_field.html.twig_kbdOi-on42MfemczibuO23gHf/1oMD6E1gPRJkoAaNf0Q-zJopBz94rhu9CnTkORsbpvI.php(89): Drupal\\Core\\Template\\TwigExtension->escapeFilter(Object(Drupal\\Core\\Template\\TwigEnvironment), Array, 'html', NULL, true)\n#48 /var/www/poclain/vendor/twig/twig/src/Template.php(461): __TwigTemplate_3c88a5ac7761f2ddf6d5227a28ebe487->doDisplay(Array, Array)\n#49 /var/www/poclain/vendor/twig/twig/src/Template.php(444): Twig\\Template->yield(Array)\n#50 /var/www/poclain/vendor/twig/twig/src/TemplateWrapper.php(53): Twig\\Template->render(Array)\n#51 /var/www/poclain/web/core/lib/Drupal/Core/Template/TwigThemeEngine.php(35): Twig\\TemplateWrapper->render(Array)\n#52 /var/www/poclain/web/core/lib/Drupal/Core/Theme/ThemeManager.php(428): Drupal\\Core\\Template\\TwigThemeEngine->renderTemplate('core/themes/sta...', Array)\n#53 /var/www/poclain/web/core/lib/Drupal/Core/Render/Renderer.php(504): Drupal\\Core\\Theme\\ThemeManager->render('field', Array)\n#54 /var/www/poclain/web/core/lib/Drupal/Core/Render/Renderer.php(517): Drupal\\Core\\Render\\Renderer->doRender(Array, Object(Drupal\\Core\\Render\\RenderContext))\n#55 /var/www/poclain/web/core/lib/Drupal/Core/Render/Renderer.php(230): Drupal\\Core\\Render\\Renderer->doRender(Array, Object(Drupal\\Core\\Render\\RenderContext))\n#56 /var/www/poclain/web/core/lib/Drupal/Core/Template/TwigExtension.php(523): Drupal\\Core\\Render\\Renderer->render(Array)\n#57 /var/www/poclain/web/sites/default/files/php/twig/6ae90a4c68ec3_block.html.twig_-rNMKeBpmndYe8F4XLubz3_yu/9-3QpdCIUqXIJGZV3eBHA1FKDTbbI0VKR_RquzVlxxM.php(87): Drupal\\Core\\Template\\TwigExtension->escapeFilter(Object(Drupal\\Core\\Template\\TwigEnvironment), Array, 'html', NULL, true)\n#58 /var/www/poclain/vendor/twig/twig/src/Template.php(493): __TwigTemplate_6696557c79c68a4b0e6ec82425c3aba2->block_content(Array, Array)\n#59 /var/www/poclain/web/sites/default/files/php/twig/6ae90a4c68ec3_block.html.twig_-rNMKeBpmndYe8F4XLubz3_yu/9-3QpdCIUqXIJGZV3eBHA1FKDTbbI0VKR_RquzVlxxM.php(70): Twig\\Template->yieldBlock('content', Array, Array)\n#60 /var/www/poclain/vendor/twig/twig/src/Template.php(461): __TwigTemplate_6696557c79c68a4b0e6ec82425c3aba2->doDisplay(Array, Array)\n#61 /var/www/poclain/vendor/twig/twig/src/Template.php(444): Twig\\Template->yield(Array)\n#62 /var/www/poclain/vendor/twig/twig/src/TemplateWrapper.php(53): Twig\\Template->render(Array)\n#63 /var/www/poclain/web/core/lib/Drupal/Core/Template/TwigThemeEngine.php(35): Twig\\TemplateWrapper->render(Array)\n#64 /var/www/poclain/web/core/lib/Drupal/Core/Theme/ThemeManager.php(428): Drupal\\Core\\Template\\TwigThemeEngine->renderTemplate('core/themes/sta...', Array)\n#65 /var/www/poclain/web/core/lib/Drupal/Core/Render/Renderer.php(504): Drupal\\Core\\Theme\\ThemeManager->render('block', Array)\n#66 /var/www/poclain/web/core/lib/Drupal/Core/Render/Renderer.php(517): Drupal\\Core\\Render\\Renderer->doRender(Array, Object(Drupal\\Core\\Render\\RenderContext))\n#67 /var/www/poclain/web/core/lib/Drupal/Core/Render/Renderer.php(230): Drupal\\Core\\Render\\Renderer->doRender(Array, Object(Drupal\\Core\\Render\\RenderContext))\n#68 /var/www/poclain/web/core/lib/Drupal/Core/Template/TwigExtension.php(523): Drupal\\Core\\Render\\Renderer->render(Array)\n#69 /var/www/poclain/web/sites/default/files/php/twig/6ae90a4c68ec3_contact-form.twig_iKUzPWs3TFQvkM1YM0hE-Evqv/oVBAUdQjSAQEJAICneq_wTzhzdSE9mxjiGAye9mSQ6k.php(61): Drupal\\Core\\Template\\TwigExtension->escapeFilter(Object(Drupal\\Core\\Template\\TwigEnvironment), Array, 'html', NULL, true)\n#70 /var/www/poclain/vendor/twig/twig/src/Template.php(461): __TwigTemplate_9b5bac9835217745b4bb96499fe79c26->doDisplay(Array, Array)\n#71 /var/www/poclain/web/sites/default/files/php/twig/6ae90a4c68ec3_layout--contact-us.html.t_9_ATda3xgYME75f-_hGf8Vpo5/d_5QUoB3CST58bFUPVGgGCPZKfrhV3t2Tu2vEQPIxsk.php(49): Twig\\Template->yield(Array)\n#72 /var/www/poclain/vendor/twig/twig/src/Template.php(461): __TwigTemplate_dc616da6eb2c2281a8e73206db0d7b8e->doDisplay(Array, Array)\n#73 /var/www/poclain/vendor/twig/twig/src/Template.php(444): Twig\\Template->yield(Array)\n#74 /var/www/poclain/vendor/twig/twig/src/TemplateWrapper.php(53): Twig\\Template->render(Array)\n#75 /var/www/poclain/web/core/lib/Drupal/Core/Template/TwigThemeEngine.php(35): Twig\\TemplateWrapper->render(Array)\n#76 /var/www/poclain/web/core/lib/Drupal/Core/Theme/ThemeManager.php(428): Drupal\\Core\\Template\\TwigThemeEngine->renderTemplate('themes/custom/p...', Array)\n#77 /var/www/poclain/web/core/lib/Drupal/Core/Render/Renderer.php(504): Drupal\\Core\\Theme\\ThemeManager->render('layout__contact...', Array)\n#78 /var/www/poclain/web/core/lib/Drupal/Core/Render/Renderer.php(517): Drupal\\Core\\Render\\Renderer->doRender(Array, Object(Drupal\\Core\\Render\\RenderContext))\n#79 /var/www/poclain/web/core/lib/Drupal/Core/Render/Renderer.php(517): Drupal\\Core\\Render\\Renderer->doRender(Array, Object(Drupal\\Core\\Render\\RenderContext))\n#80 /var/www/poclain/web/core/lib/Drupal/Core/Render/Renderer.php(230): Drupal\\Core\\Render\\Renderer->doRender(Array, Object(Drupal\\Core\\Render\\RenderContext))\n#81 /var/www/poclain/web/core/lib/Drupal/Core/Template/TwigExtension.php(523): Drupal\\Core\\Render\\Renderer->render(Array)\n#82 /var/www/poclain/web/sites/default/files/php/twig/6ae90a4c68ec3_node.html.twig_7FC0YJOcUePyX-8tIhIrFwkSO/0H_sL8V9WSDoG8jH6B7F82RGFoXmKtvfmcKhoMHFCU4.php(106): Drupal\\Core\\Template\\TwigExtension->escapeFilter(Object(Drupal\\Core\\Template\\TwigEnvironment), Array, 'html', NULL, true)\n#83 /var/www/poclain/vendor/twig/twig/src/Template.php(461): __TwigTemplate_10c90ca3ad8263b78d91db1b4b85a75c->doDisplay(Array, Array)\n#84 /var/www/poclain/vendor/twig/twig/src/Template.php(444): Twig\\Template->yield(Array)\n#85 /var/www/poclain/vendor/twig/twig/src/TemplateWrapper.php(53): Twig\\Template->render(Array)\n#86 /var/www/poclain/web/core/lib/Drupal/Core/Template/TwigThemeEngine.php(35): Twig\\TemplateWrapper->render(Array)\n#87 /var/www/poclain/web/core/lib/Drupal/Core/Theme/ThemeManager.php(428): Drupal\\Core\\Template\\TwigThemeEngine->renderTemplate('core/themes/sta...', Array)\n#88 /var/www/poclain/web/core/lib/Drupal/Core/Render/Renderer.php(504): Drupal\\Core\\Theme\\ThemeManager->render('node', Array)\n#89 /var/www/poclain/web/core/lib/Drupal/Core/Render/Renderer.php(230): Drupal\\Core\\Render\\Renderer->doRender(Array, Object(Drupal\\Core\\Render\\RenderContext))\n#90 /var/www/poclain/web/core/lib/Drupal/Core/Render/MainContent/HtmlRenderer.php(242): Drupal\\Core\\Render\\Renderer->render(Array, false)\n#91 /var/www/poclain/web/core/lib/Drupal/Core/Render/Renderer.php(638): Drupal\\Core\\Render\\MainContent\\HtmlRenderer->{closure:Drupal\\Core\\Render\\MainContent\\HtmlRenderer::prepare():235}()\n#92 [internal function]: Drupal\\Core\\Render\\Renderer::{closure:Drupal\\Core\\Render\\Renderer::executeInRenderContext():638}()\n#93 /var/www/poclain/web/core/lib/Drupal/Core/Render/Renderer.php(653): Fiber->resume()\n#94 /var/www/poclain/web/core/lib/Drupal/Core/Render/MainContent/HtmlRenderer.php(235): Drupal\\Core\\Render\\Renderer->executeInRenderContext(Object(Drupal\\Core\\Render\\RenderContext), Object(Closure))\n#95 /var/www/poclain/web/core/lib/Drupal/Core/Render/MainContent/HtmlRenderer.php(131): Drupal\\Core\\Render\\MainContent\\HtmlRenderer->prepare(Array, Object(Symfony\\Component\\HttpFoundation\\Request), Object(Drupal\\Core\\Routing\\CurrentRouteMatch))\n#96 /var/www/poclain/web/core/lib/Drupal/Core/EventSubscriber/MainContentViewSubscriber.php(69): Drupal\\Core\\Render\\MainContent\\HtmlRenderer->renderResponse(Array, Object(Symfony\\Component\\HttpFoundation\\Request), Object(Drupal\\Core\\Routing\\CurrentRouteMatch))\n#97 /var/www/poclain/vendor/symfony/event-dispatcher/EventDispatcher.php(254): Drupal\\Core\\EventSubscriber\\MainContentViewSubscriber->onViewRenderArray(Object(Symfony\\Component\\HttpKernel\\Event\\ViewEvent), 'kernel.view', Object(Symfony\\Component\\EventDispatcher\\EventDispatcher))\n#98 /var/www/poclain/vendor/symfony/event-dispatcher/EventDispatcher.php(206): Symfony\\Component\\EventDispatcher\\EventDispatcher::{closure:Symfony\\Component\\EventDispatcher\\EventDispatcher::optimizeListeners():249}(Object(Symfony\\Component\\HttpKernel\\Event\\ViewEvent), 'kernel.view', Object(Symfony\\Component\\EventDispatcher\\EventDispatcher))\n#99 /var/www/poclain/vendor/symfony/event-dispatcher/EventDispatcher.php(56): Symfony\\Component\\EventDispatcher\\EventDispatcher->callListeners(Array, 'kernel.view', Object(Symfony\\Component\\HttpKernel\\Event\\ViewEvent))\n#100 /var/www/poclain/vendor/symfony/http-kernel/HttpKernel.php(188): Symfony\\Component\\EventDispatcher\\EventDispatcher->dispatch(Object(Symfony\\Component\\HttpKernel\\Event\\ViewEvent), 'kernel.view')\n#101 /var/www/poclain/vendor/symfony/http-kernel/HttpKernel.php(76): Symfony\\Component\\HttpKernel\\HttpKernel->handleRaw(Object(Symfony\\Component\\HttpFoundation\\Request), 1)\n#102 /var/www/poclain/web/core/lib/Drupal/Core/StackMiddleware/Session.php(53): Symfony\\Component\\HttpKernel\\HttpKernel->handle(Object(Symfony\\Component\\HttpFoundation\\Request), 1, true)\n#103 /var/www/poclain/web/core/lib/Drupal/Core/StackMiddleware/KernelPreHandle.php(30): Drupal\\Core\\StackMiddleware\\Session->handle(Object(Symfony\\Component\\HttpFoundation\\Request), 1, true)\n#104 /var/www/poclain/web/core/lib/Drupal/Core/StackMiddleware/ContentLength.php(28): Drupal\\Core\\StackMiddleware\\KernelPreHandle->handle(Object(Symfony\\Component\\HttpFoundation\\Request), 1, true)\n#105 /var/www/poclain/web/core/modules/page_cache/src/StackMiddleware/PageCache.php(118): Drupal\\Core\\StackMiddleware\\ContentLength->handle(Object(Symfony\\Component\\HttpFoundation\\Request), 1, true)\n#106 /var/www/poclain/web/core/modules/page_cache/src/StackMiddleware/PageCache.php(92): Drupal\\page_cache\\StackMiddleware\\PageCache->pass(Object(Symfony\\Component\\HttpFoundation\\Request), 1, true)\n#107 /var/www/poclain/web/core/modules/ban/src/BanMiddleware.php(50): Drupal\\page_cache\\StackMiddleware\\PageCache->handle(Object(Symfony\\Component\\HttpFoundation\\Request), 1, true)\n#108 /var/www/poclain/web/core/lib/Drupal/Core/StackMiddleware/ReverseProxyMiddleware.php(48): Drupal\\ban\\BanMiddleware->handle(Object(Symfony\\Component\\HttpFoundation\\Request), 1, true)\n#109 /var/www/poclain/web/core/lib/Drupal/Core/StackMiddleware/NegotiationMiddleware.php(51): Drupal\\Core\\StackMiddleware\\ReverseProxyMiddleware->handle(Object(Symfony\\Component\\HttpFoundation\\Request), 1, true)\n#110 /var/www/poclain/web/core/lib/Drupal/Core/StackMiddleware/AjaxPageState.php(71): Drupal\\Core\\StackMiddleware\\NegotiationMiddleware->handle(Object(Symfony\\Component\\HttpFoundation\\Request), 1, true)\n#111 /var/www/poclain/web/core/lib/Drupal/Core/StackMiddleware/StackedHttpKernel.php(54): Drupal\\Core\\StackMiddleware\\AjaxPageState->handle(Object(Symfony\\Component\\HttpFoundation\\Request), 1, true)\n#112 /var/www/poclain/web/core/lib/Drupal/Core/DrupalKernel.php(753): Drupal\\Core\\StackMiddleware\\StackedHttpKernel->handle(Object(Symfony\\Component\\HttpFoundation\\Request), 1, true)\n#113 /var/www/poclain/vendor/symfony/runtime/Runner/Symfony/HttpKernelRunner.php(34): Drupal\\Core\\DrupalKernel->handle(Object(Symfony\\Component\\HttpFoundation\\Request))\n#114 /var/www/poclain/vendor/autoload_runtime.php(32): Symfony\\Component\\Runtime\\Runner\\Symfony\\HttpKernelRunner->run()\n#115 /var/www/poclain/web/autoload_runtime.php(22): require('/var/www/poclai...')\n#116 /var/www/poclain/web/index.php(13): require_once('/var/www/poclai...')\n#117 {main}\n.\nSeverity\tWarning\nHostname\t178.213.190.47\nOperations"
+    },
+    {
+      "href": "/admin/reports/dblog/event/75856",
+      "detailText": "Type\tphp\nDate\tThursday, November 12, 2026 - 14:42\nUser\tpoclainadmin\nLocation\thttps://isoprod.poclain.com/admin/structure/taxonomy/manage/carreers\nReferrer\t\nMessage\tDeprecated function: Drupal\\taxonomy_max_depth\\Taxonomy\\VocabularySettingsWriterInterface::setMaxAncestorDepth(): Implicitly marking parameter $max_depth as nullable is deprecated, the explicit nullable type must be used instead in include() (line 576 of /var/www/poclain/vendor/composer/ClassLoader.php)\n#0 /var/www/poclain/web/core/includes/bootstrap.inc(104): _drupal_error_handler_real(8192, 'Drupal\\\\taxonomy...', '/var/www/poclai...', 23)\n#1 /var/www/poclain/vendor/composer/ClassLoader.php(576): _drupal_error_handler(8192, 'Drupal\\\\taxonomy...', '/var/www/poclai...', 23)\n#2 /var/www/poclain/vendor/composer/ClassLoader.php(576): include('/var/www/poclai...')\n#3 /var/www/poclain/vendor/composer/ClassLoader.php(427): {closure:Composer\\Autoload\\ClassLoader::initializeIncludeClosure():575}('/var/www/poclai...')\n#4 /var/www/poclain/web/modules/contrib/taxonomy_max_depth/src/Taxonomy/VocabularySettingsWriter.php(10): Composer\\Autoload\\ClassLoader->loadClass('Drupal\\\\taxonomy...')\n#5 /var/www/poclain/vendor/composer/ClassLoader.php(576): include('/var/www/poclai...')\n#6 /var/www/poclain/vendor/composer/ClassLoader.php(427): {closure:Composer\\Autoload\\ClassLoader::initializeIncludeClosure():575}('/var/www/poclai...')\n#7 /var/www/poclain/web/core/lib/Drupal/Component/DependencyInjection/Container.php(262): Composer\\Autoload\\ClassLoader->loadClass('Drupal\\\\taxonomy...')\n#8 /var/www/poclain/web/core/lib/Drupal/Component/DependencyInjection/Container.php(173): Drupal\\Component\\DependencyInjection\\Container->createService(Array, 'taxonomy_max_de...')\n#9 /var/www/poclain/web/core/lib/Drupal/Component/DependencyInjection/Container.php(429): Drupal\\Component\\DependencyInjection\\Container->get('taxonomy_max_de...', 1)\n#10 /var/www/poclain/web/core/lib/Drupal/Component/DependencyInjection/Container.php(240): Drupal\\Component\\DependencyInjection\\Container->resolveServicesAndParameters(Array)\n#11 /var/www/poclain/web/core/lib/Drupal/Component/DependencyInjection/Container.php(173): Drupal\\Component\\DependencyInjection\\Container->createService(Array, 'taxonomy_max_de...')\n#12 /var/www/poclain/web/core/lib/Drupal.php(203): Drupal\\Component\\DependencyInjection\\Container->get('taxonomy_max_de...')\n#13 /var/www/poclain/web/modules/contrib/taxonomy_max_depth/taxonomy_max_depth.module(30): Drupal::service('taxonomy_max_de...')\n#14 /var/www/poclain/web/core/lib/Drupal/Core/Extension/ModuleHandler.php(460): taxonomy_max_depth_form_taxonomy_vocabulary_form_alter(Array, Object(Drupal\\Core\\Form\\FormState), 'taxonomy_vocabu...')\n#15 /var/www/poclain/web/core/lib/Drupal/Core/Form/FormBuilder.php(897): Drupal\\Core\\Extension\\ModuleHandler->alter(Array, Array, Object(Drupal\\Core\\Form\\FormState), 'taxonomy_vocabu...')\n#16 /var/www/poclain/web/core/lib/Drupal/Core/Form/FormBuilder.php(300): Drupal\\Core\\Form\\FormBuilder->prepareForm('taxonomy_vocabu...', Array, Object(Drupal\\Core\\Form\\FormState))\n#17 /var/www/poclain/web/core/lib/Drupal/Core/Controller/FormController.php(73): Drupal\\Core\\Form\\FormBuilder->buildForm(Object(Drupal\\taxonomy\\VocabularyForm), Object(Drupal\\Core\\Form\\FormState))\n#18 [internal function]: Drupal\\Core\\Controller\\FormController->getContentResult(Object(Symfony\\Component\\HttpFoundation\\Request), Object(Drupal\\Core\\Routing\\RouteMatch))\n#19 /var/www/poclain/web/core/lib/Drupal/Core/EventSubscriber/EarlyRenderingControllerWrapperSubscriber.php(123): call_user_func_array(Array, Array)\n#20 /var/www/poclain/web/core/lib/Drupal/Core/Render/Renderer.php(638): Drupal\\Core\\EventSubscriber\\EarlyRenderingControllerWrapperSubscriber->{closure:Drupal\\Core\\EventSubscriber\\EarlyRenderingControllerWrapperSubscriber::wrapControllerExecutionInRenderContext():121}()\n#21 [internal function]: Drupal\\Core\\Render\\Renderer::{closure:Drupal\\Core\\Render\\Renderer::executeInRenderContext():638}()\n#22 /var/www/poclain/web/core/lib/Drupal/Core/Render/Renderer.php(653): Fiber->resume()\n#23 /var/www/poclain/web/core/lib/Drupal/Core/EventSubscriber/EarlyRenderingControllerWrapperSubscriber.php(121): Drupal\\Core\\Render\\Renderer->executeInRenderContext(Object(Drupal\\Core\\Render\\RenderContext), Object(Closure))\n#24 /var/www/poclain/web/core/lib/Drupal/Core/EventSubscriber/EarlyRenderingControllerWrapperSubscriber.php(97): Drupal\\Core\\EventSubscriber\\EarlyRenderingControllerWrapperSubscriber->wrapControllerExecutionInRenderContext(Array, Array)\n#25 /var/www/poclain/vendor/symfony/http-kernel/HttpKernel.php(183): Drupal\\Core\\EventSubscriber\\EarlyRenderingControllerWrapperSubscriber->{closure:Drupal\\Core\\EventSubscriber\\EarlyRenderingControllerWrapperSubscriber::onController():96}()\n#26 /var/www/poclain/vendor/symfony/http-kernel/HttpKernel.php(76): Symfony\\Component\\HttpKernel\\HttpKernel->handleRaw(Object(Symfony\\Component\\HttpFoundation\\Request), 1)\n#27 /var/www/poclain/web/core/lib/Drupal/Core/StackMiddleware/Session.php(53): Symfony\\Component\\HttpKernel\\HttpKernel->handle(Object(Symfony\\Component\\HttpFoundation\\Request), 1, true)\n#28 /var/www/poclain/web/core/lib/Drupal/Core/StackMiddleware/KernelPreHandle.php(30): Drupal\\Core\\StackMiddleware\\Session->handle(Object(Symfony\\Component\\HttpFoundation\\Request), 1, true)\n#29 /var/www/poclain/web/core/lib/Drupal/Core/StackMiddleware/ContentLength.php(28): Drupal\\Core\\StackMiddleware\\KernelPreHandle->handle(Object(Symfony\\Component\\HttpFoundation\\Request), 1, true)\n#30 /var/www/poclain/web/core/modules/page_cache/src/StackMiddleware/PageCache.php(118): Drupal\\Core\\StackMiddleware\\ContentLength->handle(Object(Symfony\\Component\\HttpFoundation\\Request), 1, true)\n#31 /var/www/poclain/web/core/modules/page_cache/src/StackMiddleware/PageCache.php(92): Drupal\\page_cache\\StackMiddleware\\PageCache->pass(Object(Symfony\\Component\\HttpFoundation\\Request), 1, true)\n#32 /var/www/poclain/web/core/modules/ban/src/BanMiddleware.php(50): Drupal\\page_cache\\StackMiddleware\\PageCache->handle(Object(Symfony\\Component\\HttpFoundation\\Request), 1, true)\n#33 /var/www/poclain/web/core/lib/Drupal/Core/StackMiddleware/ReverseProxyMiddleware.php(48): Drupal\\ban\\BanMiddleware->handle(Object(Symfony\\Component\\HttpFoundation\\Request), 1, true)\n#34 /var/www/poclain/web/core/lib/Drupal/Core/StackMiddleware/NegotiationMiddleware.php(51): Drupal\\Core\\StackMiddleware\\ReverseProxyMiddleware->handle(Object(Symfony\\Component\\HttpFoundation\\Request), 1, true)\n#35 /var/www/poclain/web/core/lib/Drupal/Core/StackMiddleware/AjaxPageState.php(71): Drupal\\Core\\StackMiddleware\\NegotiationMiddleware->handle(Object(Symfony\\Component\\HttpFoundation\\Request), 1, true)\n#36 /var/www/poclain/web/core/lib/Drupal/Core/StackMiddleware/StackedHttpKernel.php(54): Drupal\\Core\\StackMiddleware\\AjaxPageState->handle(Object(Symfony\\Component\\HttpFoundation\\Request), 1, true)\n#37 /var/www/poclain/web/core/lib/Drupal/Core/DrupalKernel.php(753): Drupal\\Core\\StackMiddleware\\StackedHttpKernel->handle(Object(Symfony\\Component\\HttpFoundation\\Request), 1, true)\n#38 /var/www/poclain/vendor/symfony/runtime/Runner/Symfony/HttpKernelRunner.php(34): Drupal\\Core\\DrupalKernel->handle(Object(Symfony\\Component\\HttpFoundation\\Request))\n#39 /var/www/poclain/vendor/autoload_runtime.php(32): Symfony\\Component\\Runtime\\Runner\\Symfony\\HttpKernelRunner->run()\n#40 /var/www/poclain/web/autoload_runtime.php(22): require('/var/www/poclai...')\n#41 /var/www/poclain/web/index.php(13): require_once('/var/www/poclai...')\n#42 {main}\n.\nSeverity\tDebug\nHostname\t178.213.190.47\nOperations"
+    }
+  ]
+}

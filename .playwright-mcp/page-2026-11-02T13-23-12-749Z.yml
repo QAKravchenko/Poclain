@@ -1,0 +1,298 @@
+- generic [active] [ref=e1]:
+  - navigation "Skip links" [ref=e4]:
+    - list [ref=e5]:
+      - listitem [ref=e6]:
+        - link "Skip to Content" [ref=e7] [cursor=pointer]:
+          - /url: "#main-content"
+      - listitem [ref=e8]:
+        - link "Skip to Footer" [ref=e9] [cursor=pointer]:
+          - /url: "#footer"
+  - generic [ref=e11]:
+    - banner:
+      - generic [ref=e12]:
+        - navigation "Header" [ref=e13]:
+          - listitem [ref=e14]:
+            - button "Open" [ref=e15] [cursor=pointer]:
+              - generic [aria-hidden] [ref=e16]: 
+          - listitem [ref=e17]:
+            - link "Select" [ref=e18] [cursor=pointer]:
+              - /url: /en/ipsos-world
+              - generic [aria-hidden] [ref=e19]: 
+        - navigation "Quick access links" [ref=e20]:
+          - link "Ipsos iSay " [ref=e21] [cursor=pointer]:
+            - /url: https://www.ipsosisay.com/join/?campaign_id=TbFXA7CVEW%2BmP6PpaAOO7A%3D%3D
+          - link "Ipsos.Digital " [ref=e22] [cursor=pointer]:
+            - /url: https://www.ipsos.digital/
+        - link "Contact us" [ref=e23] [cursor=pointer]:
+          - /url: /en/contact
+        - link "Ipsos homepage" [ref=e25] [cursor=pointer]:
+          - /url: https://ipsosdev.prod.acquia-sites.com/en
+          - img "Ipsos" [ref=e26]
+        - dialog "Main site navigation menu" [ref=e27]:
+          - navigation "Main site navigation" [ref=e28]:
+            - list [ref=e30]:
+              - listitem [ref=e31]:
+                - link "Solutions" [ref=e32] [cursor=pointer]:
+                  - /url: /en/solutions/overview
+              - listitem [ref=e33]:
+                - generic [ref=e34]: Insights Hub
+                - text: 
+              - listitem [ref=e35]:
+                - link "AI" [ref=e36] [cursor=pointer]:
+                  - /url: /en/ai
+              - listitem [ref=e37]:
+                - generic [ref=e38]: News
+                - text: 
+              - listitem [ref=e39]:
+                - link "Careers" [ref=e40] [cursor=pointer]:
+                  - /url: /en/careers
+              - listitem [ref=e41]:
+                - generic [ref=e42]: Investors
+                - text: 
+              - listitem [ref=e43]:
+                - generic [ref=e44]: About Ipsos
+                - text: 
+    - main [ref=e45]:
+      - generic [ref=e47]:
+        - generic [ref=e49]:
+          - generic [ref=e51]:
+            - generic [ref=e53]:
+              - img "Ipsos | Corporate news | Logo" [ref=e54]
+              - generic [ref=e56]:
+                - generic [ref=e57]:
+                  - link "Ipsos" [ref=e58] [cursor=pointer]:
+                    - /url: /en/topic/ipsos
+                  - time [ref=e59]: 26.09.22
+                - heading "Appointment of Jean-Michel Mabon as Head of Mergers and Acquisitions" [level=1] [ref=e60]
+                - link "Show more" [ref=e61] [cursor=pointer]:
+                  - /url: /en/appointment-jean-michel-mabon-head-mergers-and-acquisitions-1
+            - generic [ref=e66]:
+              - generic [ref=e67]: Highlight
+              - heading [level=2] [ref=e68]: Global Education Monitor 2025
+              - link [ref=e69] [cursor=pointer]:
+                - /url: /en/majorities-all-countries-now-support-banning-under-14s-using-social-media
+                - text: Read more
+            - generic [ref=e74]:
+              - generic [ref=e75]: Highlight
+              - heading [level=2] [ref=e76]: Introducing Brand Health Essentials
+              - link [ref=e77] [cursor=pointer]:
+                - /url: https://ipsosdev.prod.acquia-sites.com/en/introducing-brand-health-essentials
+                - text: Read more
+          - generic:
+            - button "Previous" [disabled]: Previous 
+            - button "Next" [ref=e78] [cursor=pointer]: Next 
+          - tablist [ref=e79]:
+            - tab "1 of 3" [selected] [ref=e80] [cursor=pointer]: "1"
+            - tab "2 of 3" [ref=e81] [cursor=pointer]: "2"
+            - tab "3 of 3" [ref=e82] [cursor=pointer]: "3"
+        - generic [ref=e85]:
+          - generic [ref=e86]:
+            - heading "About Ipsos" [level=2] [ref=e87]
+            - paragraph [ref=e89]: Ipsos is one of the world's leading market research companies. We deliver reliable information for a true understanding of Society, Markets and People, to help the world make better decisions.
+            - link "About IPSOS " [ref=e90] [cursor=pointer]:
+              - /url: /en/about-us
+          - generic [ref=e91]:
+            - generic [ref=e93]:
+              - strong [ref=e94]: 5,000+
+              - paragraph [ref=e95]: clients in the world
+            - generic [ref=e97]:
+              - strong [ref=e98]: "90"
+              - paragraph [ref=e99]: Markets
+            - generic [ref=e101]:
+              - strong [ref=e102]: 6M+
+              - paragraph [ref=e103]: authenticated, proprietary panelists
+        - generic [ref=e104]:
+          - generic [ref=e107]:
+            - generic [ref=e108]: Insights
+            - heading "Our latest insights & publications" [level=2] [ref=e111]
+          - generic [ref=e112]:
+            - generic [ref=e113]:
+              - generic [ref=e115]:
+                - link [ref=e116] [cursor=pointer]:
+                  - /url: /en/ipsos-consumer-confidence-september-2025
+                - generic [ref=e117]:
+                  - link "Consumer Confidence Index" [ref=e119] [cursor=pointer]:
+                    - /url: /en/topic/consumer-confidence-index
+                  - text: Survey
+                - heading [level=2] [ref=e120]:
+                  - 'link "September 2025: Global consumer confidence stable for third consecutive month" [ref=e121] [cursor=pointer]':
+                    - /url: /en/ipsos-consumer-confidence-september-2025
+                - generic [ref=e122]: Still, the Expectations and Jobs sub-indices both decline, while the Investment sub-index shows an uptick according to the September 2025 Global Consumer Confidence Index from Ipsos
+                - time [ref=e124]: 25.09.25
+              - generic [ref=e125]:
+                - generic [ref=e127]:
+                  - generic [ref=e128]:
+                    - link "Global Trends" [ref=e130] [cursor=pointer]:
+                      - /url: /en/topic/global-trends
+                    - text: Survey
+                  - heading [level=2] [ref=e131]:
+                    - link "Global Optimism Declines According to Ipsos Global Trends 9th Edition" [ref=e132] [cursor=pointer]:
+                      - /url: /en/ipsos-global-trends-9th-edition-release
+                  - time [ref=e134]: 19.09.25
+                - generic [ref=e136]:
+                  - generic [ref=e137]:
+                    - link "Healthcare" [ref=e139] [cursor=pointer]:
+                      - /url: /en/topic/healthcare
+                    - text: News
+                  - heading [level=2] [ref=e140]:
+                    - 'link "Ipsos Rx Insight Store: Your On-Demand Hub for Healthcare Market Intelligence" [ref=e141] [cursor=pointer]':
+                      - /url: /en/ipsos-rx-insight-store-your-demand-hub-healthcare-market-intelligence
+                  - time [ref=e143]: 30.09.25
+                - generic [ref=e145]:
+                  - generic [ref=e146]:
+                    - link "About Misfits" [ref=e148] [cursor=pointer]:
+                      - /url: /en/search?search=About Misfits
+                    - text: Minisite
+                  - heading [level=2] [ref=e149]:
+                    - link "Misfits" [ref=e150] [cursor=pointer]:
+                      - /url: https://ipsosdev.prod.acquia-sites.com/en/misfits
+                  - time [ref=e152]: 09.05.22
+                - generic [ref=e154]:
+                  - generic [ref=e155]:
+                    - link "Brand Success" [ref=e157] [cursor=pointer]:
+                      - /url: /en/search?search=Brand Success
+                    - text: Minisite
+                  - heading [level=2] [ref=e158]:
+                    - link "Unlock Brand Success" [ref=e159] [cursor=pointer]:
+                      - /url: https://ipsosdev.prod.acquia-sites.com/en/brand-success
+                  - time [ref=e161]: 04.03.25
+                - generic [ref=e163]:
+                  - generic [ref=e164]:
+                    - link "Healthcare Services" [ref=e166] [cursor=pointer]:
+                      - /url: /en/search?search=Healthcare Services
+                    - text: Minisite
+                  - heading [level=2] [ref=e167]:
+                    - link "Inspiring Better Healthcare" [ref=e168] [cursor=pointer]:
+                      - /url: https://ipsosdev.prod.acquia-sites.com/en/healthcare
+                  - time [ref=e170]: 17.06.24
+                - generic [ref=e172]:
+                  - generic [ref=e173]:
+                    - link "Flair" [ref=e175] [cursor=pointer]:
+                      - /url: /en/search?search=Flair
+                    - text: Minisite
+                  - heading [level=2] [ref=e176]:
+                    - link "Flair Collection" [ref=e177] [cursor=pointer]:
+                      - /url: https://ipsosdev.prod.acquia-sites.com/en/flair-collection
+                  - time [ref=e179]: 09.03.25
+            - link "View All" [ref=e180] [cursor=pointer]:
+              - /url: /en/insights-hub
+        - generic [ref=e182]:
+          - generic [ref=e184]:
+            - generic [ref=e186]:
+              - img "Ipsos | Corporate news | Nomination | Dan Levy" [ref=e187]
+              - generic [ref=e189]:
+                - generic [ref=e190]:
+                  - link "Ipsos" [ref=e191] [cursor=pointer]:
+                    - /url: /en/topic/ipsos
+                  - time [ref=e192]: 09.06.22
+                - heading "Appointment of Dan Lévy as Group Chief Financial Officer" [level=2] [ref=e193]
+                - link "Show more" [ref=e194] [cursor=pointer]:
+                  - /url: /en/appointment-dan-levy-group-chief-financial-officer-0
+            - generic [ref=e199]:
+              - heading [level=2] [ref=e200]: Discover how Ipsos uses AI to deliver insights for clients
+              - link [ref=e201] [cursor=pointer]:
+                - /url: /en/ai
+                - text: Read more
+            - generic [ref=e206]:
+              - heading [level=2] [ref=e207]: Unlock Brand Success
+              - link [ref=e208] [cursor=pointer]:
+                - /url: /en/brand-success
+                - text: Read more
+          - generic:
+            - button "Previous" [disabled]: Previous 
+            - button "Next" [ref=e209] [cursor=pointer]: Next 
+          - tablist [ref=e210]:
+            - tab "1 of 3" [selected] [ref=e211] [cursor=pointer]: "1"
+            - tab "2 of 3" [ref=e212] [cursor=pointer]: "2"
+            - tab "3 of 3" [ref=e213] [cursor=pointer]: "3"
+        - generic [ref=e219]:
+          - generic [ref=e220]: A global presence with
+          - heading "90 markets" [level=2] [ref=e221]
+          - link "All offices" [ref=e223] [cursor=pointer]:
+            - /url: /en/ipsos-world
+    - contentinfo [ref=e224]:
+      - generic [ref=e225]:
+        - generic [ref=e226]:
+          - generic [ref=e227]:
+            - link "Ipsos homepage" [ref=e228] [cursor=pointer]:
+              - /url: /en
+              - img "Ipsos" [ref=e229]
+            - generic:
+              - paragraph
+          - generic [ref=e230]:
+            - list [ref=e231]:
+              - listitem [ref=e232]:
+                - link "Solutions" [ref=e233] [cursor=pointer]:
+                  - /url: /en/solutions/overview
+              - listitem [ref=e234]:
+                - link "Insights Hub" [ref=e235] [cursor=pointer]:
+                  - /url: /en/insights-hub
+              - listitem [ref=e236]:
+                - link "About Ipsos" [ref=e237] [cursor=pointer]:
+                  - /url: /en/about-us
+              - listitem [ref=e238]:
+                - link "Contact Ipsos" [ref=e239] [cursor=pointer]:
+                  - /url: /en/contact
+                  - text: Contact
+            - list [ref=e240]:
+              - listitem [ref=e241]:
+                - link "Careers at Ipsos" [ref=e242] [cursor=pointer]:
+                  - /url: /en/careers
+                  - text: Careers
+              - listitem [ref=e243]:
+                - link "Investors" [ref=e244] [cursor=pointer]:
+                  - /url: /en/investors-overview
+              - listitem [ref=e245]:
+                - link "News" [ref=e246] [cursor=pointer]:
+                  - /url: /en/news-events-media-overview
+              - listitem [ref=e247]:
+                - link "Access the Ipsos.Digital platform" [ref=e248] [cursor=pointer]:
+                  - /url: https://www.ipsos.digital/
+                  - text: Ipsos.Digital 
+          - generic [ref=e250]:
+            - heading "Follow us on" [level=2] [ref=e251]
+            - list "Follow us on" [ref=e252]:
+              - listitem [ref=e253]:
+                - link [ref=e254] [cursor=pointer]:
+                  - /url: https://twitter.com/ipsos
+                  - generic [aria-hidden] [ref=e255]: 
+              - listitem [ref=e256]:
+                - link [ref=e257] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/ipsos
+                  - generic [aria-hidden] [ref=e258]: 
+              - listitem [ref=e259]:
+                - link [ref=e260] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UCkxEJvIUNWsjZvmB09yxU4A
+                  - generic [aria-hidden] [ref=e261]: 
+              - listitem [ref=e262]:
+                - link [ref=e263] [cursor=pointer]:
+                  - /url: https://bsky.app/profile/ipsosgroup.bsky.social
+                  - generic [aria-hidden] [ref=e264]: 
+              - listitem [ref=e265]:
+                - link [ref=e266] [cursor=pointer]:
+                  - /url: /en/rss.xml
+                  - generic [aria-hidden] [ref=e267]: 
+        - generic [ref=e268]:
+          - generic [ref=e269]: © 2016 - 2025 Ipsos All Rights Reserved
+          - list [ref=e270]:
+            - listitem [ref=e271]:
+              - link "Legal Mentions" [ref=e272] [cursor=pointer]:
+                - /url: /en/legal-mentions
+            - listitem [ref=e273]:
+              - link "Privacy & Data Protection" [ref=e274] [cursor=pointer]:
+                - /url: /en/privacy-data-protection
+            - listitem [ref=e275]:
+              - link "Cookie policy" [ref=e276] [cursor=pointer]:
+                - /url: /en/cookie-policy
+            - listitem [ref=e277]:
+              - link "Our Alert System" [ref=e278] [cursor=pointer]:
+                - /url: /en/our-alert-system
+            - listitem [ref=e279]:
+              - link "Accessibility" [ref=e280] [cursor=pointer]:
+                - /url: https://www.ipsos.com/en/accessibility-statement
+            - listitem [ref=e281]:
+              - link "Preference Center - Manage your communications from Ipsos" [ref=e282] [cursor=pointer]:
+                - /url: /en/preference-center
+                - text: Preference Center
+      - button "Scroll to top" [ref=e283] [cursor=pointer]: ↑ 
+  - status [ref=e284]

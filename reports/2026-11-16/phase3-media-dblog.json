@@ -1,0 +1,116 @@
+{
+  "taxonomyDeprecations": [
+    {
+      "id": 85874,
+      "locLine": "Location\thttps://isoprod.poclain.com/admin/structure/taxonomy/manage/carreers",
+      "msgLine": "Message\tDeprecated function: Drupal\\taxonomy_max_depth\\Taxonomy\\VocabularySettingsWriter::setMaxAncestorDepth(): Implicitly marking parameter $max_depth as nullable is deprecated, the explicit nullable type must be used instead in include() (line 576 of /var/www/poclain/vendor/composer/ClassLoader.php)"
+    },
+    {
+      "id": 85875,
+      "locLine": "Location\thttps://isoprod.poclain.com/admin/structure/taxonomy/manage/carreers",
+      "msgLine": "Message\tDeprecated function: Drupal\\taxonomy_max_depth\\Taxonomy\\VocabularySettingsWriterInterface::setMaxAncestorDepth(): Implicitly marking parameter $max_depth as nullable is deprecated, the explicit nullable type must be used instead in include() (line 576 of /var/www/poclain/vendor/composer/ClassLoader.php)"
+    },
+    {
+      "id": 85876,
+      "locLine": "Location\thttps://isoprod.poclain.com/admin/structure/taxonomy/manage/carreers/overview",
+      "msgLine": "Message\tDeprecated function: Drupal\\taxonomy_max_depth\\Taxonomy\\VocabularySettingsWriter::setMaxAncestorDepth(): Implicitly marking parameter $max_depth as nullable is deprecated, the explicit nullable type must be used instead in include() (line 576 of /var/www/poclain/vendor/composer/ClassLoader.php)"
+    },
+    {
+      "id": 85877,
+      "locLine": "Location\thttps://isoprod.poclain.com/admin/structure/taxonomy/manage/carreers/overview",
+      "msgLine": "Message\tDeprecated function: Drupal\\taxonomy_max_depth\\Taxonomy\\VocabularySettingsWriterInterface::setMaxAncestorDepth(): Implicitly marking parameter $max_depth as nullable is deprecated, the explicit nullable type must be used instead in include() (line 576 of /var/www/poclain/vendor/composer/ClassLoader.php)"
+    }
+  ],
+  "uniquePhpLogs": [
+    {
+      "severity": "php dblog-debug",
+      "date": "11/16/2026 - 11:58",
+      "msg": "Deprecated function: Drupal\\taxonomy_max_depth\\Taxonomy…",
+      "user": "poclainadmin",
+      "href": "/admin/reports/dblog/event/85877",
+      "count": 4,
+      "fullMessage": "Message\tDeprecated function: Drupal\\taxonomy_max_depth\\Taxonomy\\VocabularySettingsWriterInterface::setMaxAncestorDepth(): Implicitly marking parameter $max_depth as nullable is deprecated, the explicit nullable type must be used instead in include() (line 576 of /var/www/poclain/vendor/composer/ClassLoader.php)",
+      "location": "Location\thttps://isoprod.poclain.com/admin/structure/taxonomy/manage/carreers/overview"
+    },
+    {
+      "severity": "php dblog-warning",
+      "date": "11/16/2026 - 11:27",
+      "msg": "User warning: Access to not initialized OpenTelemetry…",
+      "user": "Anonymous (not verified)",
+      "href": "/admin/reports/dblog/event/85677",
+      "count": 9,
+      "fullMessage": "Message\tUser warning: Access to not initialized OpenTelemetry context in fiber (id: 18715), automatic forking not supported, must attach initial fiber context manually in OpenTelemetry\\Context\\FiberBoundContextStorage::triggerNotInitializedFiberContextWarning() (line 84 of /var/www/poclain/vendor/open-telemetry/context/FiberBoundContextStorage.php)",
+      "location": "Location\thttps://isoprod.poclain.com/contact-us"
+    }
+  ],
+  "mediaCrud": {
+    "mediaUrl": "https://isoprod.poclain.com/admin/content/media",
+    "foundMedia": true,
+    "mediaId": "3571",
+    "thumbImg": {
+      "src": "https://isoprod.poclain.com/sites/default/files/styles/medium_crop_simple/public/2026-11/test-php84.png.webp?itok=vmg9ZmSl",
+      "complete": false,
+      "naturalWidth": 0
+    },
+    "deleted": true
+  },
+  "newsCrud": {},
+  "viewsPagination": [
+    {
+      "path": "/news?page=1",
+      "finalUrl": "https://isoprod.poclain.com/news?page=1",
+      "status": 200,
+      "title": "News | Poclain",
+      "hasFatal": false
+    },
+    {
+      "path": "/electrification",
+      "finalUrl": "https://isoprod.poclain.com/electrification",
+      "status": 200,
+      "title": "Electrification | Poclain",
+      "hasFatal": false
+    },
+    {
+      "path": "/applications",
+      "finalUrl": "https://isoprod.poclain.com/applications",
+      "status": 200,
+      "title": "Applications | Poclain",
+      "hasFatal": false
+    },
+    {
+      "path": "/systems",
+      "finalUrl": "https://isoprod.poclain.com/systems",
+      "status": 200,
+      "title": "Systems | Poclain",
+      "hasFatal": false
+    },
+    {
+      "path": "/services-support",
+      "finalUrl": "https://isoprod.poclain.com/services-support",
+      "status": 200,
+      "title": "Services & Support | Poclain",
+      "hasFatal": false
+    },
+    {
+      "path": "/resources",
+      "finalUrl": "https://isoprod.poclain.com/resources",
+      "status": 200,
+      "title": "Resources | Poclain",
+      "hasFatal": false
+    },
+    {
+      "path": "/corporate",
+      "finalUrl": "https://isoprod.poclain.com/corporate",
+      "status": 404,
+      "title": "Page not found | Poclain",
+      "hasFatal": false
+    }
+  ],
+  "newsRequiredFields": [
+    "Title",
+    "title[0][value]",
+    "Image\n\nNo media items are selected.\n\nOne media item remaining.",
+    "News category",
+    "- Select a value -\nNews\nPress release\nWhite papers\nWebinars\nVideos\nVintage Ads\nArchive Film"
+  ]
+}

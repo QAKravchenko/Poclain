@@ -1,0 +1,84 @@
+- generic [active] [ref=f28e1]:
+  - link "Skip to main content" [ref=f28e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=f28e4]:
+    - banner [ref=f28e5]:
+      - heading "Ipsos" [level=2] [ref=f28e6]
+    - complementary [ref=f28e7]:
+      - heading "Installation tasks" [level=2] [ref=f28e8]
+      - list [ref=f28e9]:
+        - listitem [ref=f28e10]:
+          - text: Verify requirements
+          - generic [ref=f28e11]: (active)
+        - listitem [ref=f28e12]: All
+        - listitem [ref=f28e13]: Review updates
+        - listitem [ref=f28e14]: Run updates
+        - listitem [ref=f28e15]: Review log
+    - main [ref=f28e16]:
+      - heading "Requirements problem" [level=1] [ref=f28e17]
+      - generic [ref=f28e18]:
+        - generic [ref=f28e19]:
+          - heading "Status Details" [level=2] [ref=f28e20]
+          - group [ref=f28e21]:
+            - generic "Errors found" [ref=f28e22] [cursor=pointer]
+            - generic [ref=f28e24]:
+              - button "Incompatible modules" [ref=f28e25]
+              - generic [ref=f28e26]:
+                - text: "The following modules are installed, but they are incompatible with Drupal 11.4.11:"
+                - list [ref=f28e28]:
+                  - listitem [ref=f28e29]: Field Collection
+                  - listitem [ref=f28e30]: Monitoring tool Client
+                - text: Review the
+                - link "suggestions for resolving this incompatibility" [ref=f28e31] [cursor=pointer]:
+                  - /url: https://www.drupal.org/docs/updating-drupal/troubleshooting-database-updates
+                - text: to repair your installation, and then re-run update.php.
+          - group [ref=f28e32]:
+            - generic "Checked" [ref=f28e33] [cursor=pointer]
+            - generic [ref=f28e34]:
+              - generic [ref=f28e35]:
+                - button "Dropzone library found" [ref=f28e36]
+                - generic [ref=f28e37]: "Library location: libraries/dropzone/dist/min/dropzone.min.js"
+              - generic [ref=f28e39]:
+                - button "Web server" [ref=f28e40]
+                - generic [ref=f28e41]: Apache
+              - generic [ref=f28e42]:
+                - button "PHP" [ref=f28e43]
+                - generic [ref=f28e44]: 8.4.27
+              - generic [ref=f28e45]:
+                - button "PHP extensions" [ref=f28e46]
+                - generic [ref=f28e47]: Enabled
+              - generic [ref=f28e48]:
+                - button "Database support" [ref=f28e49]
+                - generic [ref=f28e50]: Enabled
+              - generic [ref=f28e51]:
+                - button "Database system" [ref=f28e52]
+                - generic [ref=f28e53]: MySQL or equivalent
+              - generic [ref=f28e54]:
+                - button "Database system version" [ref=f28e55]
+                - generic [ref=f28e56]: 8.0.44
+              - generic [ref=f28e57]:
+                - button "Database support for JSON" [ref=f28e58]
+                - generic [ref=f28e59]:
+                  - text: Available
+                  - generic [ref=f28e60]: Drupal requires databases that support JSON storage.
+              - generic [ref=f28e61]:
+                - button "PHP memory limit" [ref=f28e62]
+                - generic [ref=f28e63]: 1024M
+              - generic [ref=f28e64]:
+                - button "File system" [ref=f28e65]
+                - generic [ref=f28e66]:
+                  - text: Writable (
+                  - emphasis [ref=f28e67]: public
+                  - text: download method)
+              - generic [ref=f28e68]:
+                - button "Unicode library" [ref=f28e69]
+                - generic [ref=f28e70]: PHP Mbstring Extension
+              - generic [ref=f28e71]:
+                - button "Minimum schema version" [ref=f28e72]
+                - generic [ref=f28e73]:
+                  - text: The installed schema version meets the minimum.
+                  - generic [ref=f28e74]: "Schema version: 11401"
+        - text: Check the messages and
+        - link "try again" [ref=f28e75] [cursor=pointer]:
+          - /url: https://ipsosdev.prod.acquia-sites.com/update.php
+        - text: .

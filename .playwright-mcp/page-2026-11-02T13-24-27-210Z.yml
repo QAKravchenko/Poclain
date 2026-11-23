@@ -1,0 +1,491 @@
+- generic [active] [ref=f18e1]:
+  - link "Skip to main content" [ref=f18e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - group "Site administration toolbar" [ref=f18e3]:
+    - navigation "Toolbar items" [ref=f18e4]:
+      - heading "Toolbar items" [level=2] [ref=f18e5]
+      - navigation "Administration menu" [ref=f18e7]:
+        - heading "Administration menu" [level=3] [ref=f18e8]
+        - list [ref=f18e10]:
+          - listitem [ref=f18e11]:
+            - link "Drupal" [ref=f18e12] [cursor=pointer]:
+              - /url: /en
+          - listitem [ref=f18e13]:
+            - link "Content" [ref=f18e14] [cursor=pointer]:
+              - /url: /en/admin/content
+          - listitem [ref=f18e15]:
+            - link "Structure" [ref=f18e16] [cursor=pointer]:
+              - /url: /en/admin/structure
+          - listitem [ref=f18e17]:
+            - link "Appearance" [ref=f18e18] [cursor=pointer]:
+              - /url: /en/admin/appearance
+          - listitem [ref=f18e19]:
+            - link "Extend" [ref=f18e20] [cursor=pointer]:
+              - /url: /en/admin/modules
+          - listitem [ref=f18e21]:
+            - link "Translation" [ref=f18e22] [cursor=pointer]:
+              - /url: /en/admin/tmgmt
+          - listitem [ref=f18e23]:
+            - link "People" [ref=f18e24] [cursor=pointer]:
+              - /url: /en/admin/people
+          - listitem [ref=f18e25]:
+            - link "Reports" [ref=f18e26] [cursor=pointer]:
+              - /url: /en/admin/reports
+          - listitem [ref=f18e27]:
+            - link "Configuration" [ref=f18e28] [cursor=pointer]:
+              - /url: /en/admin/config
+          - listitem [ref=f18e29]:
+            - link "Help" [ref=f18e30] [cursor=pointer]:
+              - /url: /en/admin/help
+  - generic [ref=f18e31]:
+    - generic [ref=f18e32]:
+      - navigation [ref=f18e36]:
+        - heading "Breadcrumb" [level=2] [ref=f18e37]
+        - list [ref=f18e38]:
+          - listitem:
+            - link "Back to site" [ref=f18e39] [cursor=pointer]:
+              - /url: https://ipsosdev.prod.acquia-sites.com/en/user/1?check_logged_in=1
+          - listitem:
+            - link "Administration" [ref=f18e40] [cursor=pointer]:
+              - /url: /en/admin
+          - listitem:
+            - text: /
+            - link "Reports" [ref=f18e41] [cursor=pointer]:
+              - /url: /en/admin/reports
+      - navigation "Toolbar items" [ref=f18e43]:
+        - heading "Toolbar items" [level=2] [ref=f18e44]
+        - generic:
+          - generic:
+            - navigation
+        - button "Shortcuts" [ref=f18e46] [cursor=pointer]
+        - generic:
+          - generic:
+            - navigation
+        - generic [ref=f18e47]:
+          - button "No tour available for this page." [disabled] [ref=f18e48]
+          - generic:
+            - navigation
+        - button "(21e71adbabceb14e07d20911622496cbd06e9d08-from-scratch) DEV" [ref=f18e50] [cursor=pointer]
+        - generic [ref=f18e51]:
+          - 'link "Shares: 440" [ref=f18e52] [cursor=pointer]':
+            - /url: /en/admin/reports/status
+          - generic:
+            - navigation
+        - generic [ref=f18e53]:
+          - link "Subscription active" [ref=f18e54] [cursor=pointer]:
+            - /url: https://cloud.acquia.com/app/develop/applications/cc6e9cd4-12e8-41ce-97ac-5a78f2f1a360
+          - generic:
+            - navigation
+        - button "drupal" [ref=f18e56] [cursor=pointer]
+    - banner [ref=f18e57]
+    - heading "Status report" [level=1] [ref=f18e63]
+    - main [ref=f18e65]:
+      - contentinfo [ref=f18e70]:
+        - heading "Error message" [level=2] [ref=f18e72]
+        - generic [ref=f18e73]: The content access permissions need to be rebuilt.
+        - button "Hide" [ref=f18e74] [cursor=pointer]
+      - complementary [ref=f18e78]:
+        - paragraph [ref=f18e79]:
+          - text: Here you can find a short overview of your site's parameters as well as any problems detected with your installation. It may be useful to copy and paste this information into support requests filed on Drupal.org's support forums and project issue queues. Before filing a support request, ensure that your web server meets the
+          - link "system requirements." [ref=f18e80] [cursor=pointer]:
+            - /url: https://www.drupal.org/docs/system-requirements
+      - generic [ref=f18e82]:
+        - generic [ref=f18e83]:
+          - generic [ref=f18e87]:
+            - generic [ref=f18e88]: 2 Errors
+            - link "Errors Details" [ref=f18e90] [cursor=pointer]:
+              - /url: "#error"
+              - generic [ref=f18e91]: Errors
+              - text: Details
+          - generic [ref=f18e95]:
+            - generic [ref=f18e96]: 10 Warnings
+            - link "Warnings Details" [ref=f18e98] [cursor=pointer]:
+              - /url: "#warning"
+              - generic [ref=f18e99]: Warnings
+              - text: Details
+          - generic [ref=f18e103]:
+            - generic [ref=f18e104]: 31 Checked
+            - link "Checked Details" [ref=f18e106] [cursor=pointer]:
+              - /url: "#checked"
+              - generic [ref=f18e107]: Checked
+              - text: Details
+        - generic [ref=f18e108]:
+          - heading "General System Information" [level=2] [ref=f18e109]
+          - generic [ref=f18e110]:
+            - generic [ref=f18e113]:
+              - heading "Drupal Version" [level=3] [ref=f18e114]
+              - text: 11.4.11
+            - generic [ref=f18e117]:
+              - heading "Web Server" [level=3] [ref=f18e118]
+              - text: Apache
+            - generic [ref=f18e121]:
+              - heading "Last Cron Run" [level=3] [ref=f18e122]
+              - text: Last run 2 minutes 4 seconds ago
+              - generic [ref=f18e123]:
+                - text: (
+                - link "more information" [ref=f18e124] [cursor=pointer]:
+                  - /url: /en/admin/config/system/cron
+                - text: )
+                - link "Run cron" [ref=f18e126] [cursor=pointer]:
+                  - /url: /en/admin/reports/status/run-cron?token=1qFt6y_uDcCF1NqMi7QRh13ji2mXLrBpGXgas0n1ZnI
+            - generic [ref=f18e129]:
+              - heading "PHP" [level=3] [ref=f18e130]
+              - heading "Version:" [level=4] [ref=f18e131]
+              - text: 8.4.27 (
+              - link "more information" [ref=f18e132] [cursor=pointer]:
+                - /url: /en/admin/reports/status/php
+              - text: )
+              - heading "Memory limit:" [level=4] [ref=f18e133]
+              - text: 1024M
+            - generic [ref=f18e136]:
+              - heading "Database" [level=3] [ref=f18e137]
+              - heading "Version:" [level=4] [ref=f18e138]
+              - text: 8.0.44
+              - heading "System:" [level=4] [ref=f18e139]
+              - text: MySQL or equivalent
+        - generic [ref=f18e140]:
+          - heading "Status Details" [level=2] [ref=f18e141]
+          - group [ref=f18e142]:
+            - generic "Errors found" [ref=f18e143] [cursor=pointer]
+            - generic [ref=f18e144]:
+              - generic [ref=f18e145]:
+                - button "Incompatible modules" [ref=f18e146]
+                - generic [ref=f18e147]:
+                  - text: "The following modules are installed, but they are incompatible with Drupal 11.4.11:"
+                  - list [ref=f18e149]:
+                    - listitem [ref=f18e150]: Field Collection
+                    - listitem [ref=f18e151]: Monitoring tool Client
+                  - text: Review the
+                  - link "suggestions for resolving this incompatibility" [ref=f18e152] [cursor=pointer]:
+                    - /url: https://www.drupal.org/docs/updating-drupal/troubleshooting-database-updates
+                  - text: to repair your installation, and then re-run update.php.
+              - generic [ref=f18e153]:
+                - button "Reroute Email (Symfony Mailer support)" [ref=f18e154]
+                - generic [ref=f18e156]:
+                  - text: "\"Reroute Email (Symfony Mailer support)\" module is required to work with Symfony Mailer. You can enable it"
+                  - link "here" [ref=f18e157] [cursor=pointer]:
+                    - /url: /en/admin/modules
+                  - text: .
+          - group [ref=f18e158]:
+            - generic "Warnings found" [ref=f18e159] [cursor=pointer]
+            - generic [ref=f18e160]:
+              - generic [ref=f18e161]:
+                - button "Content status filter" [ref=f18e162]
+                - generic [ref=f18e163]:
+                  - text: Redundant filters detected
+                  - generic [ref=f18e164]:
+                    - text: The following views use the
+                    - emphasis [ref=f18e165]: Published status or admin user
+                    - text: "filter but it has no effect because the following module(s) control access:"
+                    - emphasis [ref=f18e166]: Domain Access, View Unpublished
+                    - text: ". Review and consider removing the filter from these views:"
+                    - list [ref=f18e168]:
+                      - listitem [ref=f18e169]:
+                        - link "Content (Default)" [ref=f18e170] [cursor=pointer]:
+                          - /url: /en/admin/structure/views/view/content/edit/default
+                      - listitem [ref=f18e171]:
+                        - link "Recent content (Default)" [ref=f18e172] [cursor=pointer]:
+                          - /url: /en/admin/structure/views/view/content_recent/edit/default
+                      - listitem [ref=f18e173]:
+                        - link "Scheduled content (Master)" [ref=f18e174] [cursor=pointer]:
+                          - /url: /en/admin/structure/views/view/scheduled_content/edit/default
+                      - listitem [ref=f18e175]:
+                        - link "Scheduled content (User profile tab)" [ref=f18e176] [cursor=pointer]:
+                          - /url: /en/admin/structure/views/view/scheduled_content/edit/user_page
+              - generic [ref=f18e177]:
+                - button "Deprecated themes installed" [ref=f18e178]
+                - generic [ref=f18e179]:
+                  - text: "Deprecated themes found:"
+                  - emphasis [ref=f18e180]:
+                    - link "Stable 9" [ref=f18e181] [cursor=pointer]:
+                      - /url: https://www.drupal.org/node/3223395#s-stable9
+                  - text: .
+              - generic [ref=f18e182]:
+                - button "Drupal core update status" [ref=f18e183]
+                - generic [ref=f18e184]:
+                  - text: No update data available
+                  - generic [ref=f18e185]:
+                    - text: No update information available.
+                    - link "Run cron" [ref=f18e186] [cursor=pointer]:
+                      - /url: /en/admin/reports/status/run-cron?destination=/en/admin/reports/status&token=1qFt6y_uDcCF1NqMi7QRh13ji2mXLrBpGXgas0n1ZnI
+                    - text: or
+                    - link "check manually" [ref=f18e187] [cursor=pointer]:
+                      - /url: /en/admin/reports/updates/check?destination=/en/admin/reports/status&token=xSpAQTNk5zKOYOxJ3zrjO1tEdZjjZh4LYa4NUVP3AmE
+                    - text: .
+              - generic [ref=f18e188]:
+                - button "HTML5 validation" [ref=f18e189]
+                - generic [ref=f18e190]:
+                  - text: Enabled
+                  - generic [ref=f18e191]:
+                    - text: The enable_html5_validation setting is not configured in settings.php. In Drupal 12 this setting will default to FALSE, which means HTML5 validation will be disabled on all forms. Make sure your forms will still work the way you expect before upgrading by setting the value to FALSE in a test environment. See
+                    - link "the change record" [ref=f18e192] [cursor=pointer]:
+                      - /url: https://www.drupal.org/node/3537128
+                    - text: for more information.
+              - generic [ref=f18e193]:
+                - 'button "Purge: Acquia Purge Recommendations" [ref=f18e194]'
+                - generic [ref=f18e195]: For an optimal experience, you're recommended to enable the cron processor and the late runtime processors simultaneously. These two processors will complement each other and assure that the queue is processed as fast as possible.
+              - generic [ref=f18e197]:
+                - button "Reroute Email" [ref=f18e198]
+                - generic [ref=f18e199]:
+                  - text: All outgoing emails (
+                  - link "configure allow list" [ref=f18e200] [cursor=pointer]:
+                    - /url: /en/admin/config/development/reroute_email
+                  - text: ") would be rerouted to:"
+                  - emphasis [ref=f18e201]: c6ncuwptfqjpm9d3evsbj8xj@yopmail.com
+              - generic [ref=f18e202]:
+                - button "SameSite cookie attribute" [ref=f18e203]
+                - generic [ref=f18e204]:
+                  - text: Not set
+                  - generic [ref=f18e205]:
+                    - text: This attribute should be explicitly set to Lax, Strict or None. If set to None then the request must be made via HTTPS. See
+                    - link "PHP documentation" [ref=f18e206] [cursor=pointer]:
+                      - /url: https://www.php.net/manual/en/session.configuration.php#ini.session.cookie-samesite
+              - generic [ref=f18e207]:
+                - button "Search API" [ref=f18e208]
+                - generic [ref=f18e209]:
+                  - text: There is 1 pending Search API task. (
+                  - link "Execute now" [ref=f18e210] [cursor=pointer]:
+                    - /url: /en/admin/config/search/search-api/execute-tasks
+                  - text: )
+              - generic [ref=f18e211]:
+                - button "Transaction isolation level" [ref=f18e212]
+                - generic [ref=f18e213]:
+                  - text: REPEATABLE-READ
+                  - generic [ref=f18e214]:
+                    - text: The recommended level for Drupal is "READ COMMITTED". See the
+                    - link "setting MySQL transaction isolation level" [ref=f18e215] [cursor=pointer]:
+                      - /url: https://www.drupal.org/docs/system-requirements/setting-the-mysql-transaction-isolation-level
+                    - text: page for more information.
+              - generic [ref=f18e216]:
+                - button "Ultimate Cron" [ref=f18e217]
+                - generic [ref=f18e218]:
+                  - text: 7 jobs are behind schedule
+                  - generic [ref=f18e219]:
+                    - text: Some jobs are behind their schedule. Please check if
+                    - link "Cron" [ref=f18e220] [cursor=pointer]:
+                      - /url: /en/cron/7Xtg_u7F0na5c24mLcFCMl6mpMZwXHwkWSqEjmmsCVSgPNQTSr2WPQCiPKMnJXu7blbhlkpvQA
+                    - text: is running properly.
+          - group [ref=f18e221]:
+            - generic "Checked" [ref=f18e222] [cursor=pointer]
+            - generic [ref=f18e223]:
+              - generic [ref=f18e224]:
+                - button "Access to update.php" [ref=f18e225]
+                - generic [ref=f18e226]: Protected
+              - generic [ref=f18e227]:
+                - button "Acquia Search" [ref=f18e228]
+                - generic [ref=f18e229]:
+                  - text: Security
+                  - generic [ref=f18e230]: The Acquia Search module is using SSL to protect the privacy of your content.
+              - generic [ref=f18e231]:
+                - button "Acquia Subscription status" [ref=f18e232]
+                - generic [ref=f18e233]:
+                  - text: Active
+                  - generic [ref=f18e234]:
+                    - text: You can
+                    - link "manually refresh the subscription status" [ref=f18e235] [cursor=pointer]:
+                      - /url: https://ipsosdev.prod.acquia-sites.com/en/admin/config/services/acquia-connector/refresh-status?token=5X68uUOYiE22aQ7UvAwqVJH0sPNk1jz3oOmJxG9_u28
+                    - text: .
+              - generic [ref=f18e236]:
+                - 'button "BEF: library noUiSlider" [ref=f18e237]'
+                - generic [ref=f18e238]:
+                  - text: Better exposed filters library noUiSlider is installed locally.
+                  - generic [ref=f18e239]: The library is installed and will be loaded from this Drupal site.
+              - generic [ref=f18e240]:
+                - button "Configuration files" [ref=f18e241]
+                - generic [ref=f18e242]: Protected
+              - generic [ref=f18e243]:
+                - button "Database support for JSON" [ref=f18e244]
+                - generic [ref=f18e245]:
+                  - text: Available
+                  - generic [ref=f18e246]: Drupal requires databases that support JSON storage.
+              - generic [ref=f18e247]:
+                - button "Database system" [ref=f18e248]
+                - generic [ref=f18e249]: MySQL or equivalent
+              - generic [ref=f18e250]:
+                - button "Database system version" [ref=f18e251]
+                - generic [ref=f18e252]: 8.0.44
+              - generic [ref=f18e253]:
+                - button "Database updates" [ref=f18e254]
+                - generic [ref=f18e255]: Up to date
+              - generic [ref=f18e256]:
+                - button "Deployment identifier" [ref=f18e257]
+                - generic [ref=f18e258]: 21e71adbabceb14e07d20911622496cbd06e9d08-from-scratch
+              - generic [ref=f18e259]:
+                - button "Dropzone library found" [ref=f18e260]
+                - generic [ref=f18e261]: "Library location: libraries/dropzone/dist/min/dropzone.min.js"
+              - generic [ref=f18e263]:
+                - button "Entity/field definitions" [ref=f18e264]
+                - generic [ref=f18e265]: Up to date
+              - generic [ref=f18e266]:
+                - button "File system" [ref=f18e267]
+                - generic [ref=f18e268]:
+                  - text: Writable (
+                  - emphasis [ref=f18e269]: public
+                  - text: download method)
+              - generic [ref=f18e270]:
+                - button "GD library" [ref=f18e271]
+                - generic [ref=f18e272]:
+                  - text: bundled (2.1.0 compatible)
+                  - generic [ref=f18e273]:
+                    - text: "Supported image file formats:"
+                    - emphasis [ref=f18e274]: GIF, JPEG, PNG, WEBP, AVIF
+                    - text: .
+              - generic [ref=f18e275]:
+                - button "Image toolkit" [ref=f18e276]
+                - generic [ref=f18e277]:
+                  - text: gd
+                  - generic [ref=f18e278]: GD2 image manipulation toolkit
+              - generic [ref=f18e279]:
+                - button "ImageWidgetCrop library" [ref=f18e280]
+                - generic [ref=f18e281]:
+                  - text: Correctly configured
+                  - generic [ref=f18e282]:
+                    - text: ImageWidgetCrop libraries files are correctly configured to use
+                    - strong [ref=f18e283]: CDN
+                    - text: files
+              - generic [ref=f18e284]:
+                - button "Memcached version" [ref=f18e285]
+                - generic [ref=f18e286]: 3.4.0
+              - generic [ref=f18e287]:
+                - button "Metatag" [ref=f18e288]
+                - generic [ref=f18e289]:
+                  - text: Schema.org Metatag is recommended
+                  - generic [ref=f18e290]:
+                    - text: The
+                    - link "Schema.org Metatag" [ref=f18e291] [cursor=pointer]:
+                      - /url: https://www.drupal.org/project/schema_metatag
+                    - text: module is highly recommended to add
+                    - link "JSON-LD" [ref=f18e292] [cursor=pointer]:
+                      - /url: https://json-ld.org
+                    - text: "-formatted"
+                    - link "schema.org" [ref=f18e293] [cursor=pointer]:
+                      - /url: https://schema.org
+                    - text: compatible data structures to the site.
+              - generic [ref=f18e294]:
+                - button "Metatag" [ref=f18e295]
+                - generic [ref=f18e296]:
+                  - text: Token Or
+                  - generic [ref=f18e297]:
+                    - text: The
+                    - link "Token OR module" [ref=f18e298] [cursor=pointer]:
+                      - /url: https://www.drupal.org/project/token_or
+                    - text: is suggested for when the basic content tokens are not flexible enough, e.g. to make a meta tag show the contents of one field if it is filled in or another if the first one is empty.
+              - generic [ref=f18e299]:
+                - button "New Relic API key" [ref=f18e300]
+                - generic [ref=f18e301]:
+                  - text: Not set (
+                  - link "configure" [ref=f18e302] [cursor=pointer]:
+                    - /url: /en/admin/config/development/new-relic
+                  - text: )
+              - generic [ref=f18e303]:
+                - button "New Relic PHP Library" [ref=f18e304]
+                - generic [ref=f18e305]: Exists
+              - generic [ref=f18e306]:
+                - button "Node Access Permissions" [ref=f18e307]
+                - generic [ref=f18e308]:
+                  - text: 116208 permissions in use
+                  - generic [ref=f18e309]:
+                    - text: If the site is experiencing problems with permissions to content, you may have to rebuild the permissions cache. Rebuilding will remove all privileges to content and replace them with permissions based on the current modules and settings. Rebuilding may take some time if there is a lot of content or complex permission settings. After rebuilding has completed, content will automatically use the new permissions.
+                    - link "Rebuild permissions" [ref=f18e310] [cursor=pointer]:
+                      - /url: /en/admin/reports/status/rebuild
+              - generic [ref=f18e311]:
+                - button "Password hashing" [ref=f18e312]
+                - generic [ref=f18e313]:
+                  - text: Passwords are hashed with the bcrypt algorithm. Drupal 12 will use argon2id by default. It is recommended to
+                  - link "switch" [ref=f18e314] [cursor=pointer]:
+                    - /url: https://www.drupal.org/node/3581980
+                  - text: to argon2id.
+              - generic [ref=f18e315]:
+                - button "PHP" [ref=f18e316]
+                - generic [ref=f18e317]:
+                  - text: 8.4.27 (
+                  - link "more information" [ref=f18e318] [cursor=pointer]:
+                    - /url: /en/admin/reports/status/php
+                  - text: )
+              - generic [ref=f18e319]:
+                - button "PHP APCu available caching" [ref=f18e320]
+                - generic [ref=f18e321]: "Memory available: 190.02 MB."
+              - generic [ref=f18e322]:
+                - button "PHP APCu caching" [ref=f18e323]
+                - generic [ref=f18e324]: Enabled (192 MB)
+              - generic [ref=f18e325]:
+                - button "PHP extensions" [ref=f18e326]
+                - generic [ref=f18e327]: Enabled
+              - generic [ref=f18e328]:
+                - button "PHP memory limit" [ref=f18e329]
+                - generic [ref=f18e330]: 1024M
+              - generic [ref=f18e331]:
+                - button "PHP OPcode caching" [ref=f18e332]
+                - generic [ref=f18e333]: Enabled
+              - generic [ref=f18e334]:
+                - button "Random number generation" [ref=f18e335]
+                - generic [ref=f18e336]: Successful
+              - generic [ref=f18e337]:
+                - button "Scheduler Time Check" [ref=f18e338]
+                - generic [ref=f18e339]:
+                  - text: "Server time:"
+                  - emphasis [ref=f18e340]: 2nd November 2026, 13:24:04 +00:00
+                  - generic [ref=f18e341]:
+                    - text: "In most cases the server time should match Coordinated Universal Time (UTC) / Greenwich Mean Time (GMT).Site timezone:"
+                    - emphasis [ref=f18e342]: Europe/Paris
+                    - text: (
+                    - emphasis [ref=f18e343]: CET
+                    - text: ), offset from UTC/GMT by
+                    - emphasis [ref=f18e344]: +01:00
+                    - text: hours. This can be
+                    - link "changed by admin users" [ref=f18e345] [cursor=pointer]:
+                      - /url: /en/admin/config/regional/settings
+                    - text: "who have the appropriate access.Your local time:"
+                    - emphasis [ref=f18e346]: 2nd November 2026
+                    - text: ","
+                    - emphasis [ref=f18e347]: 14:24:04
+                    - emphasis [ref=f18e348]: Europe/Paris (CET) +01:00
+                    - text: (
+                    - emphasis [ref=f18e349]: not in daylight saving mode
+                    - text: ). You can change this via your
+                    - link "user account" [ref=f18e350] [cursor=pointer]:
+                      - /url: /en/user/1/edit
+                    - text: .
+              - generic [ref=f18e351]:
+                - button "SearchStax app configurations" [ref=f18e352]
+                - generic [ref=f18e353]: The configuration files of all SearchStax apps used on this site are compatible with the currently used version of Drupal.
+              - generic [ref=f18e355]:
+                - button "Translation update status" [ref=f18e356]
+                - generic [ref=f18e357]:
+                  - text: Missing translations
+                  - generic [ref=f18e358]:
+                    - text: "Missing translations for: English - Global, Albanian - Albania, Albanian - Kosovo, Albanian - Macedonia, Bosnian - Bosnia Herzegovina, Bulgarian - Bulgaria, Chinese - China, Croatian - Croatia, Czech - Czech Republic, Danish - Denmark, Deutsch - Austria, Deutsch - Germany, Deutsch - Switzerland, Dutch - Netherlands, English - Australia, English - Bahrain, English - Belgium, English - Bosnia Herzegovina, English - Canada, English - China, English - Croatia, English - Denmark, English - Egypt, English - Ghana, English - Hong Kong, English - India, English - Indonesia, English - Ireland, English - Jordan, English - Kenya, English - KSA, English - Kuwait, English - Lebanon, English - Malaysia, English - Netherlands, English - New Zealand, English - Nigeria, English - Pakistan, English - Philippines, English - Puerto Rico, English - Qatar, English - Romania, English - Singapore, English - Slovenia, English - South Africa, English - Switzerland, English - Taiwan, English - Tanzania, English - Thailand, English - UAE, English - Uganda, English - UK, English - Ukraine, English - USA, English - Vietnam, English - Zambia, French - Algeria, French - Canada, French - France, French - Morocco, French - Tunisia, Hungarian - Hungary, Israel - Hebrew, Italian - Italy, Japanese - Japan, Kazakh - Kazakhstan, Korean - Korea, Macedonian - Macedonia, Montenegrin - Montenegro, Norwegian - Norway, Polish - Poland, Portuguese - Mozambique, Portuguese - Portugal, Português - Brasil, Romanian - Romania, Russian - Kazakhstan, Russian - Russia, Serbian - Kosovo, Serbian - Serbia, Slovak - Slovakia, Slovene - Slovenia, Spanish - Argentina, Spanish - Bolivia, Spanish - Chili, Spanish - Colombia, Spanish - Costa Rica, Spanish - Dominican Republic, Spanish - Ecuador, Spanish - El Salvador, Spanish - Guatemala, Spanish - Mexico, Spanish - Panama, Spanish - Peru, Spanish - Spain, Spanish - Venezuela, Swedish - Sweden, Turkish - Turkey, Ukrainian - Ukraine. See the"
+                    - link "Available translation updates" [ref=f18e359] [cursor=pointer]:
+                      - /url: /en/admin/reports/translations
+                    - text: page for more information.
+              - generic [ref=f18e360]:
+                - button "Trusted Host Settings" [ref=f18e361]
+                - generic [ref=f18e362]:
+                  - text: Enabled
+                  - generic [ref=f18e363]:
+                    - text: The trusted_host_patterns setting is set to allow
+                    - emphasis [ref=f18e364]: ^ipsosdev\.prod\.acquia-sites\.com$, ^html\.dev\.ipsos\.com$, ^www\.dev\.ipsos\.com$, ^dev\.ipsos\.com$
+              - generic [ref=f18e365]:
+                - button "Unicode library" [ref=f18e366]
+                - generic [ref=f18e367]: PHP Mbstring Extension
+              - generic [ref=f18e368]:
+                - button "Update notifications" [ref=f18e369]
+                - generic [ref=f18e370]: Enabled
+              - generic [ref=f18e371]:
+                - button "Upload progress" [ref=f18e372]
+                - generic [ref=f18e373]:
+                  - text: Not enabled
+                  - generic [ref=f18e374]:
+                    - text: Your server is capable of displaying file upload progress, but does not have the required libraries. It is recommended to install the
+                    - link "PECL uploadprogress library" [ref=f18e375] [cursor=pointer]:
+                      - /url: https://github.com/php/pecl-php-uploadprogress#installation
+                    - text: .
+              - generic [ref=f18e376]:
+                - button "Web server" [ref=f18e377]
+                - generic [ref=f18e378]: Apache
+              - generic [ref=f18e379]:
+                - button "XML Sitemap" [ref=f18e380]
+                - generic [ref=f18e381]: Last attempted generation on Tue, 10/20/2026 - 02:12 (1 week 6 days ago).
+              - generic [ref=f18e382]:
+                - button "XML Sitemap cache directory" [ref=f18e383]
+                - generic [ref=f18e384]: Writable

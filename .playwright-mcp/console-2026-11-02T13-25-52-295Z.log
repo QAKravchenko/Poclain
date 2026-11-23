@@ -1,0 +1,2 @@
+[    1451ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://ipsos:ipsos2016@ipsosdev.prod.acquia-sites.com/en/admin/reports/dblog:0
+[    1821ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://yxwyeoeyrs.ipsos.com/_/service_worker/6al0/sw_iframe.html?origin=https%3A%2F%2Fipsosdev.prod.acquia-sites.com&1p=1:0

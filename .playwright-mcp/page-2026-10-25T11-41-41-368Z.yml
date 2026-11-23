@@ -1,0 +1,109 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - link "QA Dojo" [ref=e10] [cursor=pointer]:
+            - /url: /articles
+          - generic [ref=e11]: Testing articles
+        - link "← All modules" [ref=e12] [cursor=pointer]:
+          - /url: /
+      - navigation [ref=e13]:
+        - link "Home" [ref=e14] [cursor=pointer]:
+          - /url: /articles
+        - link "New article" [ref=e235] [cursor=pointer]:
+          - /url: /articles/editor
+        - link "olena" [ref=e236] [cursor=pointer]:
+          - /url: /articles/profile/olena
+        - button "Toggle theme" [ref=e17] [cursor=pointer]: ☾
+  - main [ref=e19]:
+    - generic [ref=e240]:
+      - generic [ref=e241]:
+        - generic [ref=e242]:
+          - button "Your feed" [ref=e243] [cursor=pointer]
+          - button "Global feed" [ref=e244] [cursor=pointer]
+          - generic [ref=e245]: 2 articles
+        - generic [ref=e247]:
+          - article [ref=e248]:
+            - generic [ref=e250]:
+              - link "maksym · 21 October 2026 · Tools" [ref=e251] [cursor=pointer]:
+                - /url: /articles/profile/maksym
+              - button "♥ 0" [ref=e252] [cursor=pointer]
+            - link [ref=e253] [cursor=pointer]:
+              - /url: /articles/article/ochikuvannya-u-webdriverio-bez-zajvih-sleep
+              - heading "Очікування у WebdriverIO без зайвих sleep" [level=2] [ref=e254]
+              - paragraph [ref=e255]: Як замінити фіксовані паузи на перевірку реального стану інтерфейсу.
+            - generic [ref=e256]:
+              - link "Read on →" [ref=e257] [cursor=pointer]:
+                - /url: /articles/article/ochikuvannya-u-webdriverio-bez-zajvih-sleep
+              - list [ref=e258]:
+                - listitem [ref=e259]: automation
+                - listitem [ref=e260]: waits
+                - listitem [ref=e261]: webdriverio
+          - article [ref=e262]:
+            - generic [ref=e263]:
+              - generic [ref=e264]:
+                - link "maksym · 8 October 2026 · Automation" [ref=e265] [cursor=pointer]:
+                  - /url: /articles/profile/maksym
+                - button "♥ 0" [ref=e266] [cursor=pointer]
+              - link [ref=e267] [cursor=pointer]:
+                - /url: /articles/article/page-object-bez-nadmirnoyi-abstrakciyi
+                - heading "Page Object без надмірної абстракції" [level=2] [ref=e268]
+                - paragraph [ref=e269]: Як залишити локатори в одному місці й не перетворити тести на власний фреймворк.
+              - generic [ref=e270]:
+                - link "Read on →" [ref=e271] [cursor=pointer]:
+                  - /url: /articles/article/page-object-bez-nadmirnoyi-abstrakciyi
+                - list [ref=e272]:
+                  - listitem [ref=e273]: best-practices
+                  - listitem [ref=e274]: page-object
+                  - listitem [ref=e275]: patterns
+      - complementary [ref=e276]:
+        - generic [ref=e277]:
+          - paragraph [ref=e278]: Popular tags
+          - generic [ref=e279]:
+            - button "best-practices" [ref=e280] [cursor=pointer]
+            - button "automation" [ref=e281] [cursor=pointer]
+            - button "ci" [ref=e282] [cursor=pointer]
+            - button "a11y" [ref=e283] [cursor=pointer]
+            - button "accessibility" [ref=e284] [cursor=pointer]
+            - button "bug-report" [ref=e285] [cursor=pointer]
+            - button "checklist" [ref=e286] [cursor=pointer]
+            - button "communication" [ref=e287] [cursor=pointer]
+            - button "devops" [ref=e288] [cursor=pointer]
+            - button "drafts" [ref=e289] [cursor=pointer]
+            - button "exploratory-testing" [ref=e290] [cursor=pointer]
+            - button "forms" [ref=e291] [cursor=pointer]
+            - button "page-object" [ref=e292] [cursor=pointer]
+            - button "patterns" [ref=e293] [cursor=pointer]
+            - button "performance" [ref=e294] [cursor=pointer]
+            - button "selectors" [ref=e295] [cursor=pointer]
+            - button "smoke-testing" [ref=e296] [cursor=pointer]
+            - button "test-data" [ref=e297] [cursor=pointer]
+            - button "testing" [ref=e298] [cursor=pointer]
+            - button "waits" [ref=e299] [cursor=pointer]
+            - button "webdriverio" [ref=e300] [cursor=pointer]
+            - button "workflow" [ref=e301] [cursor=pointer]
+  - contentinfo [ref=e191]:
+    - generic [ref=e193]:
+      - navigation [ref=e195]:
+        - link "Home" [ref=e196] [cursor=pointer]:
+          - /url: /articles
+        - link "All modules" [ref=e197] [cursor=pointer]:
+          - /url: /
+        - link "Documentation" [ref=e198] [cursor=pointer]:
+          - /url: https://github.com
+        - link "Feedback" [ref=e199] [cursor=pointer]:
+          - /url: /articles/contact
+      - generic [ref=e200]:
+        - paragraph [ref=e201]: Subscribe to the digest
+        - generic [ref=e202]:
+          - generic [ref=e203]:
+            - textbox "Your email" [ref=e204]
+            - button "Subscribe" [ref=e205] [cursor=pointer]
+          - group "Frequency" [ref=e206]:
+            - generic [ref=e208] [cursor=pointer]:
+              - radio "Daily"
+              - text: Daily
+            - generic [ref=e210] [cursor=pointer]:
+              - radio "Weekly" [checked]
+              - text: Weekly

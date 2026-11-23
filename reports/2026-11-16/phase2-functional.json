@@ -1,0 +1,273 @@
+{
+  "statusReportFull": [
+    "Drupal core update status Not secure! (version 11.4.12 available) There is a security update available for your version of Drupal. To ensure the security of your server, you should update immediately! See the available updates page for more information.",
+    "Module and theme update status Not secure! There are security updates available for one or more of your modules or themes. To ensure the security of your server, you should update immediately! See the available updates page for more information.",
+    "Deprecated modules installed Deprecated modules found: Ban, Contact, History, Layout Builder Expose All Field Blocks, Rabbit Hole nodes, Rabbit Hole taxonomy.",
+    "Deprecated themes installed Deprecated themes found: Stable 9.",
+    "HTML5 validation Enabled The enable_html5_validation setting is not configured in settings.php. In Drupal 12 this setting will default to FALSE, which means HTML5 validation will be disabled on all forms. Make sure your forms will still work the way you expect before upgrading by setting the value to FALSE in a test environment. See the change record for more information.",
+    "Media The default display for the Image media type is not currently using an image style on the Image field. Not using an image style can lead to much larger file downloads. If you would like to change this, add an image style to the Image field.",
+    "Purge: Purgers Varnish - Tag (Server 1) 172.16.21.34, Varnish - Tag (Server 2) 172.16.21.35, Varnish - Url (Server 1), Varnish - Url (Server 2), Varnish - Everything (Server 1), Varnish - Everything (Server 2) You have more than 3 purgers active on one system. This introduces the risk of congesting Drupal as multiple purgers are clearing external caches. It is highly recommended is to simplify your caching architecture if possible.",
+    "Reroute Email All outgoing emails (configure allow list) would be rerouted to: gabrielle.carta@poclain.com",
+    "Installation profile Minimal (minimal-11.4.8)",
+    "Access to update.php Protected",
+    "Configuration files Protected",
+    "Database support for JSON Available Drupal requires databases that support JSON storage.",
+    "Database system MariaDB",
+    "Database system version 10.11.15-MariaDB-deb12",
+    "Database updates Up to date",
+    "Drupal core security coverage Covered until 11.6.0 Visit the release cycle overview for more information on supported releases.",
+    "Entity/field definitions Up to date",
+    "File system Writable (public download method)",
+    "Image toolkit imagemagick ImageMagick image toolkit",
+    "ImageMagick Version: ImageMagick 6.9.11-60 Q16 x86_64 2021-01-25 https://imagemagick.org Copyright: (C) 1999-2021 ImageMagick Studio LLC License: https://imagemagick.org/script/license.php To display more information, go to the Image toolkit page, and expand the 'Version information' section. Enabled image file extensions: gif, jfif, jpe, jpeg, jpg, png, webp",
+    "ImageWidgetCrop library Correctly configured ImageWidgetCrop libraries files are correctly configured to use CDN files",
+    "Leaflet library Leaflet 1.9.4 library installed at modules/contrib/leaflet/js/leaflet/dist/leaflet.js. One map available.",
+    "Memcached version 3.4.0",
+    "Metatag Schema.org Metatag is installed The Schema.org Metatag module is installed.",
+    "Metatag Token Or The Token OR module is suggested for when the basic content tokens are not flexible enough, e.g. to make a meta tag show the contents of one field if it is filled in or another if the first one is empty.",
+    "MIME type guessing Drupal core Drupal core is providing MIME type guessing. Install the Sophron guesser module to allow the enhanced guessing provided by Sophron.",
+    "Node Access Permissions Disabled If the site is experiencing problems with permissions to content, you may have to rebuild the permissions cache. Rebuilding will remove all privileges to content and replace them with permissions based on the current modules and settings. Rebuilding may take some time if there is a lot of content or complex permission settings. After rebuilding has completed, content will automatically use the new permissions. Rebuild permissions",
+    "Password hashing Passwords are hashed with the bcrypt algorithm. Drupal 12 will use argon2id by default. It is recommended to switch to argon2id.",
+    "PHP 8.4.27 (more information)",
+    "PHP APCu available caching",
+    "PHP APCu caching Not enabled PHP APCu caching can improve your site's performance considerably. It is highly recommended to have APCu installed on your server.",
+    "PHP extensions Enabled",
+    "PHP memory limit 128M",
+    "PHP OPcode caching Enabled",
+    "Random number generation Successful",
+    "SameSite cookie attribute Lax This attribute should be explicitly set to Lax, Strict or None. If set to None then the request must be made via HTTPS. See PHP documentation",
+    "Slick library Slick library installed at libraries/slick",
+    "Token types do not have any tokens defined $info['types']['node-layout_builder__layout'] $info['types']['term-layout_builder__layout']",
+    "Transaction isolation level READ-COMMITTED See the setting MySQL transaction isolation level page for more information.",
+    "Translation update status Missing translations Missing translations for: French. See the Available translation updates page for more information.",
+    "Trusted Host Settings Enabled The trusted_host_patterns setting is set to allow ^isoprod\\.poclain\\.com$, ^.+\\.isoprod\\.poclain\\.com$, ^isoprod\\.poclain-hydraulics\\.com$, ^.+\\.isoprod\\.poclain-hydraulics\\.com$, ^pp-poclain-hydraulics\\.ecritel\\.net$, ^.+\\.pp-poclain-hydraulics\\.ecritel\\.net$",
+    "Ultimate Cron Cron is running properly.",
+    "Unicode library PHP Mbstring Extension",
+    "Update notifications Enabled",
+    "Upload progress Not enabled Your server is capable of displaying file upload progress, but does not have the required libraries. It is recommended to install the PECL uploadprogress library.",
+    "Username enumeration prevention Anonymous users do not have permission to access user profiles. Granting anonymous users permission to access user profiles poses a security risk because it allows users who are not logged into the site to obtain usernames. More information is available in the module README or on the project page",
+    "Web server Apache",
+    "Webform: External libraries 14 libraries (0 installed; 2 excluded; 12 CDN) Code Mirror 5.65.12 (CDN). The Code Mirror library is externally hosted libraries and loaded via a Content Delivery Network (CDN). (Code Mirror is used to provide a text editor for YAML, HTML, CSS, and JavaScript configuration settings and messages.} jQuery: Input Mask 5.0.9 (CDN). The jQuery: Input Mask library is externally hosted libraries and loaded via a Content Delivery Network (CDN). (Input masks are used to ensure predefined and custom formats for text fields.} jQuery: International Telephone Input 17.0.19 (CDN). The jQuery: International Telephone Input library is externally hosted libraries and loaded via a Content Delivery Network (CDN). (International Telephone Input is used by the Telephone element.} jQuery: RateIt 1.1.5 (CDN). The jQuery: RateIt library is externally hosted libraries and loaded via a Content Delivery Network (CDN). (RateIt is used to provide a customizable rating element.} jQuery: Select2 4.0.13 (CDN). The jQuery: Select2 library is externally hosted libraries and loaded via a Content Delivery Network (CDN). (Select2 is used to improve the user experience for select menus. Select2 is the recommended select menu enhancement library.} jQuery: Text Counter 0.9.1 (CDN). The jQuery: Text Counter library is externally hosted libraries and loaded via a Content Delivery Network (CDN). (Word or character counting, with server-side validation, is available for text fields and text areas.} jQuery: Timepicker 1.14.0 (CDN). The jQuery: Timepicker library is externally hosted libraries and loaded via a Content Delivery Network (CDN). (Timepicker is used to provide a polyfill for HTML 5 time elements.} Popper.js 2.11.6 (CDN). The Popper.js library is externally hosted libraries and loaded via a Content Delivery Network (CDN). (Popper.js is used to provide tooltip behavior for elements.} Progress Tracker 2.0.7 (CDN). The Progress Tracker library is externally hosted libraries and loaded via a Content Delivery Network (CDN). (Progress Tracker is used by multi-step wizard forms.} Signature Pad 2.3.0 (CDN). The Signature Pad library is externally hosted libraries and loaded via a Content Delivery Network (CDN). (Signature Pad is used to provide a signature element.} Tabby 12.0.3 (CDN). The Tabby library is externally hosted libraries and loaded via a Content Delivery Network (CDN). (Tabby is used to display tabs in the administrative UI} Tippy.js 6.3.7 (CDN). The Tippy.js library is externally hosted libraries and loaded via a Content Delivery Network (CDN). (Tippy.js is used to provide tooltip behavior for elements.}",
+    "Webform: HTML email support Provided by the Mail System module. Default PHP Mailer: Sends the message as plain text, using PHP's native mail() function.",
+    "Webform: Private files Private file system is set.",
+    "Webform: Spam protection Webform Spam protection module installed. Antibot Prevent forms from being submitted without JavaScript enabled. CAPTCHA Provides CAPTCHA for adding challenges to arbitrary forms. Honeypot Mitigates spam form submissions using the honeypot method."
+  ],
+  "contentTypesAddCheck": [
+    {
+      "type": "article",
+      "status": 200,
+      "hasForm": true,
+      "hasFatal": false
+    },
+    {
+      "type": "page",
+      "status": 200,
+      "hasForm": true,
+      "hasFatal": false
+    },
+    {
+      "type": "company",
+      "status": 200,
+      "hasForm": true,
+      "hasFatal": false
+    },
+    {
+      "type": "electrification",
+      "status": 200,
+      "hasForm": true,
+      "hasFatal": false
+    },
+    {
+      "type": "job_offers",
+      "status": 200,
+      "hasForm": true,
+      "hasFatal": false
+    },
+    {
+      "type": "landing_page",
+      "status": 200,
+      "hasForm": true,
+      "hasFatal": false
+    },
+    {
+      "type": "marketing",
+      "status": 200,
+      "hasForm": true,
+      "hasFatal": false
+    },
+    {
+      "type": "minisite_page",
+      "status": 200,
+      "hasForm": true,
+      "hasFatal": false
+    },
+    {
+      "type": "news",
+      "status": 200,
+      "hasForm": true,
+      "hasFatal": false
+    },
+    {
+      "type": "product_motors",
+      "status": 200,
+      "hasForm": true,
+      "hasFatal": false
+    },
+    {
+      "type": "product_pumps",
+      "status": 200,
+      "hasForm": true,
+      "hasFatal": false
+    },
+    {
+      "type": "product_valves",
+      "status": 200,
+      "hasForm": true,
+      "hasFatal": false
+    },
+    {
+      "type": "services_and_support",
+      "status": 200,
+      "hasForm": true,
+      "hasFatal": false
+    },
+    {
+      "type": "systems",
+      "status": 200,
+      "hasForm": true,
+      "hasFatal": false
+    }
+  ],
+  "adminExtraPages": [
+    {
+      "path": "/admin/content/feed",
+      "status": 200,
+      "title": "Feeds | Poclain",
+      "hasFatal": false
+    },
+    {
+      "path": "/admin/structure/feeds",
+      "status": 200,
+      "title": "Feed types | Poclain",
+      "hasFatal": false
+    },
+    {
+      "path": "/admin/config/system/mailsystem",
+      "status": 200,
+      "title": "Configure the Mail System | Poclain",
+      "hasFatal": false
+    },
+    {
+      "path": "/admin/config/development/reroute_email",
+      "status": 200,
+      "title": "Reroute Email | Poclain",
+      "hasFatal": false
+    },
+    {
+      "path": "/admin/config/search/search-api",
+      "status": 200,
+      "title": "Search API | Poclain",
+      "hasFatal": false
+    },
+    {
+      "path": "/admin/config/search/path/patterns",
+      "status": 200,
+      "title": "Patterns | Poclain",
+      "hasFatal": false
+    },
+    {
+      "path": "/admin/structure/taxonomy/manage/carreers",
+      "status": 200,
+      "title": "Edit vocabulary | Poclain",
+      "hasFatal": false
+    },
+    {
+      "path": "/admin/structure/taxonomy/manage/carreers/overview",
+      "status": 200,
+      "title": "Carreers | Poclain",
+      "hasFatal": false
+    }
+  ],
+  "crudBasicPage": {
+    "createdUrl": "https://isoprod.poclain.com/qa-php84-page-1794826694465",
+    "createdH1": "QA PHP84 Page 1794826694465",
+    "foundInAdminListing": true,
+    "updatedH1": "Content",
+    "statusAfterDelete": 404
+  },
+  "crudArticleWithImage": {
+    "imageUploaded": false,
+    "articleUrl": "https://isoprod.poclain.com/node/add/article",
+    "articleH1": "Create Article",
+    "imgInfo": null,
+    "foundInAdminListing": false,
+    "articleUpdatedH1": "",
+    "articleStatusAfterDelete": 0
+  },
+  "webformNegativeValidation": {
+    "url": "https://isoprod.poclain.com/contact-us",
+    "requiredFieldsCount": 12,
+    "stayedOnForm": true
+  },
+  "webformSubmissionsCleanup": {
+    "submissionsPageTitle": "Contact US | Poclain",
+    "foundQaSubmissions": 4,
+    "deletedSubmissions": 4
+  },
+  "taxonomyMaxDepthCheck": {},
+  "newPhpLogs": [
+    {
+      "id": 85877,
+      "href": "/admin/reports/dblog/event/85877",
+      "severity": "php dblog-debug",
+      "cells": [
+        "",
+        "php",
+        "11/16/2026 - 11:58",
+        "Deprecated function: Drupal\\taxonomy_max_depth\\Taxonomy…",
+        "poclainadmin",
+        ""
+      ]
+    },
+    {
+      "id": 85876,
+      "href": "/admin/reports/dblog/event/85876",
+      "severity": "php dblog-debug",
+      "cells": [
+        "",
+        "php",
+        "11/16/2026 - 11:58",
+        "Deprecated function: Drupal\\taxonomy_max_depth\\Taxonomy…",
+        "poclainadmin",
+        ""
+      ]
+    },
+    {
+      "id": 85875,
+      "href": "/admin/reports/dblog/event/85875",
+      "severity": "php dblog-debug",
+      "cells": [
+        "",
+        "php",
+        "11/16/2026 - 11:58",
+        "Deprecated function: Drupal\\taxonomy_max_depth\\Taxonomy…",
+        "poclainadmin",
+        ""
+      ]
+    },
+    {
+      "id": 85874,
+      "href": "/admin/reports/dblog/event/85874",
+      "severity": "php dblog-debug",
+      "cells": [
+        "",
+        "php",
+        "11/16/2026 - 11:58",
+        "Deprecated function: Drupal\\taxonomy_max_depth\\Taxonomy…",
+        "poclainadmin",
+        ""
+      ]
+    }
+  ],
+  "baselineEventId": 85873
+}
